@@ -1,0 +1,19 @@
+<div
+  class="news-card"
+  [routerLink]="useDetailLink ? ['/news', newsItem.id] : null"
+>
+  <img [src]="newsItem.image" alt="Ảnh tin tức" />
+  <div class="news-content">
+    <h3>{{ newsItem.title }}</h3>
+    <p>{{ newsItem.summary }}</p>
+    <div class="read-more-wrapper">
+      <a
+        *ngIf="useDetailLink"
+        [routerLink]="['/news', newsItem.id]"
+        class="read-more"
+      >
+        Xem thêm &raquo;
+      </a>
+    </div>
+  </div>
+</div>

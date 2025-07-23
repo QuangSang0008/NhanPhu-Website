@@ -1,0 +1,127 @@
+<app-slider
+  [slides]="[
+    {
+      title: 'Giải pháp SCADA hiện đại',
+      description: 'SCADA giám sát thời gian thực...',
+      image: 'assets/images/scada.jpg',
+      background: 'linear-gradient(to right, #14532d, #22c55e)'
+    }
+  ]"
+  [autoSlide]="false"
+  [showNav]="false"
+></app-slider>
+<section class="container-default py-16 space-y-16">
+  <!-- Giới thiệu chung -->
+  <div class="text-center max-w-3xl mx-auto">
+    <h1 class="text-4xl font-bold text-primary mb-4">Về Chúng Tôi</h1>
+    <p class="text-lg text-gray-700">
+      Chúng tôi là công ty công nghệ hàng đầu với sứ mệnh cung cấp giải pháp số
+      toàn diện cho doanh nghiệp trong thời đại chuyển đổi số.
+    </p>
+  </div>
+
+  <!-- Tầm nhìn - Sứ mệnh - Giá trị -->
+  <div class="grid md:grid-cols-3 gap-8 text-center">
+    <div class="p-6 border rounded-xl shadow hover:shadow-lg transition">
+      <h2 class="text-xl font-semibold text-green-700 mb-2">🎯 Tầm nhìn</h2>
+      <p>
+        Trở thành biểu tượng sáng tạo và uy tín trong lĩnh vực công nghệ thông
+        tin tại Việt Nam và khu vực.
+      </p>
+    </div>
+    <div class="p-6 border rounded-xl shadow hover:shadow-lg transition">
+      <h2 class="text-xl font-semibold text-green-700 mb-2">🚀 Sứ mệnh</h2>
+      <p>
+        Cung cấp các giải pháp công nghệ chất lượng, giúp khách hàng nâng cao
+        hiệu quả kinh doanh.
+      </p>
+    </div>
+    <div class="p-6 border rounded-xl shadow hover:shadow-lg transition">
+      <h2 class="text-xl font-semibold text-green-700 mb-2">
+        💡 Giá trị cốt lõi
+      </h2>
+      <ul class="list-disc list-inside text-left">
+        <li>Chất lượng và uy tín</li>
+        <li>Đổi mới liên tục</li>
+        <li>Lấy khách hàng làm trung tâm</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Lịch sử hình thành -->
+  <div>
+    <h2 class="text-2xl font-bold text-center mb-4">Lịch sử phát triển</h2>
+    <div class="timeline space-y-6">
+      <div class="border-l-4 border-green-600 pl-4">
+        <h3 class="font-semibold">2022: Thành lập</h3>
+        <p>Bắt đầu với 5 thành viên đam mê công nghệ.</p>
+      </div>
+      <div class="border-l-4 border-green-600 pl-4">
+        <h3 class="font-semibold">2024: Mở rộng thị trường</h3>
+        <p>Phát triển hơn 30 dự án lớn nhỏ trong nước và quốc tế.</p>
+      </div>
+      <div class="border-l-4 border-green-600 pl-4">
+        <h3 class="font-semibold">2025: Đột phá chuyển đổi số</h3>
+        <p>
+          Ra mắt các nền tảng quản trị thông minh được khách hàng đánh giá cao.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Đội ngũ -->
+  <div>
+    <h2 class="text-2xl font-bold text-center mb-8">Đội ngũ lãnh đạo</h2>
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div class="text-center">
+        <img
+          src="assets/images/ceo.jpg"
+          alt="CEO"
+          class="w-32 h-32 mx-auto rounded-full object-cover shadow mb-2"
+        />
+        <h3 class="font-semibold">Nguyễn Văn A</h3>
+        <p class="text-sm text-gray-600">Tổng Giám đốc</p>
+      </div>
+      <div class="text-center">
+        <img
+          src="assets/images/cto.jpg"
+          alt="CTO"
+          class="w-32 h-32 mx-auto rounded-full object-cover shadow mb-2"
+        />
+        <h3 class="font-semibold">Trần Thị B</h3>
+        <p class="text-sm text-gray-600">Giám đốc Công nghệ</p>
+      </div>
+      <div class="text-center">
+        <img
+          src="assets/images/cfo.jpg"
+          alt="CFO"
+          class="w-32 h-32 mx-auto rounded-full object-cover shadow mb-2"
+        />
+        <h3 class="font-semibold">Lê Văn C</h3>
+        <p class="text-sm text-gray-600">Giám đốc Tài chính</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hình ảnh hoạt động -->
+  <div>
+    <h2 class="text-2xl font-bold text-center mb-8">Hình ảnh hoạt động</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+      <img
+        src="assets/images/event1.jpg"
+        class="rounded-lg shadow"
+        alt="Sự kiện 1"
+      />
+      <img
+        src="assets/images/event2.jpg"
+        class="rounded-lg shadow"
+        alt="Sự kiện 2"
+      />
+      <img
+        src="assets/images/event3.jpg"
+        class="rounded-lg shadow"
+        alt="Sự kiện 3"
+      />
+    </div>
+  </div>
+</section>

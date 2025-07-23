@@ -1,0 +1,33 @@
+<div class="hero-wrapper">
+  <div
+    class="slides-track"
+    [style.transform]="'translateX(-' + currentIndex * 100 + '%)'"
+    [style.transition]="'transform 0.6s ease-in-out'"
+  >
+    <div
+      class="hero-container"
+      *ngFor="let slide of displaySlides"
+      [ngStyle]="{ background: slide.background }"
+    >
+      <div class="left-text" [ngStyle]="{ background: slide.background }">
+        <div class="text-content">
+          <h1>{{ slide.title }}</h1>
+          <div class="line-separator"></div>
+          <p>{{ slide.description }}</p>
+          <!-- <button class="discover-btn"><span>&gt;</span> Discover more!</button> -->
+        </div>
+      </div>
+
+      <div class="right-image">
+        <img [src]="slide.image" alt="Slide Image" />
+      </div>
+    </div>
+  </div>
+
+  <button *ngIf="showNav" class="nav-btn prev" (click)="prevSlide()">
+    &#x2039;
+  </button>
+  <button *ngIf="showNav" class="nav-btn next" (click)="nextSlide()">
+    &#x203A;
+  </button>
+</div>

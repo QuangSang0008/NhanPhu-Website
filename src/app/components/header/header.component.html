@@ -1,0 +1,106 @@
+<div class="w-full bg-[#005da8] text-white">
+  <div
+    class="container-default text-sm sm:text-base py-2 flex flex-col sm:flex-row justify-between items-center gap-2 sm:gap-0 text-white"
+  >
+    <div class="flex items-center gap-8">
+      <span class="flex items-center gap-2">
+        <lucide-icon name="Phone" class="w-4 h-4" />
+        <a href="tel:0123456789"> 0123 456 789 </a>
+      </span>
+
+      <span class="flex items-center gap-2">
+        <lucide-icon name="Mail" class="w-4 h-4" />
+        contact&#64;nhanphu.vn
+      </span>
+    </div>
+
+    <span class="flex items-center gap-2">
+      <lucide-icon name="MapPin" class="w-4 h-4" />
+      1/32, đường Cầu Xéo, Tân Quý, Tân Phú, TP.HCM
+    </span>
+  </div>
+  <header class="w-full py-3 shadow-md bg-white">
+    <div class="container-default">
+      <div class="flex flex-wrap items-center justify-between gap-4">
+        <!-- Logo to hơn -->
+        <a href="/" class="flex items-center">
+          <img
+            src="assets/images/logo.png"
+            alt="NhanPhu Logo"
+            class="h-12 object-contain"
+          />
+        </a>
+
+        <!-- Menu: to hơn -->
+        <nav class="main-nav">
+          <a
+            class="px-5 xl:px-12"
+            routerLink="/"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            >Trang chủ</a
+          >
+          <a class="px-5 xl:px-12" routerLink="/about" routerLinkActive="active"
+            >Giới thiệu</a
+          >
+          <a
+            class="px-5 xl:px-12"
+            routerLink="/solution"
+            routerLinkActive="active"
+            >{{ "header.solution" | translate }}</a
+          >
+          <a
+            class="px-5 xl:px-12"
+            routerLink="/contact"
+            routerLinkActive="active"
+            >Liên hệ</a
+          >
+          <a class="px-5 xl:px-12" routerLink="/news" routerLinkActive="active"
+            >Tin tức</a
+          >
+        </nav>
+        <div class="flex items-center gap-4">
+          <div class="relative flex items-center">
+            <button
+              (click)="toggleDropdown()"
+              aria-label="language"
+              class="w-6 h-6"
+            >
+              <img
+                [src]="'assets/images/language/' + currentLang + '.svg'"
+                alt="Lang"
+                class="w-full h-full object-contain"
+              />
+            </button>
+
+            <div
+              class="absolute top-full mt-2 bg-white border rounded shadow z-10"
+              *ngIf="dropdownOpen"
+            >
+              <button
+                class="w-10 h-10 flex items-center justify-center hover:bg-gray-100"
+                (click)="setLang('vi')"
+              >
+                <img
+                  src="assets/images/language/vi.svg"
+                  alt="Vietnamese"
+                  class="w-5 h-5"
+                />
+              </button>
+              <button
+                class="w-10 h-10 flex items-center justify-center hover:bg-gray-100"
+                (click)="setLang('en')"
+              >
+                <img
+                  src="assets/images/language/en.svg"
+                  alt="English"
+                  class="w-5 h-5"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>

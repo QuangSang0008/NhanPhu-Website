@@ -1,0 +1,20 @@
+<app-slider
+  [slides]="[
+    {
+      title: 'Bản tin nội bộ & cập nhật mới nhất',
+      description:
+        'Cùng nhìn lại các hoạt động nổi bật, thành tựu và thông báo quan trọng trong thời gian vừa qua của công ty. Cập nhật nhanh chóng – kết nối mọi người – lan tỏa giá trị.',
+      image: 'assets/images/In-the-News.jpg',
+      background: '#4d7c0f'
+    }
+  ]"
+  [autoSlide]="false"
+  [showNav]="false"
+></app-slider>
+
+<section class="container-default news-section pt-6">
+  <h2 class="section-title">TIN TỨC CÔNG TY</h2>
+  <div class="news-grid">
+    <newscard *ngFor="let item of newsList" [newsItem]="item"></newscard>
+  </div>
+</section>

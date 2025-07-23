@@ -1,0 +1,11 @@
+.main-nav {
+  @apply hidden sm:flex text-gray-700 text-xl font-normal;
+
+  a {
+    @apply transition hover:text-blue-600;
+
+    &.active {
+      @apply text-blue-600 font-bold pointer-events-none;
+    }
+  }
+}

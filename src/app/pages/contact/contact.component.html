@@ -1,0 +1,145 @@
+<app-slider
+  [slides]="[
+    {
+      title: 'LIÊN HỆ VỚI CHÚNG TÔI',
+      description:
+        'Hãy chia sẻ với chúng tôi những điều bạn đang cần 
+        Nhân Phú cam kết hỗ trợ tận tâm, trách nhiệm và thấu hiểu,
+        cùng đội ngũ chuyên gia giàu kinh nghiệm, luôn sẵn sàng đồng hành cùng
+        bạn.',
+      image: 'assets/images/ContactUs-2024.jpg',
+      background: 'linear-gradient(to right, #1f2937, #4b5563)'
+    }
+  ]"
+  [autoSlide]="false"
+  [showNav]="false"
+></app-slider>
+
+<div class="container-default py-10 pt-16">
+  <div class="grid grid-cols-1 md:grid-cols-8 gap-8">
+    <!-- FORM LIÊN HỆ -->
+    <div class="md:col-span-5 space-y-5">
+      <form
+        (ngSubmit)="submitForm()"
+        class="grid grid-cols-1 md:grid-cols-2 gap-4 gap-y-6"
+      >
+        <input
+          [(ngModel)]="name"
+          name="name"
+          required
+          type="text"
+          placeholder="Họ và tên"
+          class="border border-gray-400 rounded px-4 py-2 w-full"
+        />
+
+        <input
+          [(ngModel)]="email"
+          name="email"
+          required
+          type="email"
+          placeholder="Email"
+          class="border border-gray-400 rounded px-4 py-2 w-full"
+        />
+
+        <input
+          [(ngModel)]="phone"
+          name="phone"
+          required
+          type="tel"
+          placeholder="Số điện thoại"
+          class="border border-gray-400 rounded px-4 py-2 w-full"
+        />
+
+        <input
+          [(ngModel)]="company"
+          name="company"
+          type="text"
+          placeholder="Công ty"
+          class="border border-gray-400 rounded px-4 py-2 w-full"
+        />
+
+        <textarea
+          [(ngModel)]="message"
+          name="message"
+          required
+          placeholder="Nội dung liên hệ"
+          class="md:col-span-2 border border-gray-400 rounded px-4 py-3 w-full"
+          rows="5"
+        ></textarea>
+
+        <button
+          type="submit"
+          class="md:col-span-2 bg-blue-600 text-white font-semibold py-2 px-6 rounded hover:bg-blue-700 transition"
+        >
+          Gửi liên hệ
+        </button>
+      </form>
+    </div>
+
+    <!-- THÔNG TIN LIÊN HỆ -->
+    <div
+      class="md:col-span-3 bg-blue-50 border border-blue-200 p-6 rounded-lg space-y-4"
+    >
+      <h2 class="text-xl font-semibold text-blue-700 flex items-center gap-2">
+        <lucide-icon name="Info" class="w-5 h-5 text-blue-700"></lucide-icon>
+        Thông tin liên hệ
+      </h2>
+
+      <div>
+        <div class="flex items-center gap-2 font-medium text-gray-900">
+          <lucide-icon name="Building" class="w-4 h-4" />
+          CÔNG TY CỔ PHẦN DVKT CÔNG NGHỆ NHÂN PHÚ
+        </div>
+        <div class="flex items-center gap-2 mt-1">
+          <lucide-icon name="MapPin" class="w-4 h-4" />
+          <span>1/32, đường Cầu Xéo, Tân Quý, Tân Phú, TP.HCM</span>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex items-center gap-2 font-medium">
+          <lucide-icon name="Phone" class="w-4 h-4" />
+          <span>Điện thoại:</span>
+        </div>
+        <a href="tel:0123456789" class="text-blue-700 hover:underline ml-6">
+          0123 456 789
+        </a>
+      </div>
+
+      <div>
+        <div class="flex items-center gap-2 font-medium">
+          <lucide-icon name="Mail" class="w-4 h-4" />
+          <span>Email:</span>
+        </div>
+        <a
+          href="mailto:contact@nhanphu.vn"
+          class="text-blue-700 hover:underline ml-6"
+        >
+          contact&#64;nhanphu.vn
+        </a>
+      </div>
+
+      <div>
+        <div class="flex items-center gap-2 font-medium">
+          <lucide-icon name="Clock" class="w-4 h-4" />
+          <span>Giờ làm việc:</span>
+        </div>
+        <p class="ml-6">Thứ 2 - Thứ 6: 08:00 - 17:00</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="pt-8">
+  <div class="w-full rounded-lg overflow-hidden shadow-lg">
+    <iframe
+      src="https://www.google.com/maps?q=1%2F32,+đường+Cầu+Xéo,+Tân+Quý,+Tân+Phú,+TP.HCM&output=embed"
+      width="100%"
+      height="600px"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+</div>
