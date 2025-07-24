@@ -1,0 +1,17 @@
+<a
+  [routerLink]="link"
+  class="block bg-white p-6 rounded-2xl shadow-xl transform hover:-translate-y-2 transition-all duration-300 text-center no-underline"
+>
+  <img
+    [src]="image"
+    [alt]="title"
+    class="mx-auto w-[600px] h-[250px] object-cover rounded-xl mb-4"
+  />
+  <h3 class="font-semibold text-xl mb-2 text-gray-800">{{ title }}</h3>
+  <p class="text-gray-600 mb-4">{{ description }}</p>
+  <span
+    class="inline-block bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition"
+  >
+    Xem chi tiết
+  </span>
+</a>

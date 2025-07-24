@@ -59,52 +59,13 @@
   </h2>
 
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-    <!-- Card 1 -->
-    <div
-      class="bg-white p-6 rounded-2xl shadow-xl transform hover:-translate-y-2 transition-all duration-300 text-center"
-    >
-      <img
-        src="assets/images/SCADA-photo-linkedin2.png"
-        alt="SCADA"
-        class="mx-auto w-[600px] h-[250px] object-cover rounded-xl mb-4"
-      />
-      <h3 class="font-semibold text-xl mb-2 text-gray-800">
-        SCADA Tự động hoá
-      </h3>
-      <p class="text-gray-600">
-        Giám sát từ xa, điều khiển linh hoạt và tích hợp hệ thống dễ dàng.
-      </p>
-    </div>
-
-    <!-- Card 2 -->
-    <div
-      class="bg-white p-6 rounded-2xl shadow-xl transform hover:-translate-y-2 transition-all duration-300 text-center"
-    >
-      <img
-        src="assets/images/Iot-la-gi.jpg"
-        alt="IoT"
-        class="mx-auto w-[600px] h-[250px] object-cover rounded-xl mb-4"
-      />
-      <h3 class="font-semibold text-xl mb-2 text-gray-800">Thiết bị IoT</h3>
-      <p class="text-gray-600">
-        Giải pháp đo lường thông minh, kết nối mọi lúc mọi nơi.
-      </p>
-    </div>
-
-    <!-- Card 3 -->
-    <div
-      class="bg-white p-6 rounded-2xl shadow-xl transform hover:-translate-y-2 transition-all duration-300 text-center"
-    >
-      <img
-        src="assets/images/sp.jpg"
-        alt="Support"
-        class="mx-auto w-[600px] h-[250px] object-cover rounded-xl mb-4"
-      />
-      <h3 class="font-semibold text-xl mb-2 text-gray-800">Hỗ trợ kỹ thuật</h3>
-      <p class="text-gray-600">
-        Đội ngũ kỹ thuật luôn sẵn sàng hỗ trợ triển khai, vận hành và bảo trì.
-      </p>
-    </div>
+    <app-solution-card
+      *ngFor="let item of homeSolutions"
+      [title]="item.title"
+      [description]="item.description"
+      [image]="item.image"
+      [link]="item.link"
+    ></app-solution-card>
   </div>
 </section>
 
@@ -168,36 +129,3 @@
     </div>
   </div>
 </section>
-
-<!-- <div class="hero-wrapper">
-  <div class="slides-track" style="transform: none">
-    <div
-      class="hero-container"
-      [ngStyle]="{
-        background: 'linear-gradient(to right, #14532d, #22c55e)'
-      }"
-    >
-      <div
-        class="left-text"
-        [ngStyle]="{
-          background: 'linear-gradient(to right, #14532d, #22c55e)'
-        }"
-      >
-        <div class="text-content">
-          <h1>Giải pháp SCADA hiện đại</h1>
-          <p>
-            Hệ thống SCADA giúp giám sát và điều khiển các quy trình công nghiệp
-            theo thời gian thực, hỗ trợ vận hành từ xa, thu thập và phân tích dữ
-            liệu một cách an toàn. SCADA của chúng tôi mang lại hiệu quả, khả
-            năng mở rộng và dễ dàng triển khai.
-          </p>
-          <button class="discover-btn"><span>&gt;</span> Tìm hiểu thêm</button>
-        </div>
-      </div>
-
-      <div class="right-image">
-        <img src="assets/images/scada.jpg" alt="SCADA Image" />
-      </div>
-    </div>
-  </div>
-</div> -->

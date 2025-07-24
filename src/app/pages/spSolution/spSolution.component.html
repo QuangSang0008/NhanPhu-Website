@@ -1,0 +1,155 @@
+<app-slider
+  [slides]="[
+    {
+      title: 'Hỗ trợ kỹ thuật toàn diện',
+      description:
+        'Đội ngũ kỹ thuật chuyên nghiệp, luôn đồng hành cùng khách hàng trong suốt quá trình triển khai, vận hành và bảo trì hệ thống.',
+      image: 'assets/images/support-cover.jpg',
+      background: 'linear-gradient(to right, #1e3a8a, #2563eb)'
+    }
+  ]"
+  [autoSlide]="false"
+  [showNav]="false"
+/>
+
+<section class="solution-wrapper">
+  <div class="container-default">
+    <h1 class="title">
+      Giải pháp Hỗ trợ kỹ thuật – Đồng hành cùng doanh nghiệp
+    </h1>
+
+    <!-- 01: Hỗ trợ kỹ thuật là gì -->
+    <div class="content-block">
+      <div class="text">
+        <h2><span class="section-number">01</span> Hỗ trợ kỹ thuật là gì?</h2>
+        <p>
+          Hỗ trợ kỹ thuật là dịch vụ đi kèm sản phẩm, giúp khách hàng đảm bảo hệ
+          thống hoạt động hiệu quả và liên tục. Từ tư vấn, triển khai, đào tạo
+          cho đến bảo trì và xử lý sự cố – đội ngũ kỹ thuật sẽ luôn đồng hành và
+          hỗ trợ doanh nghiệp kịp thời.
+        </p>
+      </div>
+      <div class="image">
+        <img src="assets/images/sp.jpg" alt="Hỗ trợ kỹ thuật là gì" />
+        <div class="caption">Đội ngũ kỹ thuật sẵn sàng hỗ trợ 24/7</div>
+      </div>
+    </div>
+
+    <!-- 02: Quy trình hỗ trợ -->
+    <div class="content-block reverse">
+      <div class="text">
+        <h2>
+          <span class="section-number">02</span> Quy trình hỗ trợ kỹ thuật
+        </h2>
+        <ul class="list">
+          <li>
+            <strong>Tiếp nhận yêu cầu:</strong> Hệ thống tiếp nhận qua email,
+            hotline hoặc ticket.
+          </li>
+          <li>
+            <strong>Chuẩn đoán và tư vấn:</strong> Phân tích sự cố, đề xuất giải
+            pháp xử lý.
+          </li>
+          <li>
+            <strong>Hỗ trợ từ xa hoặc tại chỗ:</strong> Tùy mức độ, kỹ thuật sẽ
+            hỗ trợ online hoặc đến trực tiếp.
+          </li>
+          <li>
+            <strong>Theo dõi sau hỗ trợ:</strong> Ghi nhận, đánh giá lại tình
+            trạng hệ thống sau xử lý.
+          </li>
+        </ul>
+      </div>
+      <div class="image">
+        <img
+          src="assets/images/support-process.jpg"
+          alt="Quy trình hỗ trợ kỹ thuật"
+        />
+        <div class="caption">Quy trình hỗ trợ kỹ thuật tiêu chuẩn</div>
+      </div>
+    </div>
+
+    <!-- 03: Tính năng nổi bật -->
+    <div class="content-block">
+      <div class="text">
+        <h2><span class="section-number">03</span> Dịch vụ hỗ trợ nổi bật</h2>
+        <div class="features-grid">
+          <div class="feature-card" *ngFor="let item of features">
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.description }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="image">
+        <img
+          src="assets/images/support-features.jpg"
+          alt="Hỗ trợ kỹ thuật chuyên sâu"
+        />
+        <div class="caption">Các dịch vụ hỗ trợ kỹ thuật chuyên nghiệp</div>
+      </div>
+    </div>
+
+    <!-- 04: Lợi ích mang lại -->
+    <div class="content-block reverse">
+      <div class="text">
+        <h2><span class="section-number">04</span> Lợi ích cho khách hàng</h2>
+        <ul class="list">
+          <li>
+            🧑‍🔧 Giảm thiểu thời gian dừng hệ thống, duy trì hoạt động liên tục.
+          </li>
+          <li>📈 Nâng cao tuổi thọ thiết bị nhờ bảo trì định kỳ.</li>
+          <li>💡 Tư vấn nâng cấp và tối ưu hệ thống khi cần thiết.</li>
+          <li>📞 Phản hồi nhanh chóng qua nhiều kênh hỗ trợ.</li>
+          <li>🤝 Tăng sự hài lòng và an tâm cho khách hàng.</li>
+        </ul>
+      </div>
+      <div class="image">
+        <img
+          src="assets/images/customer-benefits.jpg"
+          alt="Lợi ích hỗ trợ kỹ thuật"
+        />
+        <div class="caption">
+          Lợi ích của việc có đội ngũ kỹ thuật đồng hành
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container-default py-12 bg-white">
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+    <app-solution-card
+      *ngFor="let solution of relatedSolutions"
+      [title]="solution.title"
+      [description]="solution.description"
+      [image]="solution.image"
+      [link]="solution.link"
+    ></app-solution-card>
+
+    <a
+      routerLink="/contact"
+      class="block bg-white rounded-2xl shadow-xl p-6 flex flex-col justify-between text-center h-full transform hover:scale-[1.02] transition-all duration-300 no-underline"
+    >
+      <div>
+        <div class="flex justify-center mb-4">
+          <img
+            src="assets/images/contact/contactIcon.jpg"
+            alt="Tư vấn"
+            class="w-60 h-60"
+          />
+        </div>
+        <h3 class="text-xl font-bold text-green-700 mb-2">
+          Tìm giải pháp phù hợp?
+        </h3>
+        <p class="text-gray-600 mb-4">
+          Liên hệ chúng tôi để được tư vấn miễn phí và phù hợp với doanh nghiệp
+          của bạn.
+        </p>
+      </div>
+      <span
+        class="inline-block bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition mt-2"
+      >
+        Liên hệ ngay
+      </span>
+    </a>
+  </div>
+</section>

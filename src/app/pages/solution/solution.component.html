@@ -12,141 +12,20 @@
   [showNav]="false"
 />
 
-<section class="solution-wrapper">
-  <div class="container-default">
-    <h1 class="title">
-      Giải pháp SCADA – Tối ưu hóa giám sát và điều khiển từ xa
-    </h1>
-    <!-- <p class="intro">
-      Supervisory Control and Data Acquisition - giải pháp công nghệ giúp các
-      ngành công nghiệp giám sát và điều khiển hệ thống từ xa một cách hiệu quả
-      và chính xác.
-    </p> -->
+<section class="container-default services-section py-4 bg-gray-50">
+  <h2
+    class="section-title text-center text-3xl font-bold text-green-700 mb-4 uppercase tracking-wide"
+  >
+    Giải pháp nổi bật
+  </h2>
 
-    <!-- Mục 1: Chữ trái - Hình phải -->
-    <div class="content-block">
-      <div class="text">
-        <h2><span class="section-number">01</span> SCADA là gì?</h2>
-        <p>
-          SCADA là hệ thống phần mềm và phần cứng cho phép người dùng giám sát
-          các quy trình công nghiệp, thu thập và xử lý dữ liệu theo thời gian
-          thực, điều khiển thiết bị từ xa. Đây là nền tảng quan trọng trong
-          chuyển đổi số công nghiệp.
-        </p>
-      </div>
-      <div class="image">
-        <img src="assets/images/SCADA-photo-linkedin2.png" alt="SCADA là gì" />
-        <div class="caption">
-          Hệ thống SCADA – Giám sát và điều khiển theo thời gian thực
-        </div>
-      </div>
-    </div>
-
-    <!-- Mục 2: Hình trái - Chữ phải (viết lại theo thứ tự chuẩn, dùng class reverse đảo sau) -->
-    <div class="content-block reverse">
-      <div class="text">
-        <h2><span class="section-number">02</span> Cấu trúc hệ thống SCADA</h2>
-        <ul class="list">
-          <li><strong>RTU:</strong> Thu thập tín hiệu hiện trường.</li>
-          <li><strong>PLC:</strong> Thiết bị điều khiển thông minh.</li>
-          <li><strong>Cảm biến:</strong> Đo nhiệt độ, áp suất, mức nước…</li>
-          <li>
-            <strong>Mạng truyền thông:</strong> Modbus, DNP3, OPC, TCP/IP…
-          </li>
-          <li>
-            <strong>Máy chủ & HMI:</strong> Hiển thị, điều khiển, lưu trữ dữ
-            liệu.
-          </li>
-        </ul>
-      </div>
-      <div class="image">
-        <img
-          src="assets/images/cau-truc-cua-he-thong-scada.png"
-          alt="Cấu trúc SCADA"
-        />
-        <div class="caption">Cấu trúc hệ thống SCADA</div>
-      </div>
-    </div>
-
-    <!-- Mục 3: Chữ trái - Hình phải -->
-    <div class="content-block">
-      <div class="text">
-        <h2><span class="section-number">03</span> Tính năng nổi bật</h2>
-        <div class="features-grid">
-          <div class="feature-card" *ngFor="let item of features">
-            <h3>{{ item.title }}</h3>
-            <p>{{ item.description }}</p>
-          </div>
-        </div>
-      </div>
-      <div class="image">
-        <img
-          src="assets/images/Scada-System-Components-1024x899.jpg"
-          alt="SCADA Features"
-        />
-        <div class="caption">Các tính năng nổi bật của SCADA</div>
-      </div>
-    </div>
-
-    <!-- Mục 4: Ứng dụng thực tế -->
-    <div class="content-block reverse">
-      <div class="text">
-        <h2><span class="section-number">04</span> Ứng dụng thực tế</h2>
-        <ul class="list">
-          <li *ngFor="let app of applications">{{ app }}</li>
-        </ul>
-      </div>
-      <div class="image">
-        <img src="assets/images/EVNHCMC16821(2).jpg" alt="SCADA Applications" />
-        <div class="caption">Ứng dụng SCADA trong các ngành công nghiệp</div>
-      </div>
-    </div>
-
-    <!-- Mục 5: Chữ trái - Hình phải -->
-    <div class="content-block">
-      <div class="text">
-        <h2>
-          <span class="section-number">05</span> Lợi ích khi triển khai SCADA
-        </h2>
-        <ul class="list">
-          <li>🔧 Tăng hiệu quả vận hành và tự động hóa.</li>
-          <li>📊 Dễ thống kê, báo cáo, quyết định chính xác.</li>
-          <li>📉 Giảm lỗi con người, tối ưu chi phí vận hành.</li>
-          <li>🔐 An toàn thông tin và phân quyền người dùng.</li>
-          <li>🌐 Giám sát từ xa qua trình duyệt hoặc thiết bị di động.</li>
-        </ul>
-      </div>
-      <div class="image">
-        <img src="assets/images/gsx-server-client2.jpg" alt="SCADA Benefits" />
-        <div class="caption">Lợi ích khi triển khai hệ thống SCADA</div>
-      </div>
-    </div>
-
-    <!-- Mục 6: Hình trái - Chữ phải -->
-    <!-- Mục 6: SCADA hiện đại -->
-    <div class="content-block reverse">
-      <div class="text">
-        <h2>
-          <span class="section-number">06</span> SCADA hiện đại – Tích hợp công
-          nghệ mới
-        </h2>
-        <p>
-          Các giải pháp SCADA hiện nay được thiết kế theo mô hình mở, hỗ trợ kết
-          nối với hệ thống IoT, AI, và điện toán đám mây.
-        </p>
-        <ul class="list">
-          <li>Truy cập dữ liệu mọi lúc, mọi nơi qua Web hoặc App.</li>
-          <li>Phân tích dự đoán lỗi (Predictive Maintenance).</li>
-          <li>Điều khiển và tối ưu quy trình bằng AI.</li>
-        </ul>
-      </div>
-      <div class="image">
-        <img
-          src="assets/images/cloud-scada-cloud-based-scada-va-scada-truyen-thong3.png"
-          alt="Cloud SCADA"
-        />
-        <div class="caption">SCADA hiện đại tích hợp AI và Cloud</div>
-      </div>
-    </div>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+    <app-solution-card
+      *ngFor="let item of solutions"
+      [title]="item.title"
+      [description]="item.description"
+      [image]="item.image"
+      [link]="item.link"
+    ></app-solution-card>
   </div>
 </section>

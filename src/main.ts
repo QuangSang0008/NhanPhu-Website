@@ -11,6 +11,7 @@ import {
   Info,
   Building,
   Clock,
+  Menu,
 } from 'lucide-angular';
 
 bootstrapApplication(AppComponent, {
@@ -19,7 +20,15 @@ bootstrapApplication(AppComponent, {
     ...(appConfig.providers || []),
     provideHttpClient(withFetch()),
     importProvidersFrom(
-      LucideAngularModule.pick({ Phone, Mail, MapPin, Info, Building, Clock })
+      LucideAngularModule.pick({
+        Phone,
+        Mail,
+        MapPin,
+        Info,
+        Building,
+        Clock,
+        Menu,
+      })
     ),
   ],
 }).catch((err) => console.error(err));

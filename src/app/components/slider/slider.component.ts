@@ -36,7 +36,7 @@ export class SliderComponent implements OnInit, OnDestroy {
   startAutoSlide() {
     this.autoSlideInterval = setInterval(() => {
       this.nextSlide();
-    }, 5000);
+    }, 6000);
   }
 
   stopAutoSlide() {

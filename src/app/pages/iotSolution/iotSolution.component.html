@@ -1,0 +1,156 @@
+<app-slider
+  [slides]="[
+    {
+      title: 'Giải pháp IoT thông minh',
+      description:
+        'Giám sát, kết nối và điều khiển thiết bị từ xa mọi lúc mọi nơi. Tăng hiệu quả quản lý và tự động hóa toàn diện.',
+      image: 'assets/images/iot-cover.jpg',
+      background: 'linear-gradient(to right, #0f766e, #22d3ee)'
+    }
+  ]"
+  [autoSlide]="false"
+  [showNav]="false"
+/>
+
+<section class="solution-wrapper">
+  <div class="container-default">
+    <h1 class="title">
+      Giải pháp IoT – Đo lường thông minh, kết nối toàn diện
+    </h1>
+
+    <!-- 01: IoT là gì -->
+    <div class="content-block">
+      <div class="text">
+        <h2><span class="section-number">01</span> IoT là gì?</h2>
+        <p>
+          IoT (Internet of Things) là mạng lưới các thiết bị vật lý có thể thu
+          thập và trao đổi dữ liệu với nhau thông qua Internet. Các thiết bị IoT
+          như cảm biến, bộ điều khiển, đồng hồ thông minh, thiết bị đo mức...
+          cho phép doanh nghiệp theo dõi và điều khiển từ xa theo thời gian
+          thực.
+        </p>
+      </div>
+      <div class="image">
+        <img src="assets/images/iot/iot1.jpg" alt="IoT là gì" />
+        <div class="caption">Mô hình kết nối các thiết bị IoT</div>
+      </div>
+    </div>
+
+    <!-- 02: Cấu trúc hệ thống IoT -->
+    <div class="content-block reverse">
+      <div class="text">
+        <h2><span class="section-number">02</span> Cấu trúc hệ thống IoT</h2>
+        <ul class="list">
+          <li>
+            <strong>Thiết bị cảm biến:</strong> Thu thập dữ liệu vật lý như
+            nhiệt độ, độ ẩm, áp suất, mức nước...
+          </li>
+          <li>
+            <strong>Bộ xử lý/vi điều khiển:</strong> Phân tích và truyền dữ
+            liệu.
+          </li>
+          <li>
+            <strong>Kết nối mạng:</strong> Wi-Fi, 4G/5G, LoRa, Zigbee, NB-IoT...
+          </li>
+          <li>
+            <strong>Nền tảng IoT:</strong> Hiển thị, điều khiển và phân tích dữ
+            liệu.
+          </li>
+        </ul>
+      </div>
+      <div class="image">
+        <img src="assets/images/iot/iot2.jpg" alt="Cấu trúc hệ thống IoT" />
+        <div class="caption">Cấu trúc điển hình của một hệ thống IoT</div>
+      </div>
+    </div>
+
+    <!-- 03: Tính năng nổi bật -->
+    <div class="content-block">
+      <div class="text">
+        <h2><span class="section-number">03</span> Tính năng nổi bật</h2>
+        <div class="features-grid">
+          <div class="feature-card" *ngFor="let item of features">
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.description }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="image">
+        <img src="assets/images/iot/iot3.jpg" alt="IoT Features" />
+        <div class="caption">Các tính năng nổi bật của IoT</div>
+      </div>
+    </div>
+
+    <!-- 04: Ứng dụng thực tế -->
+    <div class="content-block reverse">
+      <div class="text">
+        <h2><span class="section-number">04</span> Ứng dụng thực tế</h2>
+        <ul class="list">
+          <li *ngFor="let app of applications">{{ app }}</li>
+        </ul>
+      </div>
+      <div class="image">
+        <img src="assets/images/iot/iot4.jpg" alt="IoT Applications" />
+        <div class="caption">Ứng dụng IoT trong nhiều ngành công nghiệp</div>
+      </div>
+    </div>
+
+    <!-- 05: Lợi ích -->
+    <div class="content-block">
+      <div class="text">
+        <h2>
+          <span class="section-number">05</span> Lợi ích khi triển khai IoT
+        </h2>
+        <ul class="list">
+          <li>🌐 Kết nối và điều khiển mọi lúc mọi nơi.</li>
+          <li>📊 Phân tích và tối ưu dữ liệu theo thời gian thực.</li>
+          <li>🤖 Tự động hóa các quy trình vận hành.</li>
+          <li>💰 Tiết kiệm chi phí bảo trì và vận hành.</li>
+          <li>⚙️ Mở rộng linh hoạt theo nhu cầu doanh nghiệp.</li>
+        </ul>
+      </div>
+      <div class="image">
+        <img src="assets/images/iot/iot5.jpg" alt="IoT Benefits" />
+        <div class="caption">Lợi ích khi ứng dụng giải pháp IoT</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container-default py-12 bg-white">
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+    <app-solution-card
+      *ngFor="let solution of relatedSolutions"
+      [title]="solution.title"
+      [description]="solution.description"
+      [image]="solution.image"
+      [link]="solution.link"
+    ></app-solution-card>
+
+    <a
+      routerLink="/contact"
+      class="block bg-white rounded-2xl shadow-xl p-6 flex flex-col justify-between text-center h-full transform hover:scale-[1.02] transition-all duration-300 no-underline"
+    >
+      <div>
+        <div class="flex justify-center mb-4">
+          <img
+            src="assets/images/contact/contactIcon.jpg"
+            alt="Tư vấn"
+            class="w-60 h-60"
+          />
+        </div>
+        <h3 class="text-xl font-bold text-green-700 mb-2">
+          Tìm giải pháp phù hợp?
+        </h3>
+        <p class="text-gray-600 mb-4">
+          Liên hệ chúng tôi để được tư vấn miễn phí và phù hợp với doanh nghiệp
+          của bạn.
+        </p>
+      </div>
+      <span
+        class="inline-block bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition mt-2"
+      >
+        Liên hệ ngay
+      </span>
+    </a>
+  </div>
+</section>

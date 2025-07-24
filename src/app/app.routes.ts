@@ -39,4 +39,25 @@ export const routes: Routes = [
         (m) => m.SolutionComponent
       ),
   },
+  {
+    path: 'solution/iot',
+    loadComponent: () =>
+      import('./pages/iotSolution/iotSolution.component').then(
+        (m) => m.SolutionComponent
+      ),
+  },
+  {
+    path: 'solution/sp',
+    loadComponent: () =>
+      import('./pages/spSolution/spSolution.component').then(
+        (m) => m.SolutionComponent
+      ),
+  },
+  {
+    path: 'solution/scada',
+    loadComponent: () =>
+      import('./pages/scadaSolution/scadaSolution.component').then(
+        (m) => m.SolutionComponent
+      ),
+  },
 ];
