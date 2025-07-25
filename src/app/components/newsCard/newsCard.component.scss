@@ -1,8 +1,8 @@
 .news-card {
   background: #ffffff;
-  padding: 1.5rem; // tương đương p-6
-  border-radius: 1rem; // rounded-2xl
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08); // shadow-xl
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
   text-align: left;
   cursor: pointer;
@@ -21,7 +21,6 @@
     margin-left: auto;
     margin-right: auto;
   }
-
   .news-content {
     h3 {
       font-size: 1.25rem; // text-xl
@@ -56,5 +55,13 @@
         text-decoration: underline;
       }
     }
+  }
+}
+@media (max-width: 1024px) {
+  .news-card {
+    img {
+      height: 500px;
+    }
+    padding: 1rem;
   }
 }

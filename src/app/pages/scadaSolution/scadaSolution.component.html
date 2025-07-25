@@ -17,13 +17,6 @@
     <h1 class="title">
       Giải pháp SCADA – Tối ưu hóa giám sát và điều khiển từ xa
     </h1>
-    <!-- <p class="intro">
-      Supervisory Control and Data Acquisition - giải pháp công nghệ giúp các
-      ngành công nghiệp giám sát và điều khiển hệ thống từ xa một cách hiệu quả
-      và chính xác.
-    </p> -->
-
-    <!-- Mục 1: Chữ trái - Hình phải -->
     <div class="content-block">
       <div class="text">
         <h2><span class="section-number">01</span> SCADA là gì?</h2>
@@ -141,8 +134,10 @@
   </div>
 </section>
 
-<section class="container-default py-12 bg-white">
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+<section class="container-default news-section py-12 bg-white">
+  <h2 class="section-title">GIẢI PHÁP KHÁC</h2>
+
+  <div class="news-grid">
     <app-solution-card
       *ngFor="let solution of relatedSolutions"
       [title]="solution.title"
@@ -153,7 +148,7 @@
 
     <a
       routerLink="/contact"
-      class="block bg-white rounded-2xl shadow-xl p-6 flex flex-col justify-between text-center h-full transform hover:scale-[1.02] transition-all duration-300 no-underline"
+      class="block bg-white rounded-2xl shadow-xl p-6 flex flex-col justify-between text-center transform hover:scale-[1.02] transition-all duration-300 no-underline"
     >
       <div>
         <div class="flex justify-center mb-4">

@@ -4,7 +4,7 @@
       title: 'Giải pháp IoT thông minh',
       description:
         'Giám sát, kết nối và điều khiển thiết bị từ xa mọi lúc mọi nơi. Tăng hiệu quả quản lý và tự động hóa toàn diện.',
-      image: 'assets/images/iot-cover.jpg',
+      image: 'assets/images/148_1_23-02-2024-16-36-46_5.png',
       background: 'linear-gradient(to right, #0f766e, #22d3ee)'
     }
   ]"
@@ -37,7 +37,7 @@
     </div>
 
     <!-- 02: Cấu trúc hệ thống IoT -->
-    <div class="content-block reverse">
+    <div class="content-block reverse pt-20">
       <div class="text">
         <h2><span class="section-number">02</span> Cấu trúc hệ thống IoT</h2>
         <ul class="list">
@@ -115,42 +115,44 @@
       </div>
     </div>
   </div>
-</section>
-<section class="container-default py-12 bg-white">
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-    <app-solution-card
-      *ngFor="let solution of relatedSolutions"
-      [title]="solution.title"
-      [description]="solution.description"
-      [image]="solution.image"
-      [link]="solution.link"
-    ></app-solution-card>
+  <section class="container-default news-section py-12 bg-white">
+    <h2 class="section-title">GIẢI PHÁP KHÁC</h2>
 
-    <a
-      routerLink="/contact"
-      class="block bg-white rounded-2xl shadow-xl p-6 flex flex-col justify-between text-center h-full transform hover:scale-[1.02] transition-all duration-300 no-underline"
-    >
-      <div>
-        <div class="flex justify-center mb-4">
-          <img
-            src="assets/images/contact/contactIcon.jpg"
-            alt="Tư vấn"
-            class="w-60 h-60"
-          />
-        </div>
-        <h3 class="text-xl font-bold text-green-700 mb-2">
-          Tìm giải pháp phù hợp?
-        </h3>
-        <p class="text-gray-600 mb-4">
-          Liên hệ chúng tôi để được tư vấn miễn phí và phù hợp với doanh nghiệp
-          của bạn.
-        </p>
-      </div>
-      <span
-        class="inline-block bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition mt-2"
+    <div class="news-grid">
+      <app-solution-card
+        *ngFor="let solution of relatedSolutions"
+        [title]="solution.title"
+        [description]="solution.description"
+        [image]="solution.image"
+        [link]="solution.link"
+      ></app-solution-card>
+
+      <a
+        routerLink="/contact"
+        class="block bg-white rounded-2xl shadow-xl p-6 flex flex-col justify-between text-center transform hover:scale-[1.02] transition-all duration-300 no-underline"
       >
-        Liên hệ ngay
-      </span>
-    </a>
-  </div>
+        <div>
+          <div class="flex justify-center mb-4">
+            <img
+              src="assets/images/contact/contactIcon.jpg"
+              alt="Tư vấn"
+              class="w-60 h-60"
+            />
+          </div>
+          <h3 class="text-xl font-bold text-green-700 mb-2">
+            Tìm giải pháp phù hợp?
+          </h3>
+          <p class="text-gray-600 mb-4">
+            Liên hệ chúng tôi để được tư vấn miễn phí và phù hợp với doanh
+            nghiệp của bạn.
+          </p>
+        </div>
+        <span
+          class="inline-block bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition mt-2"
+        >
+          Liên hệ ngay
+        </span>
+      </a>
+    </div>
+  </section>
 </section>

@@ -15,13 +15,13 @@
   [showNav]="false"
 ></app-slider>
 
-<div class="container-default py-10 pt-16">
-  <div class="grid grid-cols-1 md:grid-cols-8 gap-8">
+<div class="container-default py-10 pt-16 px-4">
+  <div class="grid grid-cols-1 lg:grid-cols-8 gap-8">
     <!-- FORM LIÊN HỆ -->
-    <div class="md:col-span-5 space-y-5">
+    <div class="lg:col-span-5 w-full">
       <form
         (ngSubmit)="submitForm()"
-        class="grid grid-cols-1 md:grid-cols-2 gap-4 gap-y-6"
+        class="grid grid-cols-1 gap-4 gap-y-6 lg:grid-cols-2"
       >
         <input
           [(ngModel)]="name"
@@ -29,7 +29,7 @@
           required
           type="text"
           placeholder="Họ và tên"
-          class="border border-gray-400 rounded px-4 py-2 w-full"
+          class="col-span-2 lg:col-span-1 border border-gray-400 rounded px-4 py-2 w-full"
         />
 
         <input
@@ -38,7 +38,7 @@
           required
           type="email"
           placeholder="Email"
-          class="border border-gray-400 rounded px-4 py-2 w-full"
+          class="col-span-2 lg:col-span-1 border border-gray-400 rounded px-4 py-2 w-full"
         />
 
         <input
@@ -47,7 +47,7 @@
           required
           type="tel"
           placeholder="Số điện thoại"
-          class="border border-gray-400 rounded px-4 py-2 w-full"
+          class="col-span-2 lg:col-span-1 border border-gray-400 rounded px-4 py-2 w-full"
         />
 
         <input
@@ -55,7 +55,7 @@
           name="company"
           type="text"
           placeholder="Công ty"
-          class="border border-gray-400 rounded px-4 py-2 w-full"
+          class="col-span-2 lg:col-span-1 border border-gray-400 rounded px-4 py-2 w-full"
         />
 
         <textarea
@@ -63,13 +63,13 @@
           name="message"
           required
           placeholder="Nội dung liên hệ"
-          class="md:col-span-2 border border-gray-400 rounded px-4 py-3 w-full"
+          class="col-span-2 border border-gray-400 rounded px-4 py-3 w-full"
           rows="5"
         ></textarea>
 
         <button
           type="submit"
-          class="md:col-span-2 bg-blue-600 text-white font-semibold py-2 px-6 rounded hover:bg-blue-700 transition"
+          class="col-span-2 bg-blue-600 text-white font-semibold py-2 px-6 rounded hover:bg-blue-700 transition"
         >
           Gửi liên hệ
         </button>
@@ -78,7 +78,7 @@
 
     <!-- THÔNG TIN LIÊN HỆ -->
     <div
-      class="md:col-span-3 bg-blue-50 border border-blue-200 p-6 rounded-lg space-y-4"
+      class="lg:col-span-3 w-full bg-blue-50 border border-blue-200 p-6 rounded-lg space-y-4"
     >
       <h2 class="text-xl font-semibold text-blue-700 flex items-center gap-2">
         <lucide-icon name="Info" class="w-5 h-5 text-blue-700"></lucide-icon>

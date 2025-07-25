@@ -13,9 +13,9 @@
 </section>
 
 <section class="container-default about-section py-16 bg-gray-50">
-  <div class="grid grid-cols-1 md:grid-cols-9 gap-12 items-center">
+  <div class="grid grid-cols-1 lg:grid-cols-9 gap-12 items-center">
     <!-- Nội dung bên trái -->
-    <div class="md:col-span-4">
+    <div class="lg:col-span-4">
       <h2
         class="text-3xl font-bold text-green-700 mb-6 uppercase tracking-wide"
       >
@@ -40,7 +40,7 @@
       </a>
     </div>
     <!-- Hình ảnh bên phải -->
-    <div class="md:col-span-5">
+    <div class="lg:col-span-5">
       <img
         src="assets/images/about.jpg"
         alt="Về chúng tôi"
@@ -49,16 +49,65 @@
     </div>
   </div>
 </section>
+<section class="container-default py-10">
+  <h2 class="text-2xl font-bold text-center mb-4 text-blue-800">
+    LĨNH VỰC HOẠT ĐỘNG
+  </h2>
+  <div class="grid grid-cols-1 lg:grid-cols-4 gap-8 mt-0">
+    <!-- Cấp thoát nước -->
+    <div
+      class="bg-gradient-to-br from-white to-green-50 border border-green-100 rounded-2xl shadow-md hover:shadow-xl transition-all p-6 text-center"
+    >
+      <div class="text-5xl mb-4 text-blue-600">💧</div>
+      <h3 class="font-semibold text-lg text-green-700 mb-2">Cấp thoát nước</h3>
+      <p class="text-gray-700 text-sm leading-relaxed">
+        Giải pháp quản lý lưu lượng, giám sát và cảnh báo thông minh trong ngành
+        nước.
+      </p>
+    </div>
+
+    <!-- Điện lực -->
+    <div
+      class="bg-gradient-to-br from-white to-green-50 border border-green-100 rounded-2xl shadow-md hover:shadow-xl transition-all p-6 text-center"
+    >
+      <div class="text-5xl mb-4 text-yellow-500">⚡</div>
+      <h3 class="font-semibold text-lg text-green-700 mb-2">Điện lực</h3>
+      <p class="text-gray-700 text-sm leading-relaxed">
+        Tối ưu hóa vận hành hệ thống điện với công nghệ đo lường và SCADA hiện
+        đại.
+      </p>
+    </div>
+
+    <!-- Sản xuất -->
+    <div
+      class="bg-gradient-to-br from-white to-green-50 border border-green-100 rounded-2xl shadow-md hover:shadow-xl transition-all p-6 text-center"
+    >
+      <div class="text-5xl mb-4 text-orange-500">🏭</div>
+      <h3 class="font-semibold text-lg text-green-700 mb-2">Sản xuất</h3>
+      <p class="text-gray-700 text-sm leading-relaxed">
+        Giải pháp giám sát dây chuyền và tự động hóa nâng cao hiệu suất sản
+        xuất.
+      </p>
+    </div>
+
+    <!-- Môi trường -->
+    <div
+      class="bg-gradient-to-br from-white to-green-50 border border-green-100 rounded-2xl shadow-md hover:shadow-xl transition-all p-6 text-center"
+    >
+      <div class="text-5xl mb-4 text-green-600">🌱</div>
+      <h3 class="font-semibold text-lg text-green-700 mb-2">Môi trường</h3>
+      <p class="text-gray-700 text-sm leading-relaxed">
+        Cảm biến, đo lường và phân tích dữ liệu hỗ trợ bảo vệ môi trường hiệu
+        quả.
+      </p>
+    </div>
+  </div>
+</section>
 
 <!-- Giải pháp nổi bật -->
-<section class="container-default services-section py-4 bg-gray-50">
-  <h2
-    class="section-title text-center text-3xl font-bold text-green-700 mb-4 uppercase tracking-wide"
-  >
-    Giải pháp nổi bật
-  </h2>
-
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+<section class="container-default news-section">
+  <h2 class="section-title">GIẢI PHÁP NỔI BẬT</h2>
+  <div class="news-grid">
     <app-solution-card
       *ngFor="let item of homeSolutions"
       [title]="item.title"
@@ -69,63 +118,113 @@
   </div>
 </section>
 
-<section class="container-default did-you-know-wrapper pt-20">
-  <div class="did-you-know-container">
-    <!-- Phần chữ bên trái -->
-    <div class="did-you-know-text">
-      <div class="text-box">
-        <h2>Bạn có biết…</h2>
-        <p>
-          Cảm biến radar không tiếp xúc của Nhân Phú đo mức chính xác ngay cả
-          trong môi trường bụi, ẩm và áp suất cao – lý tưởng cho bồn chứa hóa
-          chất, nước thải, thực phẩm.
-        </p>
-        <p>
-          Dễ lắp đặt, an toàn, giảm bảo trì – giải pháp tin cậy cho nhà máy hiện
-          đại.
-        </p>
-        <button class="read-more-btn">▶ Tìm hiểu thêm</button>
-      </div>
+<section
+  class="container-default pt-20 bg-gradient-to-br from-green-50 to-white"
+>
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+    <!-- Phần chữ -->
+    <div>
+      <h2 class="text-3xl font-bold text-green-800 mb-6">Bạn có biết…</h2>
+      <p class="text-gray-700 text-lg leading-relaxed mb-4">
+        Hệ thống <span class="font-semibold text-blue-700">SCADA</span> của
+        <span class="font-semibold">Nhân Phú</span> giúp doanh nghiệp giám sát
+        từ xa, thu thập dữ liệu thời gian thực và điều khiển thiết bị một cách
+        chính xác, an toàn và hiệu quả.
+      </p>
+      <p class="text-gray-700 text-lg leading-relaxed mb-6">
+        Đây là nền tảng không thể thiếu trong các ngành
+        <span class="italic"
+          >cấp thoát nước, điện lực, sản xuất và môi trường</span
+        >, hỗ trợ quá trình <span class="font-semibold">chuyển đổi số</span> và
+        nâng cao hiệu quả vận hành.
+      </p>
+      <a
+        routerLink="/solution/scada"
+        class="inline-block bg-green-700 text-white px-6 py-3 rounded-xl shadow hover:bg-green-800 transition-all duration-300"
+      >
+        🔍 Xem giải pháp
+      </a>
     </div>
 
-    <!-- Hình bên phải -->
-    <div class="did-you-know-image">
+    <!-- Phần hình ảnh -->
+    <div>
       <img
-        src="assets/images/did-you-know.jpg"
-        alt="Hình minh họa cảm biến radar không tiếp xúc"
+        src="assets/images/hệ-thống-scada-trong-công-nghiệp.gif"
+        alt="Giải pháp SCADA"
+        class="rounded-2xl shadow-xl w-full h-[400px] max-[1024px]:h-[600px] object-cover"
       />
     </div>
   </div>
 </section>
 
-<!-- Khách hàng & đối tác -->
-<section class="container-default partners-section py-6">
-  <h2 class="section-title text-center mb-6">Khách hàng & Đối tác</h2>
-  <div class="flex flex-wrap justify-center items-center gap-6">
-    <img src="assets/images/partner1.png" alt="Partner 1" class="h-12" />
-    <img src="assets/images/partner2.png" alt="Partner 2" class="h-12" />
-    <img src="assets/images/partner3.png" alt="Partner 3" class="h-12" />
-    <img src="assets/images/partner4.png" alt="Partner 4" class="h-12" />
+<section class="container-default pt-16 pb-10">
+  <h2 class="text-2xl font-bold text-center mb-4 text-blue-800">
+    TẠI SAO CHỌN CHÚNG TÔI?
+  </h2>
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 text-center">
+    <div
+      class="bg-gradient-to-br from-white to-green-50 border border-green-100 rounded-2xl shadow-md hover:shadow-xl transition-all p-6"
+    >
+      <div class="text-4xl text-green-700 mb-3">🎯</div>
+      <h3
+        class="font-semibold text-lg mb-2 text-green-800 uppercase tracking-wide"
+      >
+        Tư duy giải pháp
+      </h3>
+      <p class="text-gray-700">
+        Luôn đề xuất giải pháp phù hợp với từng doanh nghiệp, tối ưu chi phí.
+      </p>
+    </div>
+
+    <div
+      class="bg-gradient-to-br from-white to-green-50 border border-green-100 rounded-2xl shadow-md hover:shadow-xl transition-all p-6"
+    >
+      <div class="text-4xl text-green-700 mb-3">👨‍💻</div>
+      <h3
+        class="font-semibold text-lg mb-2 text-green-800 uppercase tracking-wide"
+      >
+        Đội ngũ chuyên gia
+      </h3>
+      <p class="text-gray-700">
+        Kỹ sư giàu kinh nghiệm, đồng hành và hỗ trợ tận tâm.
+      </p>
+    </div>
+
+    <div
+      class="bg-gradient-to-br from-white to-green-50 border border-green-100 rounded-2xl shadow-md hover:shadow-xl transition-all p-6"
+    >
+      <div class="text-4xl text-green-700 mb-3">🚀</div>
+      <h3
+        class="font-semibold text-lg mb-2 text-green-800 uppercase tracking-wide"
+      >
+        Hiệu quả thực tiễn
+      </h3>
+      <p class="text-gray-700">
+        Giải pháp đã triển khai thành công cho nhiều doanh nghiệp lớn.
+      </p>
+    </div>
   </div>
 </section>
 
-<!-- Phản hồi khách hàng -->
-<section class="container-default testimonials-section py-6 bg-gray-100">
-  <h2 class="section-title text-center mb-6">Khách hàng nói gì</h2>
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-    <div class="bg-white p-6 rounded-xl shadow">
-      <p class="italic">
-        "Hệ thống SCADA triển khai nhanh, dễ dùng và ổn định. Chúng tôi hoàn
-        toàn hài lòng!"
-      </p>
-      <strong class="block mt-4 text-right">– Công ty ABC</strong>
-    </div>
-    <div class="bg-white p-6 rounded-xl shadow">
-      <p class="italic">
-        "Dịch vụ hỗ trợ rất chuyên nghiệp, giúp chúng tôi vận hành hiệu quả
-        hơn."
-      </p>
-      <strong class="block mt-4 text-right">– Nhà máy XYZ</strong>
-    </div>
+<div class="bg-white rounded-xl px-0 py-0 lg:px-8 lg:pt-4">
+  <h2 class="text-2xl font-bold text-center mb-8 text-blue-800">
+    ĐỐI TÁC TIÊU BIỂU
+  </h2>
+  <div class="flex flex-wrap justify-center gap-10 items-center">
+    <img
+      src="assets/images/icon.jpg"
+      class="h-24 md:h-28 object-contain transition duration-300 ease-in-out"
+      alt="Đối tác A"
+    />
+    <img
+      src="assets/images/icon.jpg"
+      class="h-24 md:h-28 object-contain transition duration-300 ease-in-out"
+      alt="Đối tác B"
+    />
+    <img
+      src="assets/images/icon.jpg"
+      class="h-24 md:h-28 object-contain transition duration-300 ease-in-out"
+      alt="Đối tác C"
+    />
   </div>
-</section>
+</div>

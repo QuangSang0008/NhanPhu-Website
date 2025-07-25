@@ -4,9 +4,5 @@
     "solution": "Solutions",
     "services": "Services",
     "company": "Company"
-  },
-  "HOME": {
-    "GREETING": "Welcome to NhanPhu!",
-    "WELCOME_MESSAGE": "This is our homepage."
   }
 }

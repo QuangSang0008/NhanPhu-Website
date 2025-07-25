@@ -1,25 +1,20 @@
 <app-slider
   [slides]="[
     {
-      title: 'Giải pháp SCADA hiện đại',
+      title: 'Giải pháp công nghệ toàn diện',
       description:
-        'Theo dõi và điều khiển hệ thống từ xa theo thời gian thực. Giúp doanh nghiệp nâng cao hiệu quả vận hành và giảm thiểu rủi ro trong sản xuất.',
-      image: 'assets/images/scada.jpg',
-      background: 'linear-gradient(to right, #14532d, #22c55e)'
+        'Chúng tôi cung cấp các giải pháp đo lường, giám sát và điều khiển thông minh như SCADA, IoT, cảm biến và quản lý năng lượng – đáp ứng nhu cầu đa ngành và hỗ trợ chuyển đổi số bền vững.',
+      image: 'assets/images/giai-quyet-van-de-1.jpg',
+      background: 'linear-gradient(to right, #1e3a8a, #0f766e)',
     }
   ]"
   [autoSlide]="false"
   [showNav]="false"
 />
 
-<section class="container-default services-section py-4 bg-gray-50">
-  <h2
-    class="section-title text-center text-3xl font-bold text-green-700 mb-4 uppercase tracking-wide"
-  >
-    Giải pháp nổi bật
-  </h2>
-
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+<section class="container-default news-section py-6 mt-12">
+  <h2 class="section-title">GIẢI PHÁP CỦA CÔNG TY</h2>
+  <div class="news-grid">
     <app-solution-card
       *ngFor="let item of solutions"
       [title]="item.title"

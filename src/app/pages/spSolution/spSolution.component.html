@@ -4,7 +4,7 @@
       title: 'Hỗ trợ kỹ thuật toàn diện',
       description:
         'Đội ngũ kỹ thuật chuyên nghiệp, luôn đồng hành cùng khách hàng trong suốt quá trình triển khai, vận hành và bảo trì hệ thống.',
-      image: 'assets/images/support-cover.jpg',
+      image: 'assets/images/IT-Support.png',
       background: 'linear-gradient(to right, #1e3a8a, #2563eb)'
     }
   ]"
@@ -115,8 +115,10 @@
     </div>
   </div>
 </section>
-<section class="container-default py-12 bg-white">
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+<section class="container-default news-section py-12 bg-white">
+  <h2 class="section-title">GIẢI PHÁP KHÁC</h2>
+
+  <div class="news-grid">
     <app-solution-card
       *ngFor="let solution of relatedSolutions"
       [title]="solution.title"
@@ -127,7 +129,7 @@
 
     <a
       routerLink="/contact"
-      class="block bg-white rounded-2xl shadow-xl p-6 flex flex-col justify-between text-center h-full transform hover:scale-[1.02] transition-all duration-300 no-underline"
+      class="block bg-white rounded-2xl shadow-xl p-6 flex flex-col justify-between text-center transform hover:scale-[1.02] transition-all duration-300 no-underline"
     >
       <div>
         <div class="flex justify-center mb-4">

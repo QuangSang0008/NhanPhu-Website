@@ -1,19 +1,20 @@
 <app-slider
   [slides]="[
     {
-      title: 'Giải pháp SCADA hiện đại',
-      description: 'SCADA giám sát thời gian thực...',
-      image: 'assets/images/scada.jpg',
-      background: 'linear-gradient(to right, #14532d, #22c55e)'
+      title: 'Công ty TNHH Công nghệ Nhân Phú',
+      description:
+        'Chúng tôi tiên phong trong lĩnh vực đo lường, giám sát và điều khiển thông minh – đồng hành cùng doanh nghiệp trong hành trình chuyển đổi số.',
+      image: 'assets/images/company.jpg',
+      background: 'linear-gradient(to right, #0c4a6e, #38bdf8)'
     }
   ]"
   [autoSlide]="false"
   [showNav]="false"
 ></app-slider>
-<section class="container-default py-16 space-y-16">
+<section class="container-default pt-16 space-y-2">
   <!-- Giới thiệu chung -->
-  <div class="text-center max-w-3xl mx-auto">
-    <h1 class="text-4xl font-bold text-primary mb-4">Về Chúng Tôi</h1>
+  <div class="text-center max-w-3xl mx-auto pb-4">
+    <h1 class="text-4xl font-bold text-blue-800 mb-4">VỀ CHÚNG TÔI</h1>
     <p class="text-lg text-gray-700">
       Chúng tôi là công ty công nghệ hàng đầu với sứ mệnh cung cấp giải pháp số
       toàn diện cho doanh nghiệp trong thời đại chuyển đổi số.
@@ -21,26 +22,44 @@
   </div>
 
   <!-- Tầm nhìn - Sứ mệnh - Giá trị -->
-  <div class="grid md:grid-cols-3 gap-8 text-center">
-    <div class="p-6 border rounded-xl shadow hover:shadow-lg transition">
-      <h2 class="text-xl font-semibold text-green-700 mb-2">🎯 Tầm nhìn</h2>
-      <p>
+  <div class="grid lg:grid-cols-3 gap-8 text-center">
+    <!-- Tầm nhìn -->
+    <div
+      class="px-8 py-4 border border-green-100 bg-gradient-to-br from-white to-green-50 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300"
+    >
+      <div class="text-4xl mb-4 text-green-700">🎯</div>
+      <h2 class="text-xl font-bold text-green-800 mb-2 uppercase tracking-wide">
+        Tầm nhìn
+      </h2>
+      <p class="text-gray-700 leading-relaxed">
         Trở thành biểu tượng sáng tạo và uy tín trong lĩnh vực công nghệ thông
         tin tại Việt Nam và khu vực.
       </p>
     </div>
-    <div class="p-6 border rounded-xl shadow hover:shadow-lg transition">
-      <h2 class="text-xl font-semibold text-green-700 mb-2">🚀 Sứ mệnh</h2>
-      <p>
+
+    <!-- Sứ mệnh -->
+    <div
+      class="px-8 py-4 border border-green-100 bg-gradient-to-br from-white to-green-50 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300"
+    >
+      <div class="text-4xl mb-4 text-green-700">🚀</div>
+      <h2 class="text-xl font-bold text-green-800 mb-2 uppercase tracking-wide">
+        Sứ mệnh
+      </h2>
+      <p class="text-gray-700 leading-relaxed">
         Cung cấp các giải pháp công nghệ chất lượng, giúp khách hàng nâng cao
         hiệu quả kinh doanh.
       </p>
     </div>
-    <div class="p-6 border rounded-xl shadow hover:shadow-lg transition">
-      <h2 class="text-xl font-semibold text-green-700 mb-2">
-        💡 Giá trị cốt lõi
+
+    <!-- Giá trị cốt lõi -->
+    <div
+      class="px-8 py-4 border border-green-100 bg-gradient-to-br from-white to-green-50 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300"
+    >
+      <div class="text-4xl mb-4 text-green-700">💡</div>
+      <h2 class="text-xl font-bold text-green-800 mb-2 uppercase tracking-wide">
+        Giá trị cốt lõi
       </h2>
-      <ul class="list-disc list-inside text-left">
+      <ul class="list-disc list-inside text-left text-gray-700 leading-relaxed">
         <li>Chất lượng và uy tín</li>
         <li>Đổi mới liên tục</li>
         <li>Lấy khách hàng làm trung tâm</li>
@@ -49,21 +68,53 @@
   </div>
 
   <!-- Lịch sử hình thành -->
-  <div>
-    <h2 class="text-2xl font-bold text-center mb-4">Lịch sử phát triển</h2>
-    <div class="timeline space-y-6">
-      <div class="border-l-4 border-green-600 pl-4">
-        <h3 class="font-semibold">2022: Thành lập</h3>
-        <p>Bắt đầu với 5 thành viên đam mê công nghệ.</p>
+  <div class="bg-white rounded-xl shadow p-8">
+    <h2 class="text-2xl font-bold text-center mb-6 text-blue-800">
+      Lịch sử phát triển
+    </h2>
+    <div class="relative border-l-2 border-green-600 pl-8 space-y-10">
+      <!-- Mốc 2022 -->
+      <div class="relative">
+        <div
+          class="absolute -left-5 top-1 w-4 h-4 border-4 border-white bg-green-600 rounded-full shadow-md"
+        ></div>
+        <h3 class="text-lg font-semibold text-gray-800">
+          2022 – Khởi đầu hành trình
+        </h3>
+        <p class="text-gray-600">
+          Công ty chính thức thành lập với đội ngũ 5 thành viên nhiệt huyết,
+          cùng chung niềm đam mê công nghệ và khát khao tạo nên những giá trị
+          khác biệt.
+        </p>
       </div>
-      <div class="border-l-4 border-green-600 pl-4">
-        <h3 class="font-semibold">2024: Mở rộng thị trường</h3>
-        <p>Phát triển hơn 30 dự án lớn nhỏ trong nước và quốc tế.</p>
+
+      <!-- Mốc 2024 -->
+      <div class="relative">
+        <div
+          class="absolute -left-5 top-1 w-4 h-4 border-4 border-white bg-green-600 rounded-full shadow-md"
+        ></div>
+        <h3 class="text-lg font-semibold text-gray-800">
+          2024 – Vươn mình phát triển
+        </h3>
+        <p class="text-gray-600">
+          Đánh dấu bước chuyển mình mạnh mẽ với hơn 30 dự án triển khai thành
+          công tại thị trường trong nước và quốc tế, mở rộng quy mô hoạt động
+          đáng kể.
+        </p>
       </div>
-      <div class="border-l-4 border-green-600 pl-4">
-        <h3 class="font-semibold">2025: Đột phá chuyển đổi số</h3>
-        <p>
-          Ra mắt các nền tảng quản trị thông minh được khách hàng đánh giá cao.
+
+      <!-- Mốc 2025 -->
+      <div class="relative">
+        <div
+          class="absolute -left-5 top-1 w-4 h-4 border-4 border-white bg-green-600 rounded-full shadow-md"
+        ></div>
+        <h3 class="text-lg font-semibold text-gray-800">
+          2025 – Dẫn đầu chuyển đổi số
+        </h3>
+        <p class="text-gray-600">
+          Ra mắt các nền tảng quản trị thông minh, được đánh giá cao về tính
+          hiệu quả và sáng tạo, khẳng định vị thế là đối tác công nghệ tin cậy
+          của doanh nghiệp.
         </p>
       </div>
     </div>
@@ -71,57 +122,113 @@
 
   <!-- Đội ngũ -->
   <div>
-    <h2 class="text-2xl font-bold text-center mb-8">Đội ngũ lãnh đạo</h2>
-    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+    <h2 class="text-2xl font-bold text-center text-blue-800 pb-4">
+      Đội ngũ lãnh đạo
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
       <div class="text-center">
         <img
-          src="assets/images/ceo.jpg"
+          src="assets/images/icon.jpg"
           alt="CEO"
-          class="w-32 h-32 mx-auto rounded-full object-cover shadow mb-2"
+          class="w-48 h-48 mx-auto rounded-full object-cover shadow mb-2"
         />
-        <h3 class="font-semibold">Nguyễn Văn A</h3>
-        <p class="text-sm text-gray-600">Tổng Giám đốc</p>
+        <h3 class="font-semibold">Nguyễn Văn Huy</h3>
+        <p class="text-sm text-gray-600">Chủ tịch công ty</p>
       </div>
       <div class="text-center">
         <img
-          src="assets/images/cto.jpg"
+          src="assets/images/icon.jpg"
           alt="CTO"
-          class="w-32 h-32 mx-auto rounded-full object-cover shadow mb-2"
+          class="w-48 h-48 mx-auto rounded-full object-cover shadow mb-2"
         />
-        <h3 class="font-semibold">Trần Thị B</h3>
-        <p class="text-sm text-gray-600">Giám đốc Công nghệ</p>
+        <h3 class="font-semibold">Nguyễn Văn Chính</h3>
+        <p class="text-sm text-gray-600">Giám đốc tài chính</p>
       </div>
       <div class="text-center">
         <img
-          src="assets/images/cfo.jpg"
+          src="assets/images/icon.jpg"
           alt="CFO"
-          class="w-32 h-32 mx-auto rounded-full object-cover shadow mb-2"
+          class="w-48 h-48 mx-auto rounded-full object-cover shadow mb-2"
         />
-        <h3 class="font-semibold">Lê Văn C</h3>
-        <p class="text-sm text-gray-600">Giám đốc Tài chính</p>
+        <h3 class="font-semibold">Nguyễn Văn Hải</h3>
+        <p class="text-sm text-gray-600">Giám đốc giải pháp</p>
+      </div>
+      <div class="text-center">
+        <img
+          src="assets/images/icon.jpg"
+          alt="CFO"
+          class="w-48 h-48 mx-auto rounded-full object-cover shadow mb-2"
+        />
+        <h3 class="font-semibold">Nguyễn Văn Khanh</h3>
+        <p class="text-sm text-gray-600">Giám đốc kỹ thuật</p>
       </div>
     </div>
   </div>
 
   <!-- Hình ảnh hoạt động -->
   <div>
-    <h2 class="text-2xl font-bold text-center mb-8">Hình ảnh hoạt động</h2>
-    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+    <h2 class="text-2xl font-bold text-center text-blue-800 pb-6">
+      Hình ảnh hoạt động
+    </h2>
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
       <img
-        src="assets/images/event1.jpg"
-        class="rounded-lg shadow"
+        src="assets/images/about.jpg"
+        class="h-64 w-full object-cover rounded-lg shadow"
         alt="Sự kiện 1"
       />
       <img
-        src="assets/images/event2.jpg"
-        class="rounded-lg shadow"
+        src="assets/images/h1.jpg"
+        class="h-64 w-full object-cover rounded-lg shadow"
         alt="Sự kiện 2"
       />
       <img
-        src="assets/images/event3.jpg"
-        class="rounded-lg shadow"
+        src="assets/images/h4.jpg"
+        class="h-64 w-full object-cover rounded-lg shadow"
         alt="Sự kiện 3"
       />
+    </div>
+  </div>
+  <div class="bg-white rounded-xl shadow px-0 py-8 lg:p-8">
+    <h2 class="text-2xl font-bold text-center mb-8 text-blue-800">
+      Đối tác tiêu biểu
+    </h2>
+    <div class="flex flex-wrap justify-center gap-10 items-center">
+      <img
+        src="assets/images/icon.jpg"
+        class="h-24 md:h-28 object-contain transition duration-300 ease-in-out"
+        alt="Đối tác A"
+      />
+      <img
+        src="assets/images/icon.jpg"
+        class="h-24 md:h-28 object-contain transition duration-300 ease-in-out"
+        alt="Đối tác B"
+      />
+      <img
+        src="assets/images/icon.jpg"
+        class="h-24 md:h-28 object-contain transition duration-300 ease-in-out"
+        alt="Đối tác C"
+      />
+    </div>
+  </div>
+
+  <div
+    class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center bg-white rounded-xl shadow"
+  >
+    <div class="flex flex-col items-center">
+      <div class="text-4xl font-extrabold text-blue-700 mb-2">10+</div>
+      <p class="text-gray-600 font-medium">Năm kinh nghiệm</p>
+    </div>
+    <div class="flex flex-col items-center">
+      <div class="text-4xl font-extrabold text-green-600 mb-2">50+</div>
+      <p class="text-gray-600 font-medium">Dự án hoàn thành</p>
+    </div>
+    <div class="flex flex-col items-center">
+      <div class="text-4xl font-extrabold text-purple-600 mb-2">30+</div>
+      <p class="text-gray-600 font-medium">Khách hàng doanh nghiệp</p>
+    </div>
+    <div class="flex flex-col items-center">
+      <div class="text-4xl font-extrabold text-rose-600 mb-2">100%</div>
+      <p class="text-gray-600 font-medium">Khách hàng hài lòng</p>
     </div>
   </div>
 </section>

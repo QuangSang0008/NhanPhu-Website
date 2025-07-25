@@ -1,20 +1,18 @@
 <div class="container-default py-12 pt-20">
-  <div
-    class="flex flex-col md:flex-row shadow-lg rounded-md overflow-hidden h-[300px]"
-  >
+  <div class="flex flex-col lg:flex-row w-full">
     <!-- Phần trái: nội dung -->
     <div
-      class="bg-gradient-to-r from-blue-700 via-blue-600 to-blue-500 text-white p-8 md:w-2/5 relative h-full clip-diagonal"
+      class="w-full lg:w-2/5 bg-gradient-to-r from-blue-700 via-blue-600 to-blue-500 text-white h-[300px] max-[1024px]:h-[450px] p-4 lg:p-8"
     >
       <h3 class="text-2xl font-semibold mb-4">
         Đăng ký nhận tin: Đừng bỏ lỡ bất kỳ tin tức nào
       </h3>
-      <p class="text-base sm:text-lg leading-relaxed mb-6">
+      <p class="hidden lg:block text-base sm:text-lg leading-relaxed mb-6">
         Bạn sẽ nhận thông tin mới nhất về công nghệ, giải pháp cấp nước, các dự
         án tiêu biểu và sự kiện chuyên ngành mà Nhân Phú đồng hành hoặc tổ chức.
       </p>
       <form
-        class="flex flex-col sm:flex-row gap-4"
+        class="flex flex-col lg:flex-row gap-4"
         (ngSubmit)="subscribeNewsletter()"
         #newsletterForm="ngForm"
       >
@@ -36,7 +34,7 @@
     </div>
 
     <!-- Phần phải: hình ảnh -->
-    <div class="md:w-3/5 h-full">
+    <div class="w-full lg:w-3/5 h-[300px]">
       <img
         src="assets/images/news/newsletter.jpg"
         alt="Newsletter"
@@ -45,100 +43,120 @@
     </div>
   </div>
 </div>
-<footer class="bg-gray-50 text-gray-700 pt-12 pb-16 border-t">
+<footer class="bg-gray-50 text-gray-800 pt-14 pb-20 border-t border-gray-200">
   <div
-    class="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 text-sm"
+    class="max-w-7xl mx-auto px-4 md:px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10 text-sm"
   >
     <!-- Cột 1: Liên hệ -->
     <div>
-      <h3 class="font-semibold mb-3">Liên hệ</h3>
-      <p class="font-bold">KROHNE Messtechnik GmbH</p>
-      <p>Ludwig-Krohne-Str. 5</p>
-      <p>47058 Duisburg</p>
-      <p>Đức</p>
-      <div class="my-4 border-t border-gray-300"></div>
-      <ul class="space-y-2">
-        <li><a href="#" class="hover:underline">Bản tin</a></li>
-        <li><a href="#" class="hover:underline">Liên hệ</a></li>
-        <li><a href="#" class="hover:underline">Ứng dụng</a></li>
-        <li><a href="#" class="hover:underline">Công nghệ</a></li>
-        <li><a href="#" class="hover:underline">Xu hướng</a></li>
-      </ul>
+      <h3 class="font-semibold mb-4 text-blue-700 uppercase tracking-wide">
+        Liên hệ
+      </h3>
+      <p>1/32, đường Cầu Xéo, Tân Quý, Tân Phú, TP.HCM</p>
+      <p class="mt-1">
+        Hotline:
+        <a href="tel:0123456789" class="hover:underline">0123 456 789</a>
+      </p>
+      <p>
+        Email:
+        <a href="mailto:contact@nhanphu.vn" class="hover:underline"
+          >contact@nhanphu.vn</a
+        >
+      </p>
     </div>
 
-    <!-- Cột 2: Các sản phẩm -->
+    <!-- Cột 2: Sản phẩm -->
     <div>
-      <h3 class="font-semibold mb-3">Các sản phẩm</h3>
+      <h3 class="font-semibold mb-4 text-blue-700 uppercase tracking-wide">
+        Sản phẩm
+      </h3>
       <ul class="space-y-2">
-        <li><a href="#" class="hover:underline">Đo lưu lượng</a></li>
-        <li><a href="#" class="hover:underline">Đo mức</a></li>
-        <li><a href="#" class="hover:underline">Đo nhiệt độ</a></li>
-        <li><a href="#" class="hover:underline">Đo áp suất</a></li>
-        <li><a href="#" class="hover:underline">Phân tích quy trình</a></li>
         <li>
-          <a href="#" class="hover:underline">Kiểm soát lưu lượng thông minh</a>
+          <a routerLink="/" class="hover:underline">Đồng hồ đo lưu lượng</a>
         </li>
-        <li><a href="#" class="hover:underline">Phụ kiện</a></li>
-        <li><a href="#" class="hover:underline">Lưu trữ</a></li>
+        <li>
+          <a routerLink="/" class="hover:underline">Thiết bị giám sát nước</a>
+        </li>
+        <li><a routerLink="/" class="hover:underline">SCADA & IoT</a></li>
+        <li><a routerLink="/" class="hover:underline">Thiết bị cảm biến</a></li>
       </ul>
     </div>
 
-    <!-- Cột 3: Các ngành công nghiệp -->
+    <!-- Cột 3: Ngành nghề -->
     <div>
-      <h3 class="font-semibold mb-3">Các ngành công nghiệp</h3>
+      <h3 class="font-semibold mb-4 text-blue-700 uppercase tracking-wide">
+        Ngành nghề
+      </h3>
       <ul class="space-y-2">
-        <li><a href="#" class="hover:underline">Hóa chất</a></li>
-        <li><a href="#" class="hover:underline">Thực phẩm & Đồ uống</a></li>
-        <li><a href="#" class="hover:underline">Khoa học sự sống</a></li>
-        <li><a href="#" class="hover:underline">Hàng hải</a></li>
-        <li><a href="#" class="hover:underline">Kim loại & Khai thác</a></li>
-        <li><a href="#" class="hover:underline">Hạt nhân</a></li>
-        <li><a href="#" class="hover:underline">Dầu khí</a></li>
-        <li><a href="#" class="hover:underline">Bột giấy và Giấy</a></li>
-        <li><a href="#" class="hover:underline">Nước & Nước thải</a></li>
-        <li><a href="#" class="hover:underline">Năng lượng bền vững</a></li>
-        <li><a href="#" class="hover:underline">Sản xuất điện</a></li>
+        <li><a routerLink="/" class="hover:underline">Cấp thoát nước</a></li>
+        <li><a routerLink="/" class="hover:underline">Điện lực</a></li>
+        <li><a routerLink="/" class="hover:underline">Dầu khí</a></li>
+        <li><a routerLink="/" class="hover:underline">Môi trường</a></li>
+        <li>
+          <a routerLink="/" class="hover:underline">Sản xuất công nghiệp</a>
+        </li>
       </ul>
     </div>
 
     <!-- Cột 4: Giải pháp -->
     <div>
-      <h3 class="font-semibold mb-3">Giải pháp</h3>
+      <h3 class="font-semibold mb-4 text-blue-700 uppercase tracking-wide">
+        Giải pháp
+      </h3>
       <ul class="space-y-2">
-        <li><a href="#" class="hover:underline">Giải pháp đo lưu lượng</a></li>
-        <li><a href="#" class="hover:underline">Giải pháp giám sát</a></li>
         <li>
-          <a href="#" class="hover:underline">Đo lường không dây và từ xa</a>
+          <a routerLink="/solution" class="hover:underline"
+            >Giải pháp Scada tự động hóa</a
+          >
+        </li>
+        <li>
+          <a routerLink="/solution" class="hover:underline">Giải pháp Iot</a>
+        </li>
+        <li>
+          <a routerLink="/solution" class="hover:underline">Hỗ trợ ký thuật</a>
         </li>
       </ul>
     </div>
 
     <!-- Cột 5: Dịch vụ -->
     <div>
-      <h3 class="font-semibold mb-3">Dịch vụ</h3>
+      <h3 class="font-semibold mb-4 text-blue-700 uppercase tracking-wide">
+        Dịch vụ
+      </h3>
       <ul class="space-y-2">
-        <li><a href="#" class="hover:underline">Dịch vụ cốt lõi</a></li>
-        <li><a href="#" class="hover:underline">Hỗ trợ & Đào tạo</a></li>
-        <li><a href="#" class="hover:underline">Phụ tùng & Sửa chữa</a></li>
-        <li><a href="#" class="hover:underline">Tùy chọn cao cấp</a></li>
+        <li>
+          <a routerLink="/contact" class="hover:underline">Tư vấn & Thiết kế</a>
+        </li>
+        <li>
+          <a routerLink="/contact" class="hover:underline"
+            >Lắp đặt & Vận hành</a
+          >
+        </li>
+        <li>
+          <a routerLink="/contact" class="hover:underline">Bảo trì định kỳ</a>
+        </li>
+        <li>
+          <a routerLink="/contact" class="hover:underline">Đào tạo & Hỗ trợ</a>
+        </li>
       </ul>
     </div>
 
     <!-- Cột 6: Công ty -->
     <div>
-      <h3 class="font-semibold mb-3">Công ty</h3>
+      <h3 class="font-semibold mb-4 text-blue-700 uppercase tracking-wide">
+        Công ty
+      </h3>
       <ul class="space-y-2">
-        <li><a href="#" class="hover:underline">Tập đoàn KROHNE</a></li>
-        <li><a href="#" class="hover:underline">Sự nghiệp</a></li>
-        <li><a href="#" class="hover:underline">Sự kiện</a></li>
-        <li><a href="#" class="hover:underline">Tin tức</a></li>
-        <li>
-          <a href="#" class="hover:underline">Tính bền vững của chúng tôi</a>
-        </li>
+        <li><a routerLink="/" class="hover:underline">Trang chủ</a></li>
+        <li><a routerLink="/about" class="hover:underline">Giới thiệu</a></li>
+        <li><a routerLink="/solution" class="hover:underline">Giải pháp</a></li>
+        <li><a routerLink="/contact" class="hover:underline">Liên hệ</a></li>
+        <li><a routerLink="/news" class="hover:underline">Tin tức</a></li>
       </ul>
     </div>
   </div>
 </footer>
+
 <footer class="bg-gray-800 text-white p-4 text-center">
   © 2025 Nhan Phu Website. All rights reserved.
 </footer>

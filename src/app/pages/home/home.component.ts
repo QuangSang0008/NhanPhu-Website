@@ -23,37 +23,37 @@ import { SolutionCardComponent } from '../../components/solutionCard/solutionCar
 export class HomeComponent implements OnInit {
   slides = [
     {
-      title: 'Giải pháp đo mức dễ dàng và tiết kiệm chi phí cho mọi lĩnh vực',
+      title: 'Giải pháp đo mức tối ưu',
       description:
-        'Dòng sản phẩm OPTIWAVE 15XX là bộ phát mức radar nhỏ gọn, lý tưởng cho các ứng dụng trong bể chứa, silo và bồn chứa ở nhiều ngành công nghiệp khác nhau. Thiết kế chắc chắn, dễ lắp đặt và không yêu cầu bảo trì thường xuyên.',
+        'Dòng OPTIWAVE 15XX là bộ phát radar nhỏ gọn, lý tưởng cho bể chứa và silo. Thiết kế chắc chắn, dễ lắp đặt và không cần bảo trì.',
       image: 'assets/images/slider/h1.jpg',
       background: 'linear-gradient(to right, #0f172a, #1e3a8a)',
     },
     {
-      title: 'Công nghệ tiên tiến mang đến hiệu suất vượt trội',
+      title: 'Hiệu suất vượt trội, công nghệ mới',
       description:
-        'Chúng tôi cung cấp các giải pháp đo mức bằng radar và siêu âm hiện đại, giúp doanh nghiệp nâng cao độ chính xác, giảm thiểu sai số và tối ưu quy trình sản xuất với độ tin cậy cao.',
+        'Cung cấp giải pháp đo mức bằng radar và siêu âm hiện đại, nâng cao độ chính xác, giảm sai số và tối ưu quy trình sản xuất.',
       image: 'assets/images/slider/h2.jpg',
       background: 'linear-gradient(to right, #14532d, #22c55e)',
     },
     {
-      title: 'Hơn 10 năm đồng hành cùng doanh nghiệp toàn cầu',
+      title: '10 năm đồng hành doanh nghiệp',
       description:
-        'Với hơn 10 năm kinh nghiệm trong lĩnh vực đo lường và điều khiển quy trình, chúng tôi đã đồng hành cùng hàng ngàn doanh nghiệp toàn cầu để mang lại sự ổn định, chính xác và hiệu quả vận hành lâu dài.',
+        'Với hơn 10 năm kinh nghiệm, chúng tôi đồng hành cùng doanh nghiệp toàn cầu mang lại sự ổn định và hiệu quả vận hành.',
       image: 'assets/images/slider/h3.jpg',
       background: 'linear-gradient(to right, #581c87, #9333ea)',
     },
     {
-      title: 'Thiết bị chất lượng cao – Giải pháp phù hợp',
+      title: 'Thiết bị chất lượng, giải pháp hay',
       description:
-        'Chúng tôi cam kết mang đến các thiết bị chất lượng cao, dịch vụ hỗ trợ tận tâm và giải pháp kỹ thuật phù hợp với từng nhu cầu thực tế của doanh nghiệp.',
+        'Cam kết mang đến thiết bị chất lượng cao, hỗ trợ tận tâm và giải pháp kỹ thuật phù hợp với nhu cầu thực tế.',
       image: 'assets/images/slider/h4.jpg',
       background: 'linear-gradient(to right, #9f1239, #f43f5e)',
     },
     {
-      title: 'Đối tác tin cậy trong hành trình chuyển đổi số',
+      title: 'Đối tác chuyển đổi số uy tín',
       description:
-        'Hàng ngàn đối tác toàn cầu đã lựa chọn chúng tôi làm người đồng hành đáng tin cậy trong hành trình chuyển đổi số và tối ưu quy trình sản xuất.',
+        'Hàng ngàn đối tác toàn cầu tin tưởng lựa chọn chúng tôi trong hành trình chuyển đổi số và tối ưu sản xuất.',
       image: 'assets/images/slider/h5.jpg',
       background: 'linear-gradient(to right, #7c3aed, #4f46e5)',
     },

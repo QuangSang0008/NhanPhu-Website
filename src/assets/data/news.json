@@ -3,63 +3,64 @@
     "id": 1,
     "title": "Ra mắt cảm biến radar 80GHz thế hệ mới",
     "summary": "Chúng tôi chính thức giới thiệu dòng cảm biến radar 80GHz với khả năng đo mức chính xác cao, ổn định và dễ dàng tích hợp vào hệ thống SCADA hiện đại.",
-    "image": "assets/images/news/news1.jpg",
+    "image": "assets/images/news/cambienrada.jpg",
     "content": "<p>Ngày 15/07/2025, Công ty TNHH Thiết Bị Công Nghiệp Nhân Phú chính thức ra mắt dòng sản phẩm cảm biến radar 80GHz mới nhất – giải pháp đột phá trong lĩnh vực đo mức chất lỏng và rắn.</p><p>Dòng cảm biến này ứng dụng công nghệ radar sóng liên tục tần số cao (FMCW) giúp đo mức với độ chính xác ±1mm, không bị ảnh hưởng bởi bụi, hơi nước, hay bọt nổi – những yếu tố thường gây nhiễu trong các môi trường công nghiệp truyền thống.</p><p>Sản phẩm còn nổi bật với khả năng:</p><ul><li>Giao tiếp qua Bluetooth, HART, Modbus.</li><li>Tương thích hệ thống SCADA, DCS phổ biến.</li><li>Lắp đặt dễ dàng, hiệu chuẩn tự động.</li></ul><p>Chúng tôi tin rằng đây sẽ là lựa chọn hàng đầu cho ngành nước, thực phẩm, dầu khí, hóa chất và các ngành cần giám sát mức chính xác trong điều kiện khắc nghiệt.</p><p><strong>Thông tin chi tiết:</strong></p><p>- Mã sản phẩm: NP-R80<br>- Bảo hành: 24 tháng<br>- Giao hàng: Trong vòng 5 ngày làm việc</p>"
   },
   {
     "id": 2,
-    "title": "Khai trương trung tâm bảo hành tại miền Trung",
-    "summary": "Trung tâm bảo hành và hỗ trợ kỹ thuật mới tại Đà Nẵng nhằm phục vụ khách hàng miền Trung nhanh chóng và thuận tiện hơn.",
-    "image": "assets/images/news/news2.jpg",
-    "content": "<p>Nhằm nâng cao chất lượng dịch vụ và hỗ trợ kỹ thuật tại khu vực miền Trung, ngày 01/06/2025, Công ty Nhân Phú đã chính thức đưa vào hoạt động Trung tâm Bảo hành và Hỗ trợ kỹ thuật tại Đà Nẵng.</p><p>Trung tâm có chức năng:</p><ul><li>Tiếp nhận và xử lý bảo hành các sản phẩm đo mức, đo lưu lượng, van điều khiển.</li><li>Cung cấp linh kiện chính hãng, dịch vụ kiểm tra định kỳ, hiệu chuẩn.</li><li>Hỗ trợ tư vấn kỹ thuật trực tiếp và đào tạo sử dụng thiết bị cho khách hàng.</li></ul><p>Ông Nguyễn Văn A – Giám đốc dịch vụ kỹ thuật chia sẻ: <em>“Việc đưa trung tâm vào hoạt động thể hiện cam kết lâu dài của chúng tôi với khách hàng tại khu vực miền Trung và Tây Nguyên.”</em></p><p>Địa chỉ trung tâm: 152 Lê Đình Lý, Hải Châu, TP. Đà Nẵng<br>Thời gian làm việc: Thứ 2 - Thứ 6, từ 08:00 đến 17:30</p>"
+    "title": "Lắp đặt hệ thống giám sát từ xa cho nhà máy xử lý nước tại Bình Chánh",
+    "summary": "Giải pháp SCADA kết hợp cảm biến thông minh giúp theo dõi chất lượng nước liên tục, cảnh báo sớm và tăng hiệu quả vận hành tại Bình Chánh.",
+    "image": "assets/images/news/binhchanh.jpg",
+    "content": "<p>Tháng 06/2025, Công ty Nhân Phú đã hoàn tất việc triển khai hệ thống giám sát từ xa cho Nhà máy xử lý nước Bình Chánh.</p><p>Giải pháp bao gồm:</p><ul><li>Hệ thống SCADA trung tâm giám sát chất lượng nước 24/7.</li><li>Cảm biến đo mức, lưu lượng, độ pH và độ đục được tích hợp đồng bộ.</li><li>Tự động ghi nhận dữ liệu, cảnh báo rò rỉ hoặc sai lệch chất lượng theo thời gian thực.</li></ul><p>Việc ứng dụng hệ thống này giúp đơn vị vận hành tại Bình Chánh giảm thiểu chi phí nhân lực, nâng cao độ tin cậy và đảm bảo an toàn nguồn nước cho hàng nghìn hộ dân khu vực phía Tây TP.HCM.</p><p>Đại diện nhà máy đánh giá: <em>“Giải pháp SCADA của Nhân Phú mang lại bước tiến vượt bậc trong quản lý và vận hành hệ thống nước sạch hiện đại.”</em></p>"
   },
+
   {
     "id": 3,
-    "title": "Tham gia hội chợ triển lãm VietWater 2025",
-    "summary": "Công ty Nhân Phú trưng bày các giải pháp SCADA, đo mức, đo lưu lượng và tự động hóa tại gian hàng A3, VietWater 2025.",
-    "image": "assets/images/news/news3.jpg",
-    "content": "<p>VietWater 2025 – Triển lãm quốc tế ngành cấp thoát nước và xử lý môi trường – sẽ diễn ra từ ngày 06 đến 08/11/2025 tại Trung tâm Hội chợ Triển lãm SECC, TP.HCM.</p><p>Tại sự kiện này, Nhân Phú sẽ giới thiệu:</p><ul><li>Hệ thống SCADA giám sát trạm bơm, nhà máy xử lý nước.</li><li>Cảm biến đo mức radar 80GHz, siêu âm, thủy tĩnh.</li><li>Thiết bị đo lưu lượng từ tính, điện từ, Doppler.</li><li>Giải pháp IoT ngành nước – giám sát từ xa, cảnh báo tức thì qua ứng dụng di động.</li></ul><p>Chúng tôi rất hân hạnh đón tiếp Quý khách đến tham quan và trải nghiệm tại gian hàng A3.</p><p><strong>Thời gian:</strong> 06 – 08/11/2025<br><strong>Địa điểm:</strong> SECC – 799 Nguyễn Văn Linh, Quận 7, TP. HCM</p>"
+    "title": "Ra mắt trung tâm hỗ trợ kỹ thuật 24/7 tại TP.HCM",
+    "summary": "Trung tâm mới của Nhân Phú hỗ trợ kỹ thuật, bảo trì và tư vấn giải pháp SCADA, IoT, cảm biến suốt 24 giờ mỗi ngày – phục vụ khách hàng nhanh chóng, kịp thời.",
+    "image": "assets/images/news/spkythuat.jpg",
+    "content": "<p>Ngày 15/07/2025, Công ty Nhân Phú chính thức đưa vào hoạt động Trung tâm Hỗ trợ Kỹ thuật 24/7 tại trụ sở chính TP.HCM. Đây là trung tâm đầu tiên tại Việt Nam cung cấp hỗ trợ liên tục trong lĩnh vực đo lường, SCADA và tự động hóa công nghiệp.</p><p>Trung tâm sẽ tiếp nhận yêu cầu hỗ trợ từ khách hàng trên toàn quốc thông qua các kênh: hotline, email và nền tảng hỗ trợ trực tuyến. Với đội ngũ kỹ sư nhiều kinh nghiệm, trung tâm có thể xử lý sự cố từ xa, điều phối bảo trì hoặc tư vấn nâng cấp hệ thống trong thời gian ngắn nhất.</p><p>Ông Lê Minh Tuấn – Trưởng bộ phận Kỹ thuật chia sẻ: <em>“Nhiều nhà máy vận hành 24/24, vì vậy hệ thống SCADA và cảm biến phải luôn ổn định. Chúng tôi đảm bảo hỗ trợ kỹ thuật ngay khi cần, giúp doanh nghiệp duy trì hoạt động liên tục.”</em></p><p>Trung tâm này là một phần trong chiến lược tăng cường dịch vụ hậu mãi và xây dựng niềm tin dài hạn với khách hàng của Nhân Phú.</p>"
   },
   {
     "id": 4,
-    "title": "Cập nhật phần mềm SCADA phiên bản 5.0",
-    "summary": "Phiên bản SCADA 5.0 mới mang đến giao diện trực quan hơn, hỗ trợ mobile và tăng cường bảo mật.",
-    "image": "assets/images/news/news4.jpg",
-    "content": "<p>Ngày 10/07/2025, Nhân Phú chính thức phát hành phiên bản SCADA 5.0 dành cho các hệ thống giám sát tự động hóa.</p><p>Phiên bản này bao gồm các điểm mới nổi bật:</p><ul><li>Giao diện người dùng hiện đại, thân thiện với thiết bị di động.</li><li>Thêm tính năng cảnh báo qua email và SMS thời gian thực.</li><li>Bảo mật hai lớp và phân quyền người dùng chi tiết.</li></ul><p>Khách hàng có thể nâng cấp miễn phí nếu đang sử dụng phiên bản 4.x.</p>"
+    "title": "Triển khai thành công hệ thống cảnh báo rò rỉ tại miền Trung",
+    "summary": "Giải pháp cảm biến cảnh báo sớm giúp giảm thiểu thất thoát nước và bảo vệ an toàn hệ thống đường ống.",
+    "image": "assets/images/news/rori.jpg",
+    "content": "<p>Trong tháng 07/2025, Công ty Nhân Phú đã triển khai thành công hệ thống cảnh báo rò rỉ nước tự động tại một trong những tuyến ống chính cấp nước tại khu vực miền Trung. Dự án được thực hiện trên đoạn ống dài hơn 15km, nơi thường xuyên xảy ra tình trạng rò rỉ và thất thoát nước gây thiệt hại lớn cho đơn vị vận hành.</p><p>Hệ thống ứng dụng công nghệ cảm biến hiện đại bao gồm cảm biến lưu lượng, áp suất và rung động, kết nối trực tiếp với nền tảng SCADA để thu thập và xử lý dữ liệu theo thời gian thực. Khi có dấu hiệu bất thường về áp suất hoặc lưu lượng, hệ thống sẽ tự động gửi cảnh báo tức thời đến trung tâm điều khiển và người phụ trách kỹ thuật qua email hoặc tin nhắn SMS.</p><p>Đại diện đơn vị cấp nước địa phương cho biết: <em>“Việc áp dụng hệ thống cảnh báo sớm không chỉ giúp chúng tôi chủ động xử lý sự cố mà còn góp phần bảo vệ tài nguyên nước và tăng tuổi thọ hệ thống đường ống.”</em></p><p>Giải pháp của Nhân Phú được đánh giá cao về tính chính xác, khả năng mở rộng và hiệu quả vận hành, là bước tiến quan trọng trong lộ trình số hóa ngành cấp nước tại Việt Nam.</p>"
   },
   {
     "id": 5,
     "title": "Hội thảo kỹ thuật về đo mức siêu âm tại Hà Nội",
     "summary": "Chương trình đào tạo và hội thảo kỹ thuật dành cho các kỹ sư nhà máy khu vực phía Bắc.",
-    "image": "assets/images/news/news5.jpg",
+    "image": "assets/images/news/cambien.jpg",
     "content": "<p>Ngày 22/06/2025, Nhân Phú tổ chức hội thảo chuyên đề 'Ứng dụng cảm biến siêu âm trong đo mức công nghiệp' tại Hà Nội.</p><p>Hội thảo bao gồm:</p><ul><li>Trình bày nguyên lý và cấu hình thiết bị đo mức siêu âm.</li><li>Chia sẻ kinh nghiệm lắp đặt và xử lý nhiễu tín hiệu.</li><li>Thực hành cấu hình tại chỗ trên thiết bị thực tế.</li></ul><p>Địa điểm: Khách sạn Melia, Hà Nội. Đăng ký trước ngày 18/06/2025 để nhận ưu đãi tài liệu.</p>"
   },
   {
     "id": 6,
     "title": "Giới thiệu thiết bị đo lưu lượng dạng Clamp-on",
     "summary": "Thiết bị mới sử dụng sóng siêu âm dạng kẹp ngoài, không cần cắt ống – phù hợp cho hệ thống đang vận hành.",
-    "image": "assets/images/news/news6.jpg",
+    "image": "assets/images/news/clamp.jpg",
     "content": "<p>Dòng lưu lượng kế Clamp-on mới cho phép đo mà không cần can thiệp vào hệ thống đường ống, đặc biệt phù hợp với các ứng dụng nước sạch, nước thải và công nghiệp thực phẩm.</p><p>Ưu điểm nổi bật:</p><ul><li>Lắp đặt nhanh chỉ trong 15 phút.</li><li>Không gây gián đoạn quy trình sản xuất.</li><li>Độ chính xác ±1.5% với ống đường kính từ DN25 đến DN1000.</li></ul><p>Sản phẩm hiện đã có mặt tại tất cả các chi nhánh Nhân Phú toàn quốc.</p>"
   },
   {
     "id": 7,
     "title": "Tuyển dụng kỹ sư tự động hóa tháng 7/2025",
     "summary": "Công ty mở rộng đội ngũ kỹ thuật tại các chi nhánh: HCM, Hà Nội, Đà Nẵng – ưu tiên ứng viên có kinh nghiệm về SCADA, PLC.",
-    "image": "assets/images/news/news7.jpg",
+    "image": "assets/images/news/tuyendung.jpg",
     "content": "<p>Để phục vụ nhu cầu mở rộng thị trường, Công ty Nhân Phú tuyển dụng các vị trí:</p><ul><li>Kỹ sư Tự động hóa</li><li>Kỹ sư Ứng dụng SCADA</li><li>Nhân viên Hỗ trợ kỹ thuật hiện trường</li></ul><p>Yêu cầu:</p><ul><li>Tốt nghiệp ĐH chuyên ngành Kỹ thuật Điều khiển – Tự động hóa, Cơ điện tử, Điện – Điện tử.</li><li>Kinh nghiệm làm việc với PLC Siemens, SCADA WinCC là lợi thế.</li><li>Chủ động, linh hoạt, có thể đi công tác.</li></ul><p>Ứng tuyển qua email: hr@nhanphu.com trước ngày 25/07/2025.</p>"
   },
   {
     "id": 8,
     "title": "Cảnh báo hàng giả cảm biến siêu âm trên thị trường",
     "summary": "Chúng tôi phát hiện các thiết bị giả mạo nhãn hiệu Nhân Phú – quý khách cần kiểm tra kỹ nguồn gốc xuất xứ.",
-    "image": "assets/images/news/news8.jpg",
+    "image": "assets/images/news/hanggia.jpg",
     "content": "<p>Thời gian gần đây, thị trường xuất hiện một số cảm biến siêu âm mạo danh thương hiệu Nhân Phú, gây ảnh hưởng nghiêm trọng đến uy tín và an toàn sử dụng của khách hàng.</p><p>Các dấu hiệu nhận biết hàng giả:</p><ul><li>Tem nhãn mờ, sai mã sản phẩm.</li><li>Không có phiếu bảo hành chính hãng.</li><li>Không có mã QR xác thực.</li></ul><p>Để đảm bảo quyền lợi, quý khách chỉ mua hàng tại đại lý ủy quyền hoặc liên hệ hotline 1900-2025 để xác minh.</p>"
   },
   {
     "id": 9,
-    "title": "Tài trợ thiết bị cho Trường ĐH Bách Khoa TP.HCM",
-    "summary": "Chương trình hợp tác đào tạo kỹ thuật tự động hóa cùng các trường đại học – thúc đẩy phát triển nguồn nhân lực chất lượng cao.",
-    "image": "assets/images/news/news9.jpg",
-    "content": "<p>Ngày 05/07/2025, Nhân Phú trao tặng 10 bộ cảm biến radar và lưu lượng kế cho khoa Cơ điện – Tự động hóa, Trường Đại học Bách Khoa TP.HCM.</p><p>Đại diện trường chia sẻ: <em>“Thiết bị tài trợ sẽ giúp sinh viên tiếp cận với công nghệ thực tế, phục vụ nghiên cứu và thực hành hiệu quả hơn.”</em></p><p>Đây là hoạt động nằm trong chuỗi hợp tác giáo dục giữa Nhân Phú và các trường kỹ thuật trên toàn quốc.</p>"
+    "title": "Nhân Phú triển khai hệ thống giám sát thông minh tại Đồng Nai",
+    "summary": "Ứng dụng công nghệ IoT và SCADA giúp nâng cao hiệu quả quản lý nước tại khu công nghiệp.",
+    "image": "assets/images/news/trambom.jpg",
+    "content": "<p>Tháng 07/2025, Nhân Phú chính thức đưa vào vận hành hệ thống giám sát thông minh cho trạm bơm tại khu công nghiệp Amata, Đồng Nai.</p><p>Hệ thống sử dụng cảm biến đo mức, lưu lượng kết hợp công nghệ SCADA và IoT để giám sát dữ liệu theo thời gian thực. Từ đó giúp đơn vị vận hành phát hiện sớm sự cố và tối ưu quá trình cấp nước.</p><p>Đây là một trong những dự án tiêu biểu cho việc ứng dụng chuyển đổi số trong ngành cấp thoát nước.</p>"
   }
 ]

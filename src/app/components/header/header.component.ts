@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, HostListener } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { TranslateService, TranslateModule } from '@ngx-translate/core';
 import { NgIf } from '@angular/common';
@@ -15,6 +15,7 @@ export class HeaderComponent {
   private translate = inject(TranslateService);
   currentLang = this.translate.currentLang || 'vi';
   dropdownOpen = false;
+  mobileMenuOpen = false;
 
   setLang(lang: string) {
     this.translate.use(lang);
@@ -24,5 +25,12 @@ export class HeaderComponent {
 
   toggleDropdown() {
     this.dropdownOpen = !this.dropdownOpen;
+  }
+  toggleMobileMenu() {
+    this.mobileMenuOpen = !this.mobileMenuOpen;
+  }
+  @HostListener('document:click')
+  closeDropdownOnClickOutside() {
+    this.dropdownOpen = false;
   }
 }
