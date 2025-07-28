@@ -14,7 +14,10 @@ import { filter } from 'rxjs/operators';
 })
 export class AppComponent {
   constructor(private translate: TranslateService, private router: Router) {
+    translate.addLangs(['vi', 'en']);
+    const savedLang = localStorage.getItem('lang') || 'vi';
     translate.setDefaultLang('vi');
+    translate.use(savedLang);
     this.router.events
       .pipe(filter((event) => event instanceof NavigationEnd))
       .subscribe(() => {
@@ -24,5 +27,6 @@ export class AppComponent {
 
   setLang(lang: string) {
     this.translate.use(lang);
+    localStorage.setItem('lang', lang);
   }
 }

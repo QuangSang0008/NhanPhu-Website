@@ -1,15 +1,13 @@
 <div class="container-default py-12 pt-20">
   <div class="flex flex-col lg:flex-row w-full">
-    <!-- Phần trái: nội dung -->
     <div
       class="w-full lg:w-2/5 bg-gradient-to-r from-blue-700 via-blue-600 to-blue-500 text-white h-[300px] max-[1024px]:h-[450px] p-4 lg:p-8"
     >
       <h3 class="text-2xl font-semibold mb-4">
-        Đăng ký nhận tin: Đừng bỏ lỡ bất kỳ tin tức nào
+        {{ "newsletter.title" | translate }}
       </h3>
       <p class="hidden lg:block text-base sm:text-lg leading-relaxed mb-6">
-        Bạn sẽ nhận thông tin mới nhất về công nghệ, giải pháp cấp nước, các dự
-        án tiêu biểu và sự kiện chuyên ngành mà Nhân Phú đồng hành hoặc tổ chức.
+        {{ "newsletter.description" | translate }}
       </p>
       <form
         class="flex flex-col lg:flex-row gap-4"
@@ -28,12 +26,11 @@
           type="submit"
           class="flex items-center gap-2 bg-white text-blue-700 font-semibold px-4 py-2 rounded hover:bg-gray-100 transition"
         >
-          <span class="text-xl">➤</span> Đăng ký nhận tin
+          <span class="text-xl">➤</span> {{ "newsletter.submit" | translate }}
         </button>
       </form>
     </div>
 
-    <!-- Phần phải: hình ảnh -->
     <div class="w-full lg:w-3/5 h-[300px]">
       <img
         src="assets/images/news/newsletter.jpg"
@@ -47,116 +44,170 @@
   <div
     class="max-w-7xl mx-auto px-4 md:px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10 text-sm"
   >
-    <!-- Cột 1: Liên hệ -->
     <div>
       <h3 class="font-semibold mb-4 text-blue-700 uppercase tracking-wide">
-        Liên hệ
+        {{ "footer.contact" | translate }}
       </h3>
-      <p>1/32, đường Cầu Xéo, Tân Quý, Tân Phú, TP.HCM</p>
+      <p>{{ "footer.address" | translate }}</p>
       <p class="mt-1">
-        Hotline:
+        {{ "footer.hotline" | translate }}:
         <a href="tel:0123456789" class="hover:underline">0123 456 789</a>
       </p>
       <p>
-        Email:
+        {{ "footer.email" | translate }}:
         <a href="mailto:contact@nhanphu.vn" class="hover:underline"
           >contact@nhanphu.vn</a
         >
       </p>
     </div>
 
-    <!-- Cột 2: Sản phẩm -->
     <div>
       <h3 class="font-semibold mb-4 text-blue-700 uppercase tracking-wide">
-        Sản phẩm
+        {{ "footer.product" | translate }}
       </h3>
       <ul class="space-y-2">
         <li>
-          <a routerLink="/" class="hover:underline">Đồng hồ đo lưu lượng</a>
+          <a routerLink="/" class="hover:underline">{{
+            "footer.product1" | translate
+          }}</a>
         </li>
         <li>
-          <a routerLink="/" class="hover:underline">Thiết bị giám sát nước</a>
+          <a routerLink="/" class="hover:underline">{{
+            "footer.product2" | translate
+          }}</a>
         </li>
-        <li><a routerLink="/" class="hover:underline">SCADA & IoT</a></li>
-        <li><a routerLink="/" class="hover:underline">Thiết bị cảm biến</a></li>
+        <li>
+          <a routerLink="/" class="hover:underline">{{
+            "footer.product3" | translate
+          }}</a>
+        </li>
+        <li>
+          <a routerLink="/" class="hover:underline">{{
+            "footer.product4" | translate
+          }}</a>
+        </li>
       </ul>
     </div>
 
-    <!-- Cột 3: Ngành nghề -->
     <div>
       <h3 class="font-semibold mb-4 text-blue-700 uppercase tracking-wide">
         Ngành nghề
       </h3>
       <ul class="space-y-2">
-        <li><a routerLink="/" class="hover:underline">Cấp thoát nước</a></li>
-        <li><a routerLink="/" class="hover:underline">Điện lực</a></li>
-        <li><a routerLink="/" class="hover:underline">Dầu khí</a></li>
-        <li><a routerLink="/" class="hover:underline">Môi trường</a></li>
         <li>
-          <a routerLink="/" class="hover:underline">Sản xuất công nghiệp</a>
+          <a routerLink="/" class="hover:underline">{{
+            "footer.industry1" | translate
+          }}</a>
+        </li>
+        <li>
+          <a routerLink="/" class="hover:underline">{{
+            "footer.industry2" | translate
+          }}</a>
+        </li>
+        <li>
+          <a routerLink="/" class="hover:underline">{{
+            "footer.industry3" | translate
+          }}</a>
+        </li>
+        <li>
+          <a routerLink="/" class="hover:underline">{{
+            "footer.industry4" | translate
+          }}</a>
+        </li>
+        <li>
+          <a routerLink="/" class="hover:underline">{{
+            "footer.industry5" | translate
+          }}</a>
         </li>
       </ul>
     </div>
 
-    <!-- Cột 4: Giải pháp -->
     <div>
       <h3 class="font-semibold mb-4 text-blue-700 uppercase tracking-wide">
-        Giải pháp
+        {{ "footer.solution" | translate }}
       </h3>
       <ul class="space-y-2">
         <li>
-          <a routerLink="/solution" class="hover:underline"
-            >Giải pháp Scada tự động hóa</a
+          <a routerLink="/solution" class="hover:underline">{{
+            "footer.solution1" | translate
+          }}</a>
+        </li>
+        <li>
+          <a routerLink="/solution" class="hover:underline">{{
+            "footer.solution2" | translate
+          }}</a>
+        </li>
+        <li>
+          <a routerLink="/solution" class="hover:underline">{{
+            "footer.solution3" | translate
+          }}</a>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="font-semibold mb-4 text-blue-700 uppercase tracking-wide">
+        {{ "footer.service" | translate }}
+      </h3>
+      <ul class="space-y-2">
+        <li>
+          <a routerLink="/contact" class="hover:underline">{{
+            "footer.service1" | translate
+          }}</a>
+        </li>
+        <li>
+          <a routerLink="/contact" class="hover:underline">{{
+            "footer.service2" | translate
+          }}</a>
+        </li>
+        <li>
+          <a routerLink="/contact" class="hover:underline">{{
+            "footer.service3" | translate
+          }}</a>
+        </li>
+        <li>
+          <a routerLink="/contact" class="hover:underline">{{
+            "footer.service4" | translate
+          }}</a>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="font-semibold mb-4 text-blue-700 uppercase tracking-wide">
+        {{ "footer.company" | translate }}
+      </h3>
+      <ul class="space-y-2">
+        <li>
+          <a routerLink="/" class="hover:underline">
+            {{ "footer.company1" | translate }}</a
           >
         </li>
         <li>
-          <a routerLink="/solution" class="hover:underline">Giải pháp Iot</a>
-        </li>
-        <li>
-          <a routerLink="/solution" class="hover:underline">Hỗ trợ ký thuật</a>
-        </li>
-      </ul>
-    </div>
-
-    <!-- Cột 5: Dịch vụ -->
-    <div>
-      <h3 class="font-semibold mb-4 text-blue-700 uppercase tracking-wide">
-        Dịch vụ
-      </h3>
-      <ul class="space-y-2">
-        <li>
-          <a routerLink="/contact" class="hover:underline">Tư vấn & Thiết kế</a>
-        </li>
-        <li>
-          <a routerLink="/contact" class="hover:underline"
-            >Lắp đặt & Vận hành</a
+          <a routerLink="/about" class="hover:underline">
+            {{ "footer.company2" | translate }}</a
           >
         </li>
         <li>
-          <a routerLink="/contact" class="hover:underline">Bảo trì định kỳ</a>
+          <a routerLink="/solution" class="hover:underline">
+            {{ "footer.company3" | translate }}</a
+          >
         </li>
         <li>
-          <a routerLink="/contact" class="hover:underline">Đào tạo & Hỗ trợ</a>
+          <a routerLink="/contact" class="hover:underline">
+            {{ "footer.company4" | translate }}</a
+          >
         </li>
-      </ul>
-    </div>
-
-    <!-- Cột 6: Công ty -->
-    <div>
-      <h3 class="font-semibold mb-4 text-blue-700 uppercase tracking-wide">
-        Công ty
-      </h3>
-      <ul class="space-y-2">
-        <li><a routerLink="/" class="hover:underline">Trang chủ</a></li>
-        <li><a routerLink="/about" class="hover:underline">Giới thiệu</a></li>
-        <li><a routerLink="/solution" class="hover:underline">Giải pháp</a></li>
-        <li><a routerLink="/contact" class="hover:underline">Liên hệ</a></li>
-        <li><a routerLink="/news" class="hover:underline">Tin tức</a></li>
+        <li>
+          <a routerLink="/news" class="hover:underline">
+            {{ "footer.company5" | translate }}</a
+          >
+        </li>
       </ul>
     </div>
   </div>
 </footer>
 
 <footer class="bg-gray-800 text-white p-4 text-center">
-  © 2025 Nhan Phu Website. All rights reserved.
+  {{ "footer.copyright" | translate }}
 </footer>

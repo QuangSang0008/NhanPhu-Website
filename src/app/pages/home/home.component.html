@@ -1,7 +1,7 @@
 <app-slider [slides]="slides" [autoSlide]="true"></app-slider>
 
 <section class="container-default news-section py-6">
-  <h2 class="section-title">TIN TỨC MỚI NHẤT</h2>
+  <h2 class="section-title">{{ "home.latest_news" | translate }}</h2>
   <div class="news-grid">
     <newscard
       *ngFor="let item of newsList"
@@ -14,32 +14,25 @@
 
 <section class="container-default about-section py-16 bg-gray-50">
   <div class="grid grid-cols-1 lg:grid-cols-9 gap-12 items-center">
-    <!-- Nội dung bên trái -->
     <div class="lg:col-span-4">
       <h2
         class="text-3xl font-bold text-green-700 mb-6 uppercase tracking-wide"
       >
-        Về chúng tôi
+        {{ "home.about_us" | translate }}
       </h2>
       <p class="text-gray-700 text-lg leading-relaxed mb-4">
-        Chúng tôi chuyên cung cấp các giải pháp SCADA hiện đại và thiết bị đo
-        lường công nghiệp thông minh. Với kinh nghiệm thực tiễn và đội ngũ kỹ sư
-        giàu chuyên môn, chúng tôi giúp doanh nghiệp tối ưu hóa vận hành và thúc
-        đẩy chuyển đổi số hiệu quả.
+        {{ "home.about_us_desc1" | translate }}
       </p>
       <p class="text-gray-700 text-lg leading-relaxed mb-4">
-        Các giải pháp của chúng tôi đã được ứng dụng thành công trong nhiều lĩnh
-        vực như năng lượng, cấp nước, sản xuất và tự động hóa. Chúng tôi cam kết
-        đồng hành lâu dài, mang đến hiệu quả bền vững cho đối tác.
+        {{ "home.about_us_desc2" | translate }}
       </p>
       <a
         routerLink="/about"
         class="inline-block mt-4 bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-xl shadow transition-all duration-300"
       >
-        🚀 Tìm hiểu thêm
+        🚀 {{ "home.learn_more" | translate }}
       </a>
     </div>
-    <!-- Hình ảnh bên phải -->
     <div class="lg:col-span-5">
       <img
         src="assets/images/about.jpg"
@@ -51,67 +44,67 @@
 </section>
 <section class="container-default py-10">
   <h2 class="text-2xl font-bold text-center mb-4 text-blue-800">
-    LĨNH VỰC HOẠT ĐỘNG
+    {{ "home.fields" | translate }}
   </h2>
   <div class="grid grid-cols-1 lg:grid-cols-4 gap-8 mt-0">
-    <!-- Cấp thoát nước -->
+    ->
     <div
       class="bg-gradient-to-br from-white to-green-50 border border-green-100 rounded-2xl shadow-md hover:shadow-xl transition-all p-6 text-center"
     >
       <div class="text-5xl mb-4 text-blue-600">💧</div>
-      <h3 class="font-semibold text-lg text-green-700 mb-2">Cấp thoát nước</h3>
+      <h3 class="font-semibold text-lg text-green-700 mb-2">
+        {{ "home.field1.title" | translate }}
+      </h3>
       <p class="text-gray-700 text-sm leading-relaxed">
-        Giải pháp quản lý lưu lượng, giám sát và cảnh báo thông minh trong ngành
-        nước.
+        {{ "home.field1.desc" | translate }}
       </p>
     </div>
 
-    <!-- Điện lực -->
     <div
       class="bg-gradient-to-br from-white to-green-50 border border-green-100 rounded-2xl shadow-md hover:shadow-xl transition-all p-6 text-center"
     >
       <div class="text-5xl mb-4 text-yellow-500">⚡</div>
-      <h3 class="font-semibold text-lg text-green-700 mb-2">Điện lực</h3>
+      <h3 class="font-semibold text-lg text-green-700 mb-2">
+        {{ "home.field2.title" | translate }}
+      </h3>
       <p class="text-gray-700 text-sm leading-relaxed">
-        Tối ưu hóa vận hành hệ thống điện với công nghệ đo lường và SCADA hiện
-        đại.
+        {{ "home.field2.desc" | translate }}
       </p>
     </div>
 
-    <!-- Sản xuất -->
     <div
       class="bg-gradient-to-br from-white to-green-50 border border-green-100 rounded-2xl shadow-md hover:shadow-xl transition-all p-6 text-center"
     >
       <div class="text-5xl mb-4 text-orange-500">🏭</div>
-      <h3 class="font-semibold text-lg text-green-700 mb-2">Sản xuất</h3>
+      <h3 class="font-semibold text-lg text-green-700 mb-2">
+        {{ "home.field3.title" | translate }}
+      </h3>
       <p class="text-gray-700 text-sm leading-relaxed">
-        Giải pháp giám sát dây chuyền và tự động hóa nâng cao hiệu suất sản
-        xuất.
+        {{ "home.field3.desc" | translate }}
       </p>
     </div>
 
-    <!-- Môi trường -->
     <div
       class="bg-gradient-to-br from-white to-green-50 border border-green-100 rounded-2xl shadow-md hover:shadow-xl transition-all p-6 text-center"
     >
       <div class="text-5xl mb-4 text-green-600">🌱</div>
-      <h3 class="font-semibold text-lg text-green-700 mb-2">Môi trường</h3>
+      <h3 class="font-semibold text-lg text-green-700 mb-2">
+        {{ "home.field4.title" | translate }}
+      </h3>
       <p class="text-gray-700 text-sm leading-relaxed">
-        Cảm biến, đo lường và phân tích dữ liệu hỗ trợ bảo vệ môi trường hiệu
-        quả.
+        {{ "home.field4.desc" | translate }}
       </p>
     </div>
   </div>
 </section>
 
-<!-- Giải pháp nổi bật -->
 <section class="container-default news-section">
-  <h2 class="section-title">GIẢI PHÁP NỔI BẬT</h2>
+  <h2 class="section-title">{{ "home.featured_solutions" | translate }}</h2>
   <div class="news-grid">
     <app-solution-card
       *ngFor="let item of homeSolutions"
-      [title]="item.title"
-      [description]="item.description"
+      [title]="item.title | translate"
+      [description]="item.description | translate"
       [image]="item.image"
       [link]="item.link"
     ></app-solution-card>
@@ -122,31 +115,32 @@
   class="container-default pt-20 bg-gradient-to-br from-green-50 to-white"
 >
   <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-    <!-- Phần chữ -->
     <div>
-      <h2 class="text-3xl font-bold text-green-800 mb-6">Bạn có biết…</h2>
+      <h2 class="text-3xl font-bold text-green-800 mb-6">
+        {{ "home.did_you_know" | translate }}
+      </h2>
       <p class="text-gray-700 text-lg leading-relaxed mb-4">
-        Hệ thống <span class="font-semibold text-blue-700">SCADA</span> của
-        <span class="font-semibold">Nhân Phú</span> giúp doanh nghiệp giám sát
-        từ xa, thu thập dữ liệu thời gian thực và điều khiển thiết bị một cách
-        chính xác, an toàn và hiệu quả.
+        {{ "home.did_you_know_desc1" | translate }}
+        <span class="font-semibold text-green-800">SCADA</span>
+        {{ "home.did_you_know_desc1_mid" | translate }}
+        <span class="font-semibold text-blue-800">Nhân Phú</span>
+        {{ "home.did_you_know_desc1_end" | translate }}
       </p>
       <p class="text-gray-700 text-lg leading-relaxed mb-6">
-        Đây là nền tảng không thể thiếu trong các ngành
-        <span class="italic"
-          >cấp thoát nước, điện lực, sản xuất và môi trường</span
-        >, hỗ trợ quá trình <span class="font-semibold">chuyển đổi số</span> và
-        nâng cao hiệu quả vận hành.
+        {{ "home.did_you_know_desc2_start" | translate }}
+        <span class="italic">{{
+          "home.did_you_know_desc2_fields" | translate
+        }}</span
+        >{{ "home.did_you_know_desc2_end" | translate }}
       </p>
       <a
         routerLink="/solution/scada"
         class="inline-block bg-green-700 text-white px-6 py-3 rounded-xl shadow hover:bg-green-800 transition-all duration-300"
       >
-        🔍 Xem giải pháp
+        🔍 {{ "home.see_solution" | translate }}
       </a>
     </div>
 
-    <!-- Phần hình ảnh -->
     <div>
       <img
         src="assets/images/hệ-thống-scada-trong-công-nghiệp.gif"
@@ -159,7 +153,7 @@
 
 <section class="container-default pt-16 pb-10">
   <h2 class="text-2xl font-bold text-center mb-4 text-blue-800">
-    TẠI SAO CHỌN CHÚNG TÔI?
+    {{ "home.why_us" | translate }}
   </h2>
   <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 text-center">
     <div
@@ -169,10 +163,10 @@
       <h3
         class="font-semibold text-lg mb-2 text-green-800 uppercase tracking-wide"
       >
-        Tư duy giải pháp
+        {{ "home.why1.title" | translate }}
       </h3>
       <p class="text-gray-700">
-        Luôn đề xuất giải pháp phù hợp với từng doanh nghiệp, tối ưu chi phí.
+        {{ "home.why1.desc" | translate }}
       </p>
     </div>
 
@@ -183,10 +177,10 @@
       <h3
         class="font-semibold text-lg mb-2 text-green-800 uppercase tracking-wide"
       >
-        Đội ngũ chuyên gia
+        {{ "home.why2.title" | translate }}
       </h3>
       <p class="text-gray-700">
-        Kỹ sư giàu kinh nghiệm, đồng hành và hỗ trợ tận tâm.
+        {{ "home.why2.desc" | translate }}
       </p>
     </div>
 
@@ -197,10 +191,10 @@
       <h3
         class="font-semibold text-lg mb-2 text-green-800 uppercase tracking-wide"
       >
-        Hiệu quả thực tiễn
+        {{ "home.why3.title" | translate }}
       </h3>
       <p class="text-gray-700">
-        Giải pháp đã triển khai thành công cho nhiều doanh nghiệp lớn.
+        {{ "home.why3.desc" | translate }}
       </p>
     </div>
   </div>
@@ -208,7 +202,7 @@
 
 <div class="bg-white rounded-xl px-0 py-0 lg:px-8 lg:pt-4">
   <h2 class="text-2xl font-bold text-center mb-8 text-blue-800">
-    ĐỐI TÁC TIÊU BIỂU
+    {{ "home.partners" | translate }}
   </h2>
   <div class="flex flex-wrap justify-center gap-10 items-center">
     <img

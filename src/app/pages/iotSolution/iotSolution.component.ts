@@ -3,60 +3,63 @@ import { NgFor } from '@angular/common';
 import { SliderComponent } from '../../components/slider/slider.component';
 import { SolutionCardComponent } from '../../components/solutionCard/solutionCard.component';
 import { RouterModule } from '@angular/router';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-solution',
   standalone: true,
-  imports: [NgFor, SliderComponent, SolutionCardComponent, RouterModule],
+  imports: [
+    NgFor,
+    SliderComponent,
+    SolutionCardComponent,
+    RouterModule,
+    TranslateModule,
+  ],
   templateUrl: './iotSolution.component.html',
   styleUrls: ['./iotSolution.component.scss'],
 })
 export class SolutionComponent {
   features = [
-    {
-      title: 'Giám sát thời gian thực',
-      description:
-        'Theo dõi thiết bị và môi trường liên tục mọi lúc, từ xa qua internet.',
-    },
-    {
-      title: 'Cảnh báo và phản hồi nhanh',
-      description:
-        'Gửi thông báo tức thì khi phát hiện bất thường, giúp xử lý kịp thời.',
-    },
-    {
-      title: 'Phân tích dữ liệu thông minh',
-      description:
-        'Tổng hợp và phân tích dữ liệu để dự đoán sự cố, tối ưu vận hành.',
-    },
-    {
-      title: 'Dễ dàng tích hợp',
-      description:
-        'Kết nối linh hoạt với hệ thống hiện tại qua API hoặc nền tảng đám mây.',
-    },
+    { title: 'iot.features.0.title', description: 'iot.features.0.desc' },
+    { title: 'iot.features.1.title', description: 'iot.features.1.desc' },
+    { title: 'iot.features.2.title', description: 'iot.features.2.desc' },
+    { title: 'iot.features.3.title', description: 'iot.features.3.desc' },
   ];
 
   relatedSolutions = [
     {
-      title: 'SCADA Tự động hoá',
-      description:
-        'Giám sát từ xa, điều khiển linh hoạt và tích hợp hệ thống dễ dàng.',
+      title: 'iot.relatedSolutions.0.title',
+      description: 'iot.relatedSolutions.0.desc',
       image: 'assets/images/scada/scada1.png',
       link: '/solution/scada',
     },
     {
-      title: 'Hỗ trợ kỹ thuật',
-      description:
-        'Đội ngũ kỹ thuật luôn sẵn sàng hỗ trợ triển khai, vận hành và bảo trì.',
+      title: 'iot.relatedSolutions.1.title',
+      description: 'iot.relatedSolutions.1.desc',
       image: 'assets/images/sp.jpg',
       link: '/solution/sp',
     },
   ];
 
   applications = [
-    'Nông nghiệp thông minh – giám sát độ ẩm, điều khiển tưới tiêu tự động.',
-    'Công nghiệp – theo dõi máy móc, kiểm soát quy trình sản xuất.',
-    'Tòa nhà thông minh – điều khiển ánh sáng, điều hòa, an ninh.',
-    'Logistics – theo dõi nhiệt độ, vị trí, trạng thái vận chuyển.',
-    'Y tế – giám sát thiết bị, theo dõi tình trạng bệnh nhân từ xa.',
+    'iot.applications.0',
+    'iot.applications.1',
+    'iot.applications.2',
+    'iot.applications.3',
+    'iot.applications.4',
+  ];
+  iotSection2List = [
+    'iot.section2_list.0',
+    'iot.section2_list.1',
+    'iot.section2_list.2',
+    'iot.section2_list.3',
+  ];
+
+  iotSection5List = [
+    'iot.section5_list.0',
+    'iot.section5_list.1',
+    'iot.section5_list.2',
+    'iot.section5_list.3',
+    'iot.section5_list.4',
   ];
 }

@@ -5,6 +5,7 @@ import { SliderComponent } from '../../components/slider/slider.component';
 import { NewsCardComponent } from '../../components/newsCard/newsCard.component';
 import { RouterModule } from '@angular/router';
 import { SolutionCardComponent } from '../../components/solutionCard/solutionCard.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-home',
@@ -16,6 +17,7 @@ import { SolutionCardComponent } from '../../components/solutionCard/solutionCar
     NewsCardComponent,
     RouterModule,
     SolutionCardComponent,
+    TranslateModule,
   ],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
@@ -23,37 +25,32 @@ import { SolutionCardComponent } from '../../components/solutionCard/solutionCar
 export class HomeComponent implements OnInit {
   slides = [
     {
-      title: 'Giải pháp đo mức tối ưu',
-      description:
-        'Dòng OPTIWAVE 15XX là bộ phát radar nhỏ gọn, lý tưởng cho bể chứa và silo. Thiết kế chắc chắn, dễ lắp đặt và không cần bảo trì.',
+      title: 'home.slide1.title',
+      description: 'home.slide1.desc',
       image: 'assets/images/slider/h1.jpg',
       background: 'linear-gradient(to right, #0f172a, #1e3a8a)',
     },
     {
-      title: 'Hiệu suất vượt trội, công nghệ mới',
-      description:
-        'Cung cấp giải pháp đo mức bằng radar và siêu âm hiện đại, nâng cao độ chính xác, giảm sai số và tối ưu quy trình sản xuất.',
+      title: 'home.slide2.title',
+      description: 'home.slide2.desc',
       image: 'assets/images/slider/h2.jpg',
       background: 'linear-gradient(to right, #14532d, #22c55e)',
     },
     {
-      title: '10 năm đồng hành doanh nghiệp',
-      description:
-        'Với hơn 10 năm kinh nghiệm, chúng tôi đồng hành cùng doanh nghiệp toàn cầu mang lại sự ổn định và hiệu quả vận hành.',
+      title: 'home.slide3.title',
+      description: 'home.slide3.desc',
       image: 'assets/images/slider/h3.jpg',
       background: 'linear-gradient(to right, #581c87, #9333ea)',
     },
     {
-      title: 'Thiết bị chất lượng, giải pháp hay',
-      description:
-        'Cam kết mang đến thiết bị chất lượng cao, hỗ trợ tận tâm và giải pháp kỹ thuật phù hợp với nhu cầu thực tế.',
+      title: 'home.slide4.title',
+      description: 'home.slide4.desc',
       image: 'assets/images/slider/h4.jpg',
       background: 'linear-gradient(to right, #9f1239, #f43f5e)',
     },
     {
-      title: 'Đối tác chuyển đổi số uy tín',
-      description:
-        'Hàng ngàn đối tác toàn cầu tin tưởng lựa chọn chúng tôi trong hành trình chuyển đổi số và tối ưu sản xuất.',
+      title: 'home.slide5.title',
+      description: 'home.slide5.desc',
       image: 'assets/images/slider/h5.jpg',
       background: 'linear-gradient(to right, #7c3aed, #4f46e5)',
     },
@@ -61,22 +58,20 @@ export class HomeComponent implements OnInit {
 
   homeSolutions = [
     {
-      title: 'SCADA Tự động hoá',
-      description:
-        'Giám sát từ xa, điều khiển linh hoạt và tích hợp hệ thống dễ dàng.',
+      title: 'home.solution1.title',
+      description: 'home.solution1.desc',
       image: 'assets/images/scada/scada1.png',
       link: '/solution/scada',
     },
     {
-      title: 'Thiết bị IoT',
-      description: 'Giải pháp đo lường thông minh, kết nối mọi lúc mọi nơi.',
+      title: 'home.solution2.title',
+      description: 'home.solution2.desc',
       image: 'assets/images/iot/iot1.jpg',
       link: '/solution/iot',
     },
     {
-      title: 'Hỗ trợ kỹ thuật',
-      description:
-        'Đội ngũ kỹ thuật luôn sẵn sàng hỗ trợ triển khai, vận hành và bảo trì.',
+      title: 'home.solution3.title',
+      description: 'home.solution3.desc',
       image: 'assets/images/sp.jpg',
       link: '/solution/sp',
     },

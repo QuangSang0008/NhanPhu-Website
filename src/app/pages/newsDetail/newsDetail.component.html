@@ -2,20 +2,24 @@
   *ngIf="news"
   class="container-default py-10 max-w-6xl mx-auto flex flex-col lg:flex-row gap-10"
 >
-  <!-- Nội dung chính -->
   <div class="lg:w-2/3">
-    <h1 class="text-3xl font-bold text-blue-800 mb-8">{{ news.title }}</h1>
+    <h1 class="text-3xl font-bold text-blue-800 mb-8">
+      {{ news.title | translate }}
+    </h1>
     <img
       [src]="news.image"
       alt="Ảnh chi tiết"
       class="w-[900px] h-[600px] object-cover rounded-lg mb-6"
     />
-    <div class="prose max-w-none text-justify" [innerHTML]="news.content"></div>
+    <div
+      class="prose max-w-none text-justify"
+      [innerHTML]="news.contentKey | translate"
+    ></div>
   </div>
-
-  <!-- Tin khác -->
   <div class="lg:w-1/3">
-    <h2 class="text-3xl font-bold text-blue-800 text-center mb-2">Tin khác</h2>
+    <h2 class="text-3xl font-bold text-blue-800 text-center mb-2">
+      {{ "common.other_news" | translate }}
+    </h2>
     <div class="flex flex-col gap-6">
       <newscard
         *ngFor="let item of relatedNews"

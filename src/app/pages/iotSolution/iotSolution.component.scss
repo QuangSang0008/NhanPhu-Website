@@ -23,7 +23,6 @@
     margin-bottom: 20px;
     color: #065f46;
     font-weight: 600;
-    display: flex;
     align-items: center;
     gap: 12px;
 
@@ -43,7 +42,7 @@
   }
 
   p {
-    font-size: 1.2rem;
+    font-size: 16px;
     margin-bottom: 10px;
     color: #333;
   }
@@ -146,13 +145,33 @@
   font-size: 1.15rem;
   line-height: 1.9;
 }
+
+.news-section {
+  margin-top: 30px;
+  background-color: #f9fafb;
+
+  .section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 25px;
+    color: #1e3a8a;
+    font-weight: 700;
+  }
+
+  .news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    gap: 32px;
+  }
+}
+
 @media (max-width: 1024px) {
   .content-block {
     flex-direction: column !important;
 
     .text,
     .image {
-      padding: 10px 20px; // padding nhỏ hơn cho thiết bị nhỏ
+      padding: 10px 20px;
     }
 
     .image {

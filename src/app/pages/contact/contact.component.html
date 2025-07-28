@@ -1,12 +1,8 @@
 <app-slider
   [slides]="[
     {
-      title: 'LIÊN HỆ VỚI CHÚNG TÔI',
-      description:
-        'Hãy chia sẻ với chúng tôi những điều bạn đang cần 
-        Nhân Phú cam kết hỗ trợ tận tâm, trách nhiệm và thấu hiểu,
-        cùng đội ngũ chuyên gia giàu kinh nghiệm, luôn sẵn sàng đồng hành cùng
-        bạn.',
+      title: 'contact.slider_title',
+      description: 'contact.slider_description',
       image: 'assets/images/contact/ContactUs.jpg',
       background: 'linear-gradient(to right, #1f2937, #4b5563)'
     }
@@ -17,7 +13,6 @@
 
 <div class="container-default py-10 pt-16 px-4">
   <div class="grid grid-cols-1 lg:grid-cols-8 gap-8">
-    <!-- FORM LIÊN HỆ -->
     <div class="lg:col-span-5 w-full">
       <form
         (ngSubmit)="submitForm()"
@@ -28,7 +23,7 @@
           name="name"
           required
           type="text"
-          placeholder="Họ và tên"
+          [placeholder]="'contact.form.name' | translate"
           class="col-span-2 lg:col-span-1 border border-gray-400 rounded px-4 py-2 w-full"
         />
 
@@ -37,7 +32,7 @@
           name="email"
           required
           type="email"
-          placeholder="Email"
+          [placeholder]="'contact.form.email' | translate"
           class="col-span-2 lg:col-span-1 border border-gray-400 rounded px-4 py-2 w-full"
         />
 
@@ -46,7 +41,7 @@
           name="phone"
           required
           type="tel"
-          placeholder="Số điện thoại"
+          [placeholder]="'contact.form.phone' | translate"
           class="col-span-2 lg:col-span-1 border border-gray-400 rounded px-4 py-2 w-full"
         />
 
@@ -54,7 +49,7 @@
           [(ngModel)]="company"
           name="company"
           type="text"
-          placeholder="Công ty"
+          [placeholder]="'contact.form.company' | translate"
           class="col-span-2 lg:col-span-1 border border-gray-400 rounded px-4 py-2 w-full"
         />
 
@@ -62,7 +57,7 @@
           [(ngModel)]="message"
           name="message"
           required
-          placeholder="Nội dung liên hệ"
+          [placeholder]="'contact.form.message' | translate"
           class="col-span-2 border border-gray-400 rounded px-4 py-3 w-full"
           rows="5"
         ></textarea>
@@ -71,35 +66,34 @@
           type="submit"
           class="col-span-2 bg-blue-600 text-white font-semibold py-2 px-6 rounded hover:bg-blue-700 transition"
         >
-          Gửi liên hệ
+          {{ "contact.form.submit" | translate }}
         </button>
       </form>
     </div>
 
-    <!-- THÔNG TIN LIÊN HỆ -->
     <div
       class="lg:col-span-3 w-full bg-blue-50 border border-blue-200 p-6 rounded-lg space-y-4"
     >
       <h2 class="text-xl font-semibold text-blue-700 flex items-center gap-2">
         <lucide-icon name="Info" class="w-5 h-5 text-blue-700"></lucide-icon>
-        Thông tin liên hệ
+        {{ "contact.info_title" | translate }}
       </h2>
 
       <div>
         <div class="flex items-center gap-2 font-medium text-gray-900">
           <lucide-icon name="Building" class="w-4 h-4" />
-          CÔNG TY CỔ PHẦN DVKT CÔNG NGHỆ NHÂN PHÚ
+          {{ "contact.company_name" | translate }}
         </div>
         <div class="flex items-center gap-2 mt-1">
           <lucide-icon name="MapPin" class="w-4 h-4" />
-          <span>1/32, đường Cầu Xéo, Tân Quý, Tân Phú, TP.HCM</span>
+          <span> {{ "contact.address" | translate }}</span>
         </div>
       </div>
 
       <div>
         <div class="flex items-center gap-2 font-medium">
           <lucide-icon name="Phone" class="w-4 h-4" />
-          <span>Điện thoại:</span>
+          <span>{{ "contact.phone_label" | translate }}</span>
         </div>
         <a href="tel:0123456789" class="text-blue-700 hover:underline ml-6">
           0123 456 789
@@ -122,9 +116,9 @@
       <div>
         <div class="flex items-center gap-2 font-medium">
           <lucide-icon name="Clock" class="w-4 h-4" />
-          <span>Giờ làm việc:</span>
+          <span>{{ "contact.work_hours_label" | translate }}</span>
         </div>
-        <p class="ml-6">Thứ 2 - Thứ 6: 08:00 - 17:00</p>
+        <p class="ml-6">{{ "contact.work_hours" | translate }}</p>
       </div>
     </div>
   </div>

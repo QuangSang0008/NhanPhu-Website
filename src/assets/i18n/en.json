@@ -1,8 +1,540 @@
 {
   "header": {
-    "product": "Products",
+    "home": "Home",
+    "about": "About",
     "solution": "Solutions",
-    "services": "Services",
-    "company": "Company"
+    "contact": "Contact",
+    "news": "News",
+    "address": "1/32, Cau Xeo Street, Tan Quy, Tan Phu, Ho Chi Minh City"
+  },
+  "newsletter": {
+    "title": "Subscribe: Don't miss any updates",
+    "description": "You’ll receive the latest news about technology, water supply solutions, featured projects, and industry events where Nhan Phu participates or hosts.",
+    "placeholder": "E-mail",
+    "submit": "Subscribe"
+  },
+  "footer": {
+    "contact": "Contact",
+    "address": "1/32, Cau Xeo Street, Tan Quy, Tan Phu, Ho Chi Minh City",
+    "hotline": "Hotline",
+    "email": "Email",
+    "product": "Products",
+    "product1": "Flow Meters",
+    "product2": "Water Monitoring Devices",
+    "product3": "SCADA & IoT",
+    "product4": "Sensors",
+    "industry": "Industries",
+    "industry1": "Water Supply & Drainage",
+    "industry2": "Electricity",
+    "industry3": "Petroleum",
+    "industry4": "Environment",
+    "industry5": "Industrial Manufacturing",
+    "solution": "Solutions",
+    "solution1": "SCADA Automation Solution",
+    "solution2": "IoT Solution",
+    "solution3": "Technical Support",
+    "service": "Services",
+    "service1": "Consulting & Design",
+    "service2": "Installation & Operation",
+    "service3": "Scheduled Maintenance",
+    "service4": "Training & Support",
+    "company": "Company",
+    "company1": "Home",
+    "company2": "About Us",
+    "company3": "Solutions",
+    "company4": "Contact",
+    "company5": "News",
+    "copyright": "© 2025 Nhan Phu Website. All rights reserved."
+  },
+
+  "home": {
+    "latest_news": "LATEST NEWS",
+    "about_us": "About Us",
+    "about_us_desc1": "We specialize in providing modern SCADA solutions and smart industrial measurement devices. With practical experience and a team of skilled engineers, we help businesses optimize operations and promote effective digital transformation.",
+    "about_us_desc2": "Our solutions have been successfully applied in various sectors such as energy, water supply, manufacturing, and automation. We are committed to long-term partnerships and delivering sustainable results.",
+    "learn_more": "Learn More",
+    "fields": "OUR FOCUS AREAS",
+    "featured_solutions": "FEATURED SOLUTIONS",
+    "did_you_know": "Did You Know…",
+    "did_you_know_desc1": "The",
+    "did_you_know_desc1_mid": "system from",
+    "did_you_know_desc1_end": "helps businesses monitor remotely, collect real-time data, and control devices accurately, safely, and efficiently.",
+    "did_you_know_desc2_start": "This is an essential platform in industries such as",
+    "did_you_know_desc2_fields": "water supply, electricity, manufacturing, and environment",
+    "did_you_know_desc2_end": "— supporting digital transformation and improving operational efficiency.",
+    "see_solution": "See Solution",
+    "why_us": "WHY CHOOSE US?",
+    "partners": "OUR PARTNERS",
+
+    "field1": {
+      "title": "Water Supply & Drainage",
+      "desc": "Smart flow management, monitoring and alert solutions for water industry."
+    },
+    "field2": {
+      "title": "Electric Power",
+      "desc": "Optimize electric system operations with modern SCADA & measurement technology."
+    },
+    "field3": {
+      "title": "Manufacturing",
+      "desc": "Monitoring and automation solutions to boost production efficiency."
+    },
+    "field4": {
+      "title": "Environment",
+      "desc": "Sensors, measurement, and data analytics to support effective environmental protection."
+    },
+
+    "why1": {
+      "title": "Solution Thinking",
+      "desc": "Always provide the right solutions tailored to each business and cost-effective."
+    },
+    "why2": {
+      "title": "Expert Team",
+      "desc": "Experienced engineers who support you with dedication and professionalism."
+    },
+    "why3": {
+      "title": "Proven Results",
+      "desc": "Successfully implemented for many large enterprises."
+    },
+
+    "slide1": {
+      "title": "Optimal Level Measurement",
+      "desc": "OPTIWAVE 15XX is a compact radar transmitter, ideal for tanks and silos. Rugged, easy to install and maintenance-free."
+    },
+    "slide2": {
+      "title": "Superior Performance, New Tech",
+      "desc": "Advanced radar and ultrasonic level measurement for higher accuracy and optimized processes."
+    },
+    "slide3": {
+      "title": "10 Years of Business Partnership",
+      "desc": "With over 10 years of experience, we accompany global businesses towards stability and efficiency."
+    },
+    "slide4": {
+      "title": "Top-Quality Devices & Smart Solutions",
+      "desc": "Delivering high-quality devices with tailored technical support and practical solutions."
+    },
+    "slide5": {
+      "title": "Trusted Digital Transformation Partner",
+      "desc": "Thousands of global partners trust us in their digital transformation and production optimization journey."
+    },
+
+    "solution1": {
+      "title": "SCADA Automation",
+      "desc": "Remote monitoring, flexible control, and easy system integration."
+    },
+    "solution2": {
+      "title": "IoT Devices",
+      "desc": "Smart measurement solutions, connected anytime and anywhere."
+    },
+    "solution3": {
+      "title": "Technical Support",
+      "desc": "Our technical team is always ready to support deployment, operation, and maintenance."
+    }
+  },
+  "about": {
+    "slider_title": "Nhan Phu Technology Co., Ltd.",
+    "slider_description": "We pioneer in measurement, monitoring and smart control – accompanying businesses in their digital transformation journey.",
+
+    "heading": "ABOUT US",
+    "intro": "We are a leading technology company with a mission to deliver comprehensive digital solutions for enterprises in the digital age.",
+
+    "vision_title": "Vision",
+    "vision_desc": "To become a symbol of innovation and prestige in the IT industry in Vietnam and the region.",
+
+    "mission_title": "Mission",
+    "mission_desc": "Provide high-quality technology solutions to help customers improve business efficiency.",
+
+    "core_values_title": "Core Values",
+    "value1": "Quality and credibility",
+    "value2": "Continuous innovation",
+    "value3": "Customer-centric",
+
+    "history_title": "Development History",
+    "history_2022": "2022 – The beginning",
+    "history_2022_desc": "The company was officially established with a team of 5 passionate members, sharing the same enthusiasm for technology and the desire to create unique values.",
+
+    "history_2024": "2024 – Strong development",
+    "history_2024_desc": "Marked a significant transformation with over 30 successful projects implemented both domestically and internationally, considerably expanding the scale of operations.",
+
+    "history_2025": "2025 – Digital leadership",
+    "history_2025_desc": "Launched smart management platforms, highly appreciated for their effectiveness and innovation, affirming the company’s position as a trusted technology partner for businesses.",
+
+    "leaders_title": "Leadership Team",
+    "chairman": "Chairman",
+    "finance_director": "Finance Director",
+    "solution_director": "Solution Director",
+    "tech_director": "Technical Director",
+
+    "activities_title": "Activities Gallery",
+
+    "partners_title": "Key Partners",
+
+    "years_exp": "Years of Experience",
+    "projects_done": "Projects Completed",
+    "clients": "Business Clients",
+    "satisfaction": "Customer Satisfaction"
+  },
+
+  "solution": {
+    "slider_title": "Comprehensive Technology Solutions",
+    "slider_description": "We provide intelligent solutions for measurement, monitoring, and control such as SCADA, IoT, sensors, and energy management – serving multi-industry demands and supporting sustainable digital transformation.",
+
+    "section_title": "OUR SOLUTIONS",
+
+    "solutions": [
+      {
+        "title": "SCADA Automation",
+        "desc": "Remote monitoring, flexible control, and easy system integration."
+      },
+      {
+        "title": "IoT Devices",
+        "desc": "Smart measurement solutions, connected anytime, anywhere."
+      },
+      {
+        "title": "Technical Support",
+        "desc": "Our technical team is always ready to support deployment, operation, and maintenance."
+      }
+    ]
+  },
+
+  "contact": {
+    "slider_title": "CONTACT US",
+    "slider_description": "Share with us what you need. Nhan Phu is committed to dedicated, responsible, and empathetic support, with an experienced team always ready to accompany you.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "company": "Company",
+      "message": "Your Message",
+      "submit": "Send Message"
+    },
+    "info_title": "Contact Information",
+    "company_name": "NHAN PHU TECHNOLOGY SERVICE JSC",
+    "address": "1/32, Cau Xeo Street, Tan Quy, Tan Phu, Ho Chi Minh City",
+    "phone_label": "Phone:",
+    "email_label": "Email:",
+    "work_hours_label": "Working hours:",
+    "work_hours": "Mon - Fri: 08:00 - 17:00",
+    "success_alert": "Thank you for contacting us!",
+    "newsletter_alert": "Thank you for subscribing!"
+  },
+
+  "news": {
+    "slider_title": "Internal News & Latest Updates",
+    "slider_description": "A look back at recent highlights, achievements, and important company announcements. Fast updates – connecting people – spreading value.",
+    "heading": "COMPANY NEWS",
+    "1": {
+      "title": "Launch of the New Generation 80GHz Radar Sensor",
+      "summary": "Introducing the 80GHz radar level sensor with high accuracy, suitable for modern SCADA systems.",
+      "content": "<p>On July 15, 2025, Nhan Phu Industrial Equipment Co., Ltd officially launched its latest 80GHz radar sensor product line – a breakthrough solution in liquid and solid level measurement.</p><p>This sensor line uses high-frequency continuous wave radar (FMCW) technology for ±1mm precision measurement, unaffected by dust, steam, or foam – common interference factors in traditional industrial environments.</p><p>Notable features include:</p><ul><li>Bluetooth, HART, and Modbus communication.</li><li>Compatibility with popular SCADA and DCS systems.</li><li>Easy installation and automatic calibration.</li></ul><p>We believe this will be the top choice for industries such as water, food, oil & gas, chemicals, and other sectors requiring precise level monitoring in harsh conditions.</p><p><strong>Details:</strong></p><p>- Product code: NP-R80<br>- Warranty: 24 months<br>- Delivery: Within 5 business days</p>"
+    },
+    "2": {
+      "title": "Remote Monitoring System Installed in Binh Chanh",
+      "summary": "SCADA combined with sensors enables water quality monitoring, early warnings, and improved efficiency.",
+      "content": "<p>In June 2025, Nhan Phu completed the deployment of a remote monitoring system for the Binh Chanh Water Treatment Plant.</p><p>The solution includes:</p><ul><li>A central SCADA system for 24/7 water quality monitoring.</li><li>Integrated sensors for level, flow, pH, and turbidity.</li><li>Automatic data logging, real-time leak detection and quality deviation alerts.</li></ul><p>This application helps reduce labor costs, improve reliability, and ensure safe water supply for thousands of households in western Ho Chi Minh City.</p><p>The plant representative stated: <em>“Nhan Phu’s SCADA solution represents a significant advancement in modern clean water management and operations.”</em></p>"
+    },
+    "3": {
+      "title": "24/7 Technical Support Center Launched in Ho Chi Minh City",
+      "summary": "Around-the-clock support for SCADA and IoT maintenance at Nhan Phu’s new center.",
+      "content": "<p>On July 15, 2025, Nhan Phu officially opened its 24/7 Technical Support Center at its headquarters in Ho Chi Minh City. This is Vietnam's first center offering continuous support in measurement, SCADA, and industrial automation.</p><p>The center receives support requests nationwide via hotline, email, and online platforms. With experienced engineers, the center can handle issues remotely, coordinate maintenance, or provide system upgrade consultations in the shortest time.</p><p>Mr. Le Minh Tuan – Head of Technical Department, shared: <em>“Many plants operate 24/7, so SCADA systems and sensors must remain stable. We ensure immediate technical support to help businesses maintain uninterrupted operations.”</em></p><p>This center is part of Nhan Phu’s strategy to enhance after-sales service and build long-term customer trust.</p>"
+    },
+    "4": {
+      "title": "Successful Deployment of Leak Warning System in Central Vietnam",
+      "summary": "Early warning solution helps protect the water supply system in Central Vietnam.",
+      "content": "<p>In July 2025, Nhan Phu successfully implemented an automatic water leak warning system along a key pipeline supplying water in Central Vietnam. The project covered over 15km of piping, an area frequently affected by leaks and water loss causing significant operational damage.</p><p>The system uses modern sensors, including flow, pressure, and vibration sensors, connected directly to a SCADA platform for real-time data acquisition and processing. When abnormal pressure or flow is detected, the system automatically sends instant alerts to the control center and technicians via email or SMS.</p><p>A local water authority representative said: <em>“The early warning system not only helps us proactively handle incidents but also protects water resources and prolongs pipeline life.”</em></p><p>Nhan Phu’s solution is highly rated for accuracy, scalability, and operational efficiency – a major step forward in the digital transformation of Vietnam’s water sector.</p>"
+    },
+    "5": {
+      "title": "Ultrasonic Level Measurement Workshop Held in Hanoi",
+      "summary": "In-depth training on ultrasonic sensors for engineers in Northern Vietnam.",
+      "content": "<p>On June 22, 2025, Nhan Phu organized a workshop on 'Application of Ultrasonic Sensors in Industrial Level Measurement' in Hanoi.</p><p>The workshop covered:</p><ul><li>Principles and configuration of ultrasonic level measurement devices.</li><li>Installation tips and interference handling experience.</li><li>Hands-on configuration with real devices on-site.</li></ul><p>Location: Melia Hotel, Hanoi. Register by June 18, 2025, to receive training materials and discounts.</p>"
+    },
+    "6": {
+      "title": "Introduction of Clamp-on Flow Measurement Devices",
+      "summary": "Clamp-on flow meters allow measurement without pipe cutting.",
+      "content": "<p>The new Clamp-on flowmeter line enables flow measurement without pipe intrusion, ideal for clean water, wastewater, and food industry applications.</p><p>Key benefits:</p><ul><li>Quick installation within 15 minutes.</li><li>No disruption to production processes.</li><li>±1.5% accuracy for pipes from DN25 to DN1000.</li></ul><p>Products are now available at all Nhan Phu branches nationwide.</p>"
+    },
+    "7": {
+      "title": "Automation Engineer Recruitment – July 2025",
+      "summary": "Expanding technical team in HCMC, Hanoi, Da Nang – SCADA experience preferred.",
+      "content": "<p>To meet market expansion needs, Nhan Phu is recruiting for the following positions:</p><ul><li>Automation Engineer</li><li>SCADA Application Engineer</li><li>Field Technical Support Staff</li></ul><p>Requirements:</p><ul><li>University degree in Automation, Mechatronics, or Electrical Engineering.</li><li>Experience with Siemens PLCs and WinCC SCADA is a plus.</li><li>Proactive, adaptable, and willing to travel.</li></ul><p>Apply via email: hr@nhanphu.com before July 25, 2025.</p>"
+    },
+    "8": {
+      "title": "Warning on Counterfeit Ultrasonic Sensors in the Market",
+      "summary": "Counterfeit devices posing as Nhan Phu products – check carefully.",
+      "content": "<p>Recently, counterfeit ultrasonic sensors imitating Nhan Phu branding have appeared on the market, seriously affecting customer safety and brand reputation.</p><p>Counterfeit detection signs include:</p><ul><li>Faded labels, incorrect product codes.</li><li>Lack of official warranty card.</li><li>Missing QR code for verification.</li></ul><p>To protect your rights, only purchase from authorized distributors or verify via hotline 1900-2025.</p>"
+    },
+    "9": {
+      "title": "Nhan Phu Implements Smart Monitoring System in Dong Nai",
+      "summary": "SCADA – IoT used to monitor water at Amata pump station, Dong Nai.",
+      "content": "<p>In July 2025, Nhan Phu officially commissioned a smart monitoring system for the pump station in Amata Industrial Park, Dong Nai.</p><p>The system combines level and flow sensors with SCADA and IoT technology to provide real-time data monitoring, enabling operators to detect issues early and optimize water distribution.</p><p>This is a flagship project demonstrating digital transformation in the water industry.</p>"
+    }
+  },
+
+  "scada": {
+    "slider_title": "Modern SCADA Solution",
+    "slider_description": "Monitor and control systems remotely in real time. Improve operational efficiency and reduce production risks.",
+
+    "main_heading": "SCADA Solution – Optimize Remote Monitoring and Control",
+
+    "section1_title": "What is SCADA?",
+    "section1_desc": "SCADA is a combination of software and hardware that allows users to monitor industrial processes, collect and process real-time data, and control devices remotely. It's a key component in industrial digital transformation.",
+
+    "section2_title": "SCADA System Architecture",
+    "structure_item1": "<strong>RTU:</strong> Collect field signals.",
+    "structure_item2": "<strong>PLC:</strong> Smart control device.",
+    "structure_item3": "<strong>Sensors:</strong> Measure temperature, pressure, water level, etc.",
+    "structure_item4": "<strong>Communication networks:</strong> Modbus, DNP3, OPC, TCP/IP, etc.",
+    "structure_item5": "<strong>Server & HMI:</strong> Display, control, and store data.",
+
+    "section3_title": "Key Features",
+    "section4_title": "Real-World Applications",
+    "section5_title": "Benefits of SCADA Implementation",
+    "section5_list": [
+      "🔧 Improve operational efficiency and automation.",
+      "📊 Easy reporting and accurate decision-making.",
+      "📉 Reduce human error, optimize operational cost.",
+      "🔐 Data security and user access control.",
+      "🌐 Remote monitoring via browser or mobile device."
+    ],
+
+    "section6_title": "Modern SCADA – Integrating New Technologies",
+    "section6_desc": "Modern SCADA solutions are designed with open architecture, supporting integration with IoT, AI, and cloud computing.",
+    "section6_list": [
+      "Access data anytime, anywhere via Web or App.",
+      "Predictive maintenance with analytics.",
+      "Control and optimize processes with AI."
+    ],
+
+    "other_solutions_heading": "OTHER SOLUTIONS",
+    "need_help_title": "Need a suitable solution?",
+    "need_help_desc": "Contact us for free consultation tailored to your business.",
+    "contact_now": "Contact Now",
+
+    "caption1": "SCADA System – Real-time Monitoring and Control",
+    "caption2": "SCADA System Architecture",
+    "caption3": "Key Features of SCADA",
+    "caption4": "SCADA Applications in Industries",
+    "caption5": "Benefits of Implementing SCADA",
+    "caption6": "Modern SCADA with AI and Cloud Integration",
+    "features": [
+      {
+        "title": "Real-time Monitoring",
+        "desc": "Monitor equipment status and operations in real time to increase reliability and control."
+      },
+      {
+        "title": "Fault and Incident Alerts",
+        "desc": "Automatically detect incidents and send instant alerts for fast response and damage minimization."
+      },
+      {
+        "title": "Remote Control",
+        "desc": "Control devices such as pumps, valves, and switches from the control center or via the Internet."
+      },
+      {
+        "title": "Data Storage & Analysis",
+        "desc": "Store historical data for reporting, analysis, and AI or Big Data prediction."
+      }
+    ],
+    "relatedSolutions": [
+      {
+        "title": "IoT Devices",
+        "desc": "Smart measurement solutions, connected anytime, anywhere."
+      },
+      {
+        "title": "Technical Support",
+        "desc": "Our technical team is always ready to support deployment, operation, and maintenance."
+      }
+    ],
+    "applications": [
+      "Electricity – monitor substations and control the power grid remotely.",
+      "Water supply – monitor water levels, quality, and control pumps and valves.",
+      "Oil & Gas – monitor pipelines, tanks, and compressor stations.",
+      "Manufacturing – automate production lines, monitor equipment performance.",
+      "Transportation – manage traffic lights and smart infrastructure systems."
+    ]
+  },
+
+  "iot": {
+    "slider": {
+      "title": "Smart IoT Solution",
+      "description": "Monitor, connect and remotely control devices anytime, anywhere. Boost management efficiency and full automation."
+    },
+    "title": "IoT Solution – Smart measurement and full connectivity",
+    "section1_title": "What is IoT?",
+    "section1_paragraph": "IoT (Internet of Things) is a network of physical devices capable of collecting and exchanging data through the Internet. IoT devices like sensors, controllers, smart watches, and level meters allow businesses to monitor and control remotely in real-time.",
+    "section1_caption": "Model of IoT device connectivity",
+
+    "section2_title": "IoT System Structure",
+    "section2_list": {
+      "0": {
+        "title": "Sensor devices",
+        "desc": "Collect physical data such as temperature, humidity, pressure, water level..."
+      },
+      "1": {
+        "title": "Processor/microcontroller",
+        "desc": "Analyze and transmit data."
+      },
+      "2": {
+        "title": "Network connection",
+        "desc": "Wi-Fi, 4G/5G, LoRa, Zigbee, NB-IoT..."
+      },
+      "3": {
+        "title": "IoT platform",
+        "desc": "Display, control and analyze data."
+      }
+    },
+    "section2_caption": "Typical architecture of an IoT system",
+
+    "section3_title": "Outstanding Features",
+
+    "features": [
+      {
+        "title": "Real-time Monitoring",
+        "desc": "Continuously monitor devices and environments remotely via the Internet."
+      },
+      {
+        "title": "Instant Alerts and Fast Response",
+        "desc": "Send instant notifications upon anomalies to enable timely response."
+      },
+      {
+        "title": "Smart Data Analysis",
+        "desc": "Aggregate and analyze data to predict issues and optimize operations."
+      },
+      {
+        "title": "Easy Integration",
+        "desc": "Flexibly integrate with existing systems via APIs or cloud platforms."
+      }
+    ],
+
+    "section3_caption": "Key features of IoT",
+
+    "section4_title": "Real-world Applications",
+    "applications": [
+      "Smart agriculture – monitor soil moisture, automate irrigation.",
+      "Industry – monitor machinery and control production processes.",
+      "Smart buildings – control lighting, air conditioning, security.",
+      "Logistics – monitor temperature, location, transport status.",
+      "Healthcare – monitor devices, track patient status remotely."
+    ],
+    "section4_caption": "IoT applications across various industries",
+
+    "section5_title": "Benefits of Implementing IoT",
+    "section5_list": [
+      "🌐 Remote control and connection anytime, anywhere.",
+      "📊 Real-time data analysis and optimization.",
+      "🤖 Automation of operational processes.",
+      "💰 Reduced maintenance and operating costs.",
+      "⚙️ Scalable and flexible expansion."
+    ],
+    "section5_caption": "Benefits of applying IoT solutions",
+
+    "related_solutions_title": "OTHER SOLUTIONS",
+    "relatedSolutions": [
+      {
+        "title": "SCADA Automation",
+        "desc": "Remote monitoring, flexible control, and easy system integration."
+      },
+      {
+        "title": "Technical Support",
+        "desc": "Our technical team is always ready to support deployment, operation, and maintenance."
+      }
+    ],
+
+    "contact_block": {
+      "title": "Looking for a suitable solution?",
+      "description": "Contact us for free consultation tailored to your business.",
+      "button": "Contact now"
+    }
+  },
+
+  "sp": {
+    "title": "Technical Support Solutions – Partnering with Your Business",
+    "slider_title": "Comprehensive Technical Support",
+    "slider_description": "A professional technical team, always accompanying customers throughout system deployment, operation, and maintenance.",
+    "section1_title": "What is Technical Support?",
+    "section1_content": "Technical support is a service that accompanies products to help customers ensure their systems operate efficiently and continuously. From consulting, implementation, and training to maintenance and troubleshooting – our technical team will always be there to support your business promptly.",
+    "section1_image_caption": "Technical team ready to assist 24/7",
+
+    "section2_title": "Technical Support Process",
+    "section2_step1": {
+      "title": "Request Reception:",
+      "desc": "Requests received via email, hotline, or ticket system."
+    },
+    "section2_step2": {
+      "title": "Diagnosis and Consultation:",
+      "desc": "Analyze issues and propose solutions."
+    },
+    "section2_step3": {
+      "title": "Remote or On-Site Support:",
+      "desc": "Depending on severity, support will be provided online or in person."
+    },
+    "section2_step4": {
+      "title": "Post-Support Follow-Up:",
+      "desc": "Record and re-evaluate system status after resolution."
+    },
+    "section2_image_caption": "Standard technical support process",
+
+    "features": [
+      {
+        "title": "Deployment Support",
+        "description": "Consultation, installation, and user guidance on-site or remotely."
+      },
+      {
+        "title": "Periodic Maintenance",
+        "description": "Routine device inspections and maintenance to ensure stability."
+      },
+      {
+        "title": "24/7 Troubleshooting",
+        "description": "Always ready to assist customers whenever an issue arises."
+      },
+      {
+        "title": "Training & Guidance",
+        "description": "Support in training the operation team, enhancing skills and awareness."
+      }
+    ],
+
+    "section3_image_caption": "Professional technical support services",
+
+    "section4_title": "Customer Benefits",
+    "section4_list": [
+      "🧑‍🔧 Minimize system downtime and maintain continuous operation.",
+      "📈 Prolong equipment lifespan with scheduled maintenance.",
+      "💡 Consulting for system upgrades and optimizations as needed.",
+      "📞 Quick response through various support channels.",
+      "🤝 Increase customer satisfaction and peace of mind."
+    ],
+    "section4_caption": "Benefits of having a dedicated technical support team",
+
+    "related": [
+      {
+        "title": "SCADA Automation",
+        "description": "Remote monitoring, flexible control, and easy system integration."
+      },
+      {
+        "title": "IoT Devices",
+        "description": "Smart measurement solutions, always connected anytime, anywhere."
+      }
+    ],
+
+    "cta_heading": "Looking for the right solution?",
+    "cta_description": "Contact us for free consultation tailored to your business.",
+    "cta_button": "Contact now",
+
+    "other_solutions_title": "OTHER SOLUTIONS",
+    "section3_title": "Featured Support Services",
+
+    "section4_image_caption": "Benefits of having a dedicated technical support team",
+
+    "section4_benefit1": "🧑‍🔧 Minimize system downtime and maintain continuous operation.",
+    "section4_benefit2": "📈 Prolong equipment lifespan with scheduled maintenance.",
+    "section4_benefit3": "💡 Consulting for system upgrades and optimizations as needed.",
+    "section4_benefit4": "📞 Quick response through various support channels.",
+    "section4_benefit5": "🤝 Increase customer satisfaction and peace of mind.",
+
+    "cta_title": "Looking for the right solution?"
+  },
+
+  "common": {
+    "see_detail": "See detail",
+    "readMore": "Read more >>",
+    "other_news": "Other news"
   }
 }

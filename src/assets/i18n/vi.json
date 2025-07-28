@@ -1,8 +1,548 @@
 {
   "header": {
-    "product": "Sản phẩm",
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
     "solution": "Giải pháp",
-    "services": "Dịch vụ",
-    "company": "Công ty"
+    "contact": "Liên hệ",
+    "news": "Tin tức",
+    "address": "1/32, đường Cầu Xéo, Tân Quý, Tân Phú, TP.HCM"
+  },
+  "newsletter": {
+    "title": "Đăng ký nhận tin: Đừng bỏ lỡ bất kỳ tin tức nào",
+    "description": "Bạn sẽ nhận thông tin mới nhất về công nghệ, giải pháp cấp nước, các dự án tiêu biểu và sự kiện chuyên ngành mà Nhân Phú đồng hành hoặc tổ chức.",
+    "placeholder": "E-mail",
+    "submit": "Đăng ký nhận tin"
+  },
+  "footer": {
+    "contact": "Liên hệ",
+    "address": "1/32, đường Cầu Xéo, Tân Quý, Tân Phú, TP.HCM",
+    "hotline": "Hotline",
+    "email": "Email",
+    "product": "Sản phẩm",
+    "product1": "Đồng hồ đo lưu lượng",
+    "product2": "Thiết bị giám sát nước",
+    "product3": "SCADA & IoT",
+    "product4": "Thiết bị cảm biến",
+    "industry": "Ngành nghề",
+    "industry1": "Cấp thoát nước",
+    "industry2": "Điện lực",
+    "industry3": "Dầu khí",
+    "industry4": "Môi trường",
+    "industry5": "Sản xuất công nghiệp",
+    "solution": "Giải pháp",
+    "solution1": "Giải pháp Scada tự động hóa",
+    "solution2": "Giải pháp Iot",
+    "solution3": "Hỗ trợ kỹ thuật",
+    "service": "Dịch vụ",
+    "service1": "Tư vấn & Thiết kế",
+    "service2": "Lắp đặt & Vận hành",
+    "service3": "Bảo trì định kỳ",
+    "service4": "Đào tạo & Hỗ trợ",
+    "company": "Công ty",
+    "company1": "Trang chủ",
+    "company2": "Giới thiệu",
+    "company3": "Giải pháp",
+    "company4": "Liên hệ",
+    "company5": "Tin tức",
+    "copyright": "© 2025 Nhan Phu Website. All rights reserved."
+  },
+
+  "home": {
+    "latest_news": "TIN TỨC MỚI NHẤT",
+    "about_us": "Về chúng tôi",
+    "about_us_desc1": "Chúng tôi chuyên cung cấp các giải pháp SCADA hiện đại và thiết bị đo lường công nghiệp thông minh. Với kinh nghiệm thực tiễn và đội ngũ kỹ sư giàu chuyên môn, chúng tôi giúp doanh nghiệp tối ưu hóa vận hành và thúc đẩy chuyển đổi số hiệu quả.",
+    "about_us_desc2": "Các giải pháp của chúng tôi đã được ứng dụng thành công trong nhiều lĩnh vực như năng lượng, cấp nước, sản xuất và tự động hóa. Chúng tôi cam kết đồng hành lâu dài, mang đến hiệu quả bền vững cho đối tác.",
+    "learn_more": "Tìm hiểu thêm",
+    "fields": "LĨNH VỰC HOẠT ĐỘNG",
+    "featured_solutions": "GIẢI PHÁP NỔI BẬT",
+    "did_you_know": "Bạn có biết…",
+    "did_you_know_desc1": "Hệ thống",
+    "did_you_know_desc1_mid": "của",
+    "did_you_know_desc1_end": "giúp doanh nghiệp giám sát từ xa, thu thập dữ liệu thời gian thực và điều khiển thiết bị một cách chính xác, an toàn và hiệu quả.",
+    "did_you_know_desc2_start": "Đây là nền tảng không thể thiếu trong các ngành",
+    "did_you_know_desc2_fields": "cấp thoát nước, điện lực, sản xuất và môi trường",
+    "did_you_know_desc2_end": ", hỗ trợ quá trình chuyển đổi số và nâng cao hiệu quả vận hành.",
+    "see_solution": "Xem giải pháp",
+    "why_us": "TẠI SAO CHỌN CHÚNG TÔI?",
+    "partners": "ĐỐI TÁC TIÊU BIỂU",
+
+    "field1": {
+      "title": "Cấp thoát nước",
+      "desc": "Giải pháp quản lý lưu lượng, giám sát và cảnh báo thông minh trong ngành nước."
+    },
+    "field2": {
+      "title": "Điện lực",
+      "desc": "Tối ưu hóa vận hành hệ thống điện với công nghệ đo lường và SCADA hiện đại."
+    },
+    "field3": {
+      "title": "Sản xuất",
+      "desc": "Giải pháp giám sát dây chuyền và tự động hóa nâng cao hiệu suất sản xuất."
+    },
+    "field4": {
+      "title": "Môi trường",
+      "desc": "Cảm biến, đo lường và phân tích dữ liệu hỗ trợ bảo vệ môi trường hiệu quả."
+    },
+
+    "why1": {
+      "title": "Tư duy giải pháp",
+      "desc": "Luôn đề xuất giải pháp phù hợp với từng doanh nghiệp, tối ưu chi phí."
+    },
+    "why2": {
+      "title": "Đội ngũ chuyên gia",
+      "desc": "Kỹ sư giàu kinh nghiệm, đồng hành và hỗ trợ tận tâm."
+    },
+    "why3": {
+      "title": "Hiệu quả thực tiễn",
+      "desc": "Giải pháp đã triển khai thành công cho nhiều doanh nghiệp lớn."
+    },
+
+    "slide1": {
+      "title": "Giải pháp đo mức tối ưu",
+      "desc": "Dòng OPTIWAVE 15XX là bộ phát radar nhỏ gọn, lý tưởng cho bể chứa và silo. Thiết kế chắc chắn, dễ lắp đặt và không cần bảo trì."
+    },
+    "slide2": {
+      "title": "Hiệu suất vượt trội, công nghệ mới",
+      "desc": "Cung cấp giải pháp đo mức bằng radar và siêu âm hiện đại, nâng cao độ chính xác, giảm sai số và tối ưu quy trình sản xuất."
+    },
+    "slide3": {
+      "title": "10 năm đồng hành doanh nghiệp",
+      "desc": "Với hơn 10 năm kinh nghiệm, chúng tôi đồng hành cùng doanh nghiệp toàn cầu mang lại sự ổn định và hiệu quả vận hành."
+    },
+    "slide4": {
+      "title": "Thiết bị chất lượng, giải pháp hay",
+      "desc": "Cam kết mang đến thiết bị chất lượng cao, hỗ trợ tận tâm và giải pháp kỹ thuật phù hợp với nhu cầu thực tế."
+    },
+    "slide5": {
+      "title": "Đối tác chuyển đổi số uy tín",
+      "desc": "Hàng ngàn đối tác toàn cầu tin tưởng lựa chọn chúng tôi trong hành trình chuyển đổi số và tối ưu sản xuất."
+    },
+
+    "solution1": {
+      "title": "SCADA Tự động hoá",
+      "desc": "Giám sát từ xa, điều khiển linh hoạt và tích hợp hệ thống dễ dàng."
+    },
+    "solution2": {
+      "title": "Thiết bị IoT",
+      "desc": "Giải pháp đo lường thông minh, kết nối mọi lúc mọi nơi."
+    },
+    "solution3": {
+      "title": "Hỗ trợ kỹ thuật",
+      "desc": "Đội ngũ kỹ thuật luôn sẵn sàng hỗ trợ triển khai, vận hành và bảo trì."
+    }
+  },
+  "about": {
+    "slider_title": "Công ty TNHH Công nghệ Nhân Phú",
+    "slider_description": "Chúng tôi tiên phong trong lĩnh vực đo lường, giám sát và điều khiển thông minh – đồng hành cùng doanh nghiệp trong hành trình chuyển đổi số.",
+
+    "heading": "VỀ CHÚNG TÔI",
+    "intro": "Chúng tôi là công ty công nghệ hàng đầu với sứ mệnh cung cấp giải pháp số toàn diện cho doanh nghiệp trong thời đại chuyển đổi số.",
+
+    "vision_title": "Tầm nhìn",
+    "vision_desc": "Trở thành biểu tượng sáng tạo và uy tín trong lĩnh vực công nghệ thông tin tại Việt Nam và khu vực.",
+
+    "mission_title": "Sứ mệnh",
+    "mission_desc": "Cung cấp các giải pháp công nghệ chất lượng, giúp khách hàng nâng cao hiệu quả kinh doanh.",
+
+    "core_values_title": "Giá trị cốt lõi",
+    "value1": "Chất lượng và uy tín",
+    "value2": "Đổi mới liên tục",
+    "value3": "Lấy khách hàng làm trung tâm",
+
+    "history_title": "Lịch sử phát triển",
+    "history_2022": "2022 – Khởi đầu hành trình",
+    "history_2022_desc": "Công ty chính thức thành lập với đội ngũ 5 thành viên nhiệt huyết, cùng chung niềm đam mê công nghệ và khát khao tạo nên những giá trị khác biệt.",
+
+    "history_2024": "2024 – Vươn mình phát triển",
+    "history_2024_desc": "Đánh dấu bước chuyển mình mạnh mẽ với hơn 30 dự án triển khai thành công tại thị trường trong nước và quốc tế, mở rộng quy mô hoạt động đáng kể.",
+
+    "history_2025": "2025 – Dẫn đầu chuyển đổi số",
+    "history_2025_desc": "Ra mắt các nền tảng quản trị thông minh, được đánh giá cao về tính hiệu quả và sáng tạo, khẳng định vị thế là đối tác công nghệ tin cậy của doanh nghiệp.",
+
+    "leaders_title": "Đội ngũ lãnh đạo",
+    "chairman": "Chủ tịch công ty",
+    "finance_director": "Giám đốc tài chính",
+    "solution_director": "Giám đốc giải pháp",
+    "tech_director": "Giám đốc kỹ thuật",
+
+    "activities_title": "Hình ảnh hoạt động",
+
+    "partners_title": "Đối tác tiêu biểu",
+
+    "years_exp": "Năm kinh nghiệm",
+    "projects_done": "Dự án hoàn thành",
+    "clients": "Khách hàng doanh nghiệp",
+    "satisfaction": "Khách hàng hài lòng"
+  },
+
+  "solution": {
+    "slider_title": "Giải pháp công nghệ toàn diện",
+    "slider_description": "Chúng tôi cung cấp các giải pháp đo lường, giám sát và điều khiển thông minh như SCADA, IoT, cảm biến và quản lý năng lượng – đáp ứng nhu cầu đa ngành và hỗ trợ chuyển đổi số bền vững.",
+
+    "section_title": "GIẢI PHÁP CỦA CÔNG TY",
+
+    "solutions": [
+      {
+        "title": "SCADA Tự động hoá",
+        "desc": "Giám sát từ xa, điều khiển linh hoạt và tích hợp hệ thống dễ dàng."
+      },
+      {
+        "title": "Thiết bị IoT",
+        "desc": "Giải pháp đo lường thông minh, kết nối mọi lúc mọi nơi."
+      },
+      {
+        "title": "Hỗ trợ kỹ thuật",
+        "desc": "Đội ngũ kỹ thuật luôn sẵn sàng hỗ trợ triển khai, vận hành và bảo trì."
+      }
+    ]
+  },
+
+  "contact": {
+    "slider_title": "LIÊN HỆ VỚI CHÚNG TÔI",
+    "slider_description": "Hãy chia sẻ với chúng tôi những điều bạn đang cần. Nhân Phú cam kết hỗ trợ tận tâm, trách nhiệm và thấu hiểu, cùng đội ngũ chuyên gia giàu kinh nghiệm, luôn sẵn sàng đồng hành cùng bạn.",
+    "form": {
+      "name": "Họ và tên",
+      "email": "Email",
+      "phone": "Số điện thoại",
+      "company": "Công ty",
+      "message": "Nội dung liên hệ",
+      "submit": "Gửi liên hệ"
+    },
+    "info_title": "Thông tin liên hệ",
+    "company_name": "CÔNG TY CỔ PHẦN DVKT CÔNG NGHỆ NHÂN PHÚ",
+    "address": "1/32, đường Cầu Xéo, Tân Quý, Tân Phú, TP.HCM",
+    "phone_label": "Điện thoại:",
+    "email_label": "Email:",
+    "work_hours_label": "Giờ làm việc:",
+    "work_hours": "Thứ 2 - Thứ 6: 08:00 - 17:00",
+    "success_alert": "Cảm ơn bạn đã liên hệ!",
+    "newsletter_alert": "Cảm ơn bạn đã đăng ký nhận tin!"
+  },
+
+  "news": {
+    "slider_title": "Bản tin nội bộ & cập nhật mới nhất",
+    "slider_description": "Cùng nhìn lại các hoạt động nổi bật, thành tựu và thông báo quan trọng trong thời gian vừa qua của công ty. Cập nhật nhanh chóng – kết nối mọi người – lan tỏa giá trị.",
+    "heading": "TIN TỨC CÔNG TY",
+    "1": {
+      "title": "Ra mắt cảm biến radar 80GHz thế hệ mới",
+      "summary": "Giới thiệu cảm biến radar 80GHz đo mức chính xác cao, phù hợp cho SCADA hiện đại.",
+      "content": "<p>Ngày 15/07/2025, Công ty TNHH Thiết Bị Công Nghiệp Nhân Phú chính thức ra mắt dòng sản phẩm cảm biến radar 80GHz mới nhất – giải pháp đột phá trong lĩnh vực đo mức chất lỏng và rắn.</p><p>Dòng cảm biến này ứng dụng công nghệ radar sóng liên tục tần số cao (FMCW) giúp đo mức với độ chính xác ±1mm, không bị ảnh hưởng bởi bụi, hơi nước, hay bọt nổi – những yếu tố thường gây nhiễu trong các môi trường công nghiệp truyền thống.</p><p>Sản phẩm còn nổi bật với khả năng:</p><ul><li>Giao tiếp qua Bluetooth, HART, Modbus.</li><li>Tương thích hệ thống SCADA, DCS phổ biến.</li><li>Lắp đặt dễ dàng, hiệu chuẩn tự động.</li></ul><p>Chúng tôi tin rằng đây sẽ là lựa chọn hàng đầu cho ngành nước, thực phẩm, dầu khí, hóa chất và các ngành cần giám sát mức chính xác trong điều kiện khắc nghiệt.</p><p><strong>Thông tin chi tiết:</strong></p><p>- Mã sản phẩm: NP-R80<br>- Bảo hành: 24 tháng<br>- Giao hàng: Trong vòng 5 ngày làm việc</p>"
+    },
+
+    "2": {
+      "title": "Lắp đặt hệ thống giám sát từ xa tại Bình Chánh",
+      "summary": "SCADA kết hợp cảm biến giúp giám sát chất lượng nước, cảnh báo sớm và nâng cao hiệu quả.",
+      "content": "<p>Tháng 06/2025, Công ty Nhân Phú đã hoàn tất việc triển khai hệ thống giám sát từ xa cho Nhà máy xử lý nước Bình Chánh.</p><p>Giải pháp bao gồm:</p><ul><li>Hệ thống SCADA trung tâm giám sát chất lượng nước 24/7.</li><li>Cảm biến đo mức, lưu lượng, độ pH và độ đục được tích hợp đồng bộ.</li><li>Tự động ghi nhận dữ liệu, cảnh báo rò rỉ hoặc sai lệch chất lượng theo thời gian thực.</li></ul><p>Việc ứng dụng hệ thống này giúp đơn vị vận hành tại Bình Chánh giảm thiểu chi phí nhân lực, nâng cao độ tin cậy và đảm bảo an toàn nguồn nước cho hàng nghìn hộ dân khu vực phía Tây TP.HCM.</p><p>Đại diện nhà máy đánh giá: <em>“Giải pháp SCADA của Nhân Phú mang lại bước tiến vượt bậc trong quản lý và vận hành hệ thống nước sạch hiện đại.”</em></p>"
+    },
+
+    "3": {
+      "title": "Ra mắt trung tâm hỗ trợ kỹ thuật 24/7 tại TP.HCM",
+      "summary": "Hỗ trợ kỹ thuật, bảo trì SCADA – IoT suốt 24 giờ mỗi ngày tại trung tâm mới của Nhân Phú.",
+      "content": "<p>Ngày 15/07/2025, Công ty Nhân Phú chính thức đưa vào hoạt động Trung tâm Hỗ trợ Kỹ thuật 24/7 tại trụ sở chính TP.HCM. Đây là trung tâm đầu tiên tại Việt Nam cung cấp hỗ trợ liên tục trong lĩnh vực đo lường, SCADA và tự động hóa công nghiệp.</p><p>Trung tâm sẽ tiếp nhận yêu cầu hỗ trợ từ khách hàng trên toàn quốc thông qua các kênh: hotline, email và nền tảng hỗ trợ trực tuyến. Với đội ngũ kỹ sư nhiều kinh nghiệm, trung tâm có thể xử lý sự cố từ xa, điều phối bảo trì hoặc tư vấn nâng cấp hệ thống trong thời gian ngắn nhất.</p><p>Ông Lê Minh Tuấn – Trưởng bộ phận Kỹ thuật chia sẻ: <em>“Nhiều nhà máy vận hành 24/24, vì vậy hệ thống SCADA và cảm biến phải luôn ổn định. Chúng tôi đảm bảo hỗ trợ kỹ thuật ngay khi cần, giúp doanh nghiệp duy trì hoạt động liên tục.”</em></p><p>Trung tâm này là một phần trong chiến lược tăng cường dịch vụ hậu mãi và xây dựng niềm tin dài hạn với khách hàng của Nhân Phú.</p>"
+    },
+
+    "4": {
+      "title": "Triển khai thành công hệ thống cảnh báo rò rỉ tại miền Trung",
+      "summary": "Giải pháp cảnh báo sớm giúp bảo vệ hệ thống cấp nước tại miền Trung.",
+      "content": "<p>Trong tháng 07/2025, Công ty Nhân Phú đã triển khai thành công hệ thống cảnh báo rò rỉ nước tự động tại một trong những tuyến ống chính cấp nước tại khu vực miền Trung. Dự án được thực hiện trên đoạn ống dài hơn 15km, nơi thường xuyên xảy ra tình trạng rò rỉ và thất thoát nước gây thiệt hại lớn cho đơn vị vận hành.</p><p>Hệ thống ứng dụng công nghệ cảm biến hiện đại bao gồm cảm biến lưu lượng, áp suất và rung động, kết nối trực tiếp với nền tảng SCADA để thu thập và xử lý dữ liệu theo thời gian thực. Khi có dấu hiệu bất thường về áp suất hoặc lưu lượng, hệ thống sẽ tự động gửi cảnh báo tức thời đến trung tâm điều khiển và người phụ trách kỹ thuật qua email hoặc tin nhắn SMS.</p><p>Đại diện đơn vị cấp nước địa phương cho biết: <em>“Việc áp dụng hệ thống cảnh báo sớm không chỉ giúp chúng tôi chủ động xử lý sự cố mà còn góp phần bảo vệ tài nguyên nước và tăng tuổi thọ hệ thống đường ống.”</em></p><p>Giải pháp của Nhân Phú được đánh giá cao về tính chính xác, khả năng mở rộng và hiệu quả vận hành, là bước tiến quan trọng trong lộ trình số hóa ngành cấp nước tại Việt Nam.</p>"
+    },
+
+    "5": {
+      "title": "Hội thảo kỹ thuật về đo mức siêu âm tại Hà Nội",
+      "summary": "Đào tạo chuyên sâu về cảm biến siêu âm cho kỹ sư khu vực phía Bắc.",
+      "content": "<p>Ngày 22/06/2025, Nhân Phú tổ chức hội thảo chuyên đề 'Ứng dụng cảm biến siêu âm trong đo mức công nghiệp' tại Hà Nội.</p><p>Hội thảo bao gồm:</p><ul><li>Trình bày nguyên lý và cấu hình thiết bị đo mức siêu âm.</li><li>Chia sẻ kinh nghiệm lắp đặt và xử lý nhiễu tín hiệu.</li><li>Thực hành cấu hình tại chỗ trên thiết bị thực tế.</li></ul><p>Địa điểm: Khách sạn Melia, Hà Nội. Đăng ký trước ngày 18/06/2025 để nhận ưu đãi tài liệu.</p>"
+    },
+
+    "6": {
+      "title": "Giới thiệu thiết bị đo lưu lượng dạng Clamp-on",
+      "summary": "Thiết bị đo lưu lượng dạng kẹp ngoài, không cần cắt ống.",
+      "content": "<p>Dòng lưu lượng kế Clamp-on mới cho phép đo mà không cần can thiệp vào hệ thống đường ống, đặc biệt phù hợp với các ứng dụng nước sạch, nước thải và công nghiệp thực phẩm.</p><p>Ưu điểm nổi bật:</p><ul><li>Lắp đặt nhanh chỉ trong 15 phút.</li><li>Không gây gián đoạn quy trình sản xuất.</li><li>Độ chính xác ±1.5% với ống đường kính từ DN25 đến DN1000.</li></ul><p>Sản phẩm hiện đã có mặt tại tất cả các chi nhánh Nhân Phú toàn quốc.</p>"
+    },
+
+    "7": {
+      "title": "Tuyển dụng kỹ sư tự động hóa tháng 7/2025",
+      "summary": "Mở rộng đội ngũ kỹ thuật tại HCM, HN, Đà Nẵng – ưu tiên có kinh nghiệm SCADA.",
+      "content": "<p>Để phục vụ nhu cầu mở rộng thị trường, Công ty Nhân Phú tuyển dụng các vị trí:</p><ul><li>Kỹ sư Tự động hóa</li><li>Kỹ sư Ứng dụng SCADA</li><li>Nhân viên Hỗ trợ kỹ thuật hiện trường</li></ul><p>Yêu cầu:</p><ul><li>Tốt nghiệp ĐH chuyên ngành Kỹ thuật Điều khiển – Tự động hóa, Cơ điện tử, Điện – Điện tử.</li><li>Kinh nghiệm làm việc với PLC Siemens, SCADA WinCC là lợi thế.</li><li>Chủ động, linh hoạt, có thể đi công tác.</li></ul><p>Ứng tuyển qua email: hr@nhanphu.com trước ngày 25/07/2025.</p>"
+    },
+
+    "8": {
+      "title": "Cảnh báo hàng giả cảm biến siêu âm trên thị trường",
+      "summary": "Xuất hiện thiết bị mạo danh thương hiệu Nhân Phú – cần kiểm tra kỹ.",
+      "content": "<p>Thời gian gần đây, thị trường xuất hiện một số cảm biến siêu âm mạo danh thương hiệu Nhân Phú, gây ảnh hưởng nghiêm trọng đến uy tín và an toàn sử dụng của khách hàng.</p><p>Các dấu hiệu nhận biết hàng giả:</p><ul><li>Tem nhãn mờ, sai mã sản phẩm.</li><li>Không có phiếu bảo hành chính hãng.</li><li>Không có mã QR xác thực.</li></ul><p>Để đảm bảo quyền lợi, quý khách chỉ mua hàng tại đại lý ủy quyền hoặc liên hệ hotline 1900-2025 để xác minh.</p>"
+    },
+
+    "9": {
+      "title": "Nhân Phú triển khai hệ thống giám sát thông minh tại Đồng Nai",
+      "summary": "Áp dụng SCADA – IoT giám sát nước cho trạm bơm Amata, Đồng Nai.",
+      "content": "<p>Tháng 07/2025, Nhân Phú chính thức đưa vào vận hành hệ thống giám sát thông minh cho trạm bơm tại khu công nghiệp Amata, Đồng Nai.</p><p>Hệ thống sử dụng cảm biến đo mức, lưu lượng kết hợp công nghệ SCADA và IoT để giám sát dữ liệu theo thời gian thực. Từ đó giúp đơn vị vận hành phát hiện sớm sự cố và tối ưu quá trình cấp nước.</p><p>Đây là một trong những dự án tiêu biểu cho việc ứng dụng chuyển đổi số trong ngành cấp thoát nước.</p>"
+    }
+  },
+
+  "scada": {
+    "slider_title": "Giải pháp SCADA hiện đại",
+    "slider_description": "Theo dõi và điều khiển hệ thống từ xa theo thời gian thực. Giúp doanh nghiệp nâng cao hiệu quả vận hành và giảm thiểu rủi ro trong sản xuất.",
+
+    "main_heading": "Giải pháp SCADA – Tối ưu hóa giám sát và điều khiển từ xa",
+
+    "section1_title": "SCADA là gì?",
+    "section1_desc": "SCADA là hệ thống phần mềm và phần cứng cho phép người dùng giám sát các quy trình công nghiệp, thu thập và xử lý dữ liệu theo thời gian thực, điều khiển thiết bị từ xa. Đây là nền tảng quan trọng trong chuyển đổi số công nghiệp.",
+
+    "section2_title": "Cấu trúc hệ thống SCADA",
+    "structure_item1": "<strong>RTU:</strong> Thu thập tín hiệu hiện trường.",
+    "structure_item2": "<strong>PLC:</strong> Thiết bị điều khiển thông minh.",
+    "structure_item3": "<strong>Cảm biến:</strong> Đo nhiệt độ, áp suất, mức nước…",
+    "structure_item4": "<strong>Mạng truyền thông:</strong> Modbus, DNP3, OPC, TCP/IP…",
+    "structure_item5": "<strong>Máy chủ & HMI:</strong> Hiển thị, điều khiển, lưu trữ dữ liệu.",
+
+    "section3_title": "Tính năng nổi bật",
+    "section4_title": "Ứng dụng thực tế",
+    "section5_title": "Lợi ích khi triển khai SCADA",
+    "section5_list": [
+      "🔧 Tăng hiệu quả vận hành và tự động hóa.",
+      "📊 Dễ thống kê, báo cáo, quyết định chính xác.",
+      "📉 Giảm lỗi con người, tối ưu chi phí vận hành.",
+      "🔐 An toàn thông tin và phân quyền người dùng.",
+      "🌐 Giám sát từ xa qua trình duyệt hoặc thiết bị di động."
+    ],
+
+    "section6_title": "SCADA hiện đại – Tích hợp công nghệ mới",
+    "section6_desc": "Các giải pháp SCADA hiện nay được thiết kế theo mô hình mở, hỗ trợ kết nối với hệ thống IoT, AI, và điện toán đám mây.",
+    "section6_list": [
+      "Truy cập dữ liệu mọi lúc, mọi nơi qua Web hoặc App.",
+      "Phân tích dự đoán lỗi (Predictive Maintenance).",
+      "Điều khiển và tối ưu quy trình bằng AI."
+    ],
+
+    "other_solutions_heading": "GIẢI PHÁP KHÁC",
+    "need_help_title": "Tìm giải pháp phù hợp?",
+    "need_help_desc": "Liên hệ chúng tôi để được tư vấn miễn phí và phù hợp với doanh nghiệp của bạn.",
+    "contact_now": "Liên hệ ngay",
+
+    "caption1": "Hệ thống SCADA – Giám sát và điều khiển theo thời gian thực",
+    "caption2": "Cấu trúc hệ thống SCADA",
+    "caption3": "Các tính năng nổi bật của SCADA",
+    "caption4": "Ứng dụng SCADA trong các ngành công nghiệp",
+    "caption5": "Lợi ích khi triển khai hệ thống SCADA",
+    "caption6": "SCADA hiện đại tích hợp AI và Cloud",
+    "features": [
+      {
+        "title": "Giám sát thời gian thực",
+        "desc": "Theo dõi trạng thái thiết bị và quy trình vận hành theo thời gian thực, tăng độ tin cậy và kiểm soát."
+      },
+      {
+        "title": "Cảnh báo lỗi và sự cố",
+        "desc": "Tự động phát hiện sự cố và gửi cảnh báo tức thì giúp phản ứng nhanh và giảm thiểu thiệt hại."
+      },
+      {
+        "title": "Điều khiển từ xa",
+        "desc": "Điều khiển thiết bị như máy bơm, van, công tắc từ trung tâm hoặc qua mạng Internet."
+      },
+      {
+        "title": "Lưu trữ & phân tích dữ liệu",
+        "desc": "Lưu lại dữ liệu lịch sử để thống kê, báo cáo và dự đoán bằng AI hoặc Big Data."
+      }
+    ],
+    "relatedSolutions": [
+      {
+        "title": "Thiết bị IoT",
+        "desc": "Giải pháp đo lường thông minh, kết nối mọi lúc mọi nơi."
+      },
+      {
+        "title": "Hỗ trợ kỹ thuật",
+        "desc": "Đội ngũ kỹ thuật luôn sẵn sàng hỗ trợ triển khai, vận hành và bảo trì."
+      }
+    ],
+    "applications": [
+      "Ngành điện lực – giám sát trạm biến áp, điều khiển lưới điện từ xa.",
+      "Cấp thoát nước – giám sát mực nước, chất lượng nước, điều khiển bơm van.",
+      "Dầu khí – giám sát đường ống, bể chứa, trạm nén.",
+      "Sản xuất – tự động hóa dây chuyền, giám sát hiệu suất thiết bị.",
+      "Giao thông – quản lý tín hiệu đèn giao thông, hệ thống hạ tầng thông minh."
+    ]
+  },
+
+  "iot": {
+    "slider": {
+      "title": "Giải pháp IoT thông minh",
+      "description": "Giám sát, kết nối và điều khiển thiết bị từ xa mọi lúc mọi nơi. Tăng hiệu quả quản lý và tự động hóa toàn diện."
+    },
+    "title": "Giải pháp IoT – Đo lường thông minh, kết nối toàn diện",
+    "section1_title": "IoT là gì?",
+    "section1_paragraph": "IoT (Internet of Things) là mạng lưới các thiết bị vật lý có thể thu thập và trao đổi dữ liệu với nhau thông qua Internet. Các thiết bị IoT như cảm biến, bộ điều khiển, đồng hồ thông minh, thiết bị đo mức... cho phép doanh nghiệp theo dõi và điều khiển từ xa theo thời gian thực.",
+    "section1_caption": "Mô hình kết nối các thiết bị IoT",
+
+    "section2_title": "Cấu trúc hệ thống IoT",
+    "section2_list": {
+      "0": {
+        "title": "Thiết bị cảm biến",
+        "desc": "Thu thập dữ liệu vật lý như nhiệt độ, độ ẩm, áp suất, mức nước..."
+      },
+      "1": {
+        "title": "Bộ xử lý/vi điều khiển",
+        "desc": "Phân tích và truyền dữ liệu."
+      },
+      "2": {
+        "title": "Kết nối mạng",
+        "desc": "Wi-Fi, 4G/5G, LoRa, Zigbee, NB-IoT..."
+      },
+      "3": {
+        "title": "Nền tảng IoT",
+        "desc": "Hiển thị, điều khiển và phân tích dữ liệu."
+      }
+    },
+    "section2_caption": "Cấu trúc điển hình của một hệ thống IoT",
+
+    "section3_title": "Tính năng nổi bật",
+
+    "features": [
+      {
+        "title": "Giám sát thời gian thực",
+        "desc": "Theo dõi thiết bị và môi trường liên tục mọi lúc, từ xa qua internet."
+      },
+      {
+        "title": "Cảnh báo và phản hồi nhanh",
+        "desc": "Gửi thông báo tức thì khi phát hiện bất thường, giúp xử lý kịp thời."
+      },
+      {
+        "title": "Phân tích dữ liệu thông minh",
+        "desc": "Tổng hợp và phân tích dữ liệu để dự đoán sự cố, tối ưu vận hành."
+      },
+      {
+        "title": "Dễ dàng tích hợp",
+        "desc": "Kết nối linh hoạt với hệ thống hiện tại qua API hoặc nền tảng đám mây."
+      }
+    ],
+
+    "section3_caption": "Các tính năng nổi bật của IoT",
+
+    "section4_title": "Ứng dụng thực tế",
+    "applications": [
+      "Nông nghiệp thông minh – giám sát độ ẩm, điều khiển tưới tiêu tự động.",
+      "Công nghiệp – theo dõi máy móc, kiểm soát quy trình sản xuất.",
+      "Tòa nhà thông minh – điều khiển ánh sáng, điều hòa, an ninh.",
+      "Logistics – theo dõi nhiệt độ, vị trí, trạng thái vận chuyển.",
+      "Y tế – giám sát thiết bị, theo dõi tình trạng bệnh nhân từ xa."
+    ],
+    "section4_caption": "Ứng dụng IoT trong nhiều ngành công nghiệp",
+
+    "section5_title": "Lợi ích khi triển khai IoT",
+    "section5_list": [
+      "🌐 Kết nối và điều khiển mọi lúc mọi nơi.",
+      "📊 Phân tích và tối ưu dữ liệu theo thời gian thực.",
+      "🤖 Tự động hóa các quy trình vận hành.",
+      "💰 Tiết kiệm chi phí bảo trì và vận hành.",
+      "⚙️ Mở rộng linh hoạt theo nhu cầu doanh nghiệp."
+    ],
+    "section5_caption": "Lợi ích khi ứng dụng giải pháp IoT",
+
+    "related_solutions_title": "GIẢI PHÁP KHÁC",
+    "relatedSolutions": [
+      {
+        "title": "SCADA Tự động hoá",
+        "desc": "Giám sát từ xa, điều khiển linh hoạt và tích hợp hệ thống dễ dàng."
+      },
+      {
+        "title": "Hỗ trợ kỹ thuật",
+        "desc": "Đội ngũ kỹ thuật luôn sẵn sàng hỗ trợ triển khai, vận hành và bảo trì."
+      }
+    ],
+
+    "contact_block": {
+      "title": "Tìm giải pháp phù hợp?",
+      "description": "Liên hệ chúng tôi để được tư vấn miễn phí và phù hợp với doanh nghiệp của bạn.",
+      "button": "Liên hệ ngay"
+    }
+  },
+
+  "sp": {
+    "title": "Giải pháp Hỗ trợ kỹ thuật – Đồng hành cùng doanh nghiệp",
+    "slider_title": "Hỗ trợ kỹ thuật toàn diện",
+    "slider_description": "Đội ngũ kỹ thuật chuyên nghiệp, luôn đồng hành cùng khách hàng trong suốt quá trình triển khai, vận hành và bảo trì hệ thống.",
+    "section1_title": "Hỗ trợ kỹ thuật là gì?",
+    "section1_content": "Hỗ trợ kỹ thuật là dịch vụ đi kèm sản phẩm, giúp khách hàng đảm bảo hệ thống hoạt động hiệu quả và liên tục. Từ tư vấn, triển khai, đào tạo cho đến bảo trì và xử lý sự cố – đội ngũ kỹ thuật sẽ luôn đồng hành và hỗ trợ doanh nghiệp kịp thời.",
+    "section1_image_caption": "Đội ngũ kỹ thuật sẵn sàng hỗ trợ 24/7",
+
+    "section2_title": "Quy trình hỗ trợ kỹ thuật",
+    "section2_step1": {
+      "title": "Tiếp nhận yêu cầu:",
+      "desc": "Hệ thống tiếp nhận qua email, hotline hoặc ticket."
+    },
+    "section2_step2": {
+      "title": "Chuẩn đoán và tư vấn:",
+      "desc": "Phân tích sự cố, đề xuất giải pháp xử lý."
+    },
+    "section2_step3": {
+      "title": "Hỗ trợ từ xa hoặc tại chỗ:",
+      "desc": "Tùy mức độ, kỹ thuật sẽ hỗ trợ online hoặc đến trực tiếp."
+    },
+    "section2_step4": {
+      "title": "Theo dõi sau hỗ trợ:",
+      "desc": "Ghi nhận, đánh giá lại tình trạng hệ thống sau xử lý."
+    },
+    "section2_image_caption": "Quy trình hỗ trợ kỹ thuật tiêu chuẩn",
+
+    "features": [
+      {
+        "title": "Hỗ trợ triển khai",
+        "description": "Tư vấn, cài đặt và hướng dẫn sử dụng hệ thống tận nơi hoặc từ xa."
+      },
+      {
+        "title": "Bảo trì định kỳ",
+        "description": "Kiểm tra và bảo trì thiết bị định kỳ nhằm đảm bảo hoạt động ổn định."
+      },
+      {
+        "title": "Xử lý sự cố 24/7",
+        "description": "Luôn sẵn sàng hỗ trợ khách hàng bất cứ khi nào phát sinh sự cố."
+      },
+      {
+        "title": "Đào tạo & hướng dẫn",
+        "description": "Hỗ trợ đào tạo đội ngũ vận hành, nâng cao kỹ năng và nhận thức."
+      }
+    ],
+
+    "section3_image_caption": "Các dịch vụ hỗ trợ kỹ thuật chuyên nghiệp",
+
+    "section4_title": "Lợi ích cho khách hàng",
+    "section4_list": [
+      "🧑‍🔧 Giảm thiểu thời gian dừng hệ thống, duy trì hoạt động liên tục.",
+      "📈 Nâng cao tuổi thọ thiết bị nhờ bảo trì định kỳ.",
+      "💡 Tư vấn nâng cấp và tối ưu hệ thống khi cần thiết.",
+      "📞 Phản hồi nhanh chóng qua nhiều kênh hỗ trợ.",
+      "🤝 Tăng sự hài lòng và an tâm cho khách hàng."
+    ],
+    "section4_caption": "Lợi ích của việc có đội ngũ kỹ thuật đồng hành",
+
+    "related": [
+      {
+        "title": "SCADA Tự động hoá",
+        "description": "Giám sát từ xa, điều khiển linh hoạt và tích hợp hệ thống dễ dàng."
+      },
+      {
+        "title": "Thiết bị IoT",
+        "description": "Giải pháp đo lường thông minh, kết nối mọi lúc mọi nơi."
+      }
+    ],
+
+    "cta_heading": "Tìm giải pháp phù hợp?",
+    "cta_description": "Liên hệ chúng tôi để được tư vấn miễn phí và phù hợp với doanh nghiệp của bạn.",
+    "cta_button": "Liên hệ ngay",
+
+    "other_solutions_title": "GIẢI PHÁP KHÁC",
+    "section3_title": "Dịch vụ hỗ trợ nổi bật",
+
+    "section4_image_caption": "Lợi ích của việc có đội ngũ kỹ thuật đồng hành",
+
+    "section4_benefit1": "🧑‍🔧 Giảm thiểu thời gian dừng hệ thống, duy trì hoạt động liên tục.",
+    "section4_benefit2": "📈 Nâng cao tuổi thọ thiết bị nhờ bảo trì định kỳ.",
+    "section4_benefit3": "💡 Tư vấn nâng cấp và tối ưu hệ thống khi cần thiết.",
+    "section4_benefit4": "📞 Phản hồi nhanh chóng qua nhiều kênh hỗ trợ.",
+    "section4_benefit5": "🤝 Tăng sự hài lòng và an tâm cho khách hàng.",
+
+    "cta_title": "Tìm giải pháp phù hợp?"
+  },
+
+  "common": {
+    "see_detail": "Xem chi tiết",
+    "readMore": "Xem thêm >>",
+    "other_news": "Tin khác"
   }
 }

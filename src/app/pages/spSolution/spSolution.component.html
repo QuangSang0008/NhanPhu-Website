@@ -1,10 +1,9 @@
 <app-slider
   [slides]="[
     {
-      title: 'Hỗ trợ kỹ thuật toàn diện',
-      description:
-        'Đội ngũ kỹ thuật chuyên nghiệp, luôn đồng hành cùng khách hàng trong suốt quá trình triển khai, vận hành và bảo trì hệ thống.',
-      image: 'assets/images/IT-Support.png',
+      title: 'sp.slider_title',
+      description: 'sp.slider_description',
+      image: 'assets/images/sp/IT-Support.png',
       background: 'linear-gradient(to right, #1e3a8a, #2563eb)'
     }
   ]"
@@ -15,114 +14,114 @@
 <section class="solution-wrapper">
   <div class="container-default">
     <h1 class="title">
-      Giải pháp Hỗ trợ kỹ thuật – Đồng hành cùng doanh nghiệp
+      {{ "sp.title" | translate }}
     </h1>
-
-    <!-- 01: Hỗ trợ kỹ thuật là gì -->
     <div class="content-block">
       <div class="text">
-        <h2><span class="section-number">01</span> Hỗ trợ kỹ thuật là gì?</h2>
+        <h2>
+          <span class="section-number">01</span
+          >{{ "sp.section1_title" | translate }}
+        </h2>
         <p>
-          Hỗ trợ kỹ thuật là dịch vụ đi kèm sản phẩm, giúp khách hàng đảm bảo hệ
-          thống hoạt động hiệu quả và liên tục. Từ tư vấn, triển khai, đào tạo
-          cho đến bảo trì và xử lý sự cố – đội ngũ kỹ thuật sẽ luôn đồng hành và
-          hỗ trợ doanh nghiệp kịp thời.
+          {{ "sp.section1_content" | translate }}
         </p>
       </div>
       <div class="image">
         <img src="assets/images/sp.jpg" alt="Hỗ trợ kỹ thuật là gì" />
-        <div class="caption">Đội ngũ kỹ thuật sẵn sàng hỗ trợ 24/7</div>
+        <div class="caption">{{ "sp.section1_image_caption" | translate }}</div>
       </div>
     </div>
 
-    <!-- 02: Quy trình hỗ trợ -->
     <div class="content-block reverse">
       <div class="text">
         <h2>
-          <span class="section-number">02</span> Quy trình hỗ trợ kỹ thuật
+          <span class="section-number">02</span
+          >{{ "sp.section2_title" | translate }}
         </h2>
         <ul class="list">
           <li>
-            <strong>Tiếp nhận yêu cầu:</strong> Hệ thống tiếp nhận qua email,
-            hotline hoặc ticket.
+            <strong>{{ "sp.section2_step1.title" | translate }}</strong>
+            {{ "sp.section2_step1.desc" | translate }}
           </li>
           <li>
-            <strong>Chuẩn đoán và tư vấn:</strong> Phân tích sự cố, đề xuất giải
-            pháp xử lý.
+            <strong>{{ "sp.section2_step2.title" | translate }}</strong>
+            {{ "sp.section2_step2.desc" | translate }}
           </li>
           <li>
-            <strong>Hỗ trợ từ xa hoặc tại chỗ:</strong> Tùy mức độ, kỹ thuật sẽ
-            hỗ trợ online hoặc đến trực tiếp.
+            <strong>{{ "sp.section2_step3.title" | translate }}</strong>
+            {{ "sp.section2_step3.desc" | translate }}
           </li>
           <li>
-            <strong>Theo dõi sau hỗ trợ:</strong> Ghi nhận, đánh giá lại tình
-            trạng hệ thống sau xử lý.
+            <strong>{{ "sp.section2_step4.title" | translate }}</strong>
+            {{ "sp.section2_step4.desc" | translate }}
           </li>
         </ul>
       </div>
       <div class="image">
         <img
-          src="assets/images/support-process.jpg"
+          src="assets/images/sp/cung-cap-dich-vu-ho-tri-thiet-bi-it.jpg"
           alt="Quy trình hỗ trợ kỹ thuật"
         />
-        <div class="caption">Quy trình hỗ trợ kỹ thuật tiêu chuẩn</div>
+        <div class="caption">{{ "sp.section2_image_caption" | translate }}</div>
       </div>
     </div>
 
-    <!-- 03: Tính năng nổi bật -->
     <div class="content-block">
       <div class="text">
-        <h2><span class="section-number">03</span> Dịch vụ hỗ trợ nổi bật</h2>
+        <h2>
+          <span class="section-number">03</span
+          >{{ "sp.section3_title" | translate }}
+        </h2>
         <div class="features-grid">
           <div class="feature-card" *ngFor="let item of features">
-            <h3>{{ item.title }}</h3>
-            <p>{{ item.description }}</p>
+            <h3>{{ item.title | translate }}</h3>
+            <p>{{ item.description | translate }}</p>
           </div>
         </div>
       </div>
       <div class="image">
         <img
-          src="assets/images/support-features.jpg"
+          src="assets/images/sp/nhanvien.jpg"
           alt="Hỗ trợ kỹ thuật chuyên sâu"
         />
-        <div class="caption">Các dịch vụ hỗ trợ kỹ thuật chuyên nghiệp</div>
+        <div class="caption">{{ "sp.section3_image_caption" | translate }}</div>
       </div>
     </div>
 
-    <!-- 04: Lợi ích mang lại -->
     <div class="content-block reverse">
       <div class="text">
-        <h2><span class="section-number">04</span> Lợi ích cho khách hàng</h2>
+        <h2>
+          <span class="section-number">04</span>
+          {{ "sp.section4_title" | translate }}
+        </h2>
         <ul class="list">
-          <li>
-            🧑‍🔧 Giảm thiểu thời gian dừng hệ thống, duy trì hoạt động liên tục.
-          </li>
-          <li>📈 Nâng cao tuổi thọ thiết bị nhờ bảo trì định kỳ.</li>
-          <li>💡 Tư vấn nâng cấp và tối ưu hệ thống khi cần thiết.</li>
-          <li>📞 Phản hồi nhanh chóng qua nhiều kênh hỗ trợ.</li>
-          <li>🤝 Tăng sự hài lòng và an tâm cho khách hàng.</li>
+          <li>{{ "sp.section4_benefit1" | translate }}</li>
+          <li>{{ "sp.section4_benefit2" | translate }}</li>
+          <li>{{ "sp.section4_benefit3" | translate }}</li>
+          <li>{{ "sp.section4_benefit4" | translate }}</li>
+          <li>{{ "sp.section4_benefit5" | translate }}</li>
         </ul>
       </div>
       <div class="image">
         <img
-          src="assets/images/customer-benefits.jpg"
+          src="assets/images/sp/cong-nghe-xay-dung-ky-thuat-so-1.jpg"
           alt="Lợi ích hỗ trợ kỹ thuật"
         />
         <div class="caption">
-          Lợi ích của việc có đội ngũ kỹ thuật đồng hành
+          {{ "sp.section4_image_caption" | translate }}
         </div>
       </div>
     </div>
   </div>
 </section>
 <section class="container-default news-section py-12 bg-white">
-  <h2 class="section-title">GIẢI PHÁP KHÁC</h2>
+  <h2 class="section-title">{{ "sp.other_solutions_title" | translate }}</h2>
 
   <div class="news-grid">
     <app-solution-card
       *ngFor="let solution of relatedSolutions"
-      [title]="solution.title"
-      [description]="solution.description"
+      [title]="solution.title | translate"
+      [description]="solution.description | translate"
       [image]="solution.image"
       [link]="solution.link"
     ></app-solution-card>
@@ -140,17 +139,16 @@
           />
         </div>
         <h3 class="text-xl font-bold text-green-700 mb-2">
-          Tìm giải pháp phù hợp?
+          {{ "sp.cta_title" | translate }}
         </h3>
         <p class="text-gray-600 mb-4">
-          Liên hệ chúng tôi để được tư vấn miễn phí và phù hợp với doanh nghiệp
-          của bạn.
+          {{ "sp.cta_description" | translate }}
         </p>
       </div>
       <span
         class="inline-block bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition mt-2"
       >
-        Liên hệ ngay
+        {{ "sp.cta_button" | translate }}
       </span>
     </a>
   </div>

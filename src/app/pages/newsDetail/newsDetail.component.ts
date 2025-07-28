@@ -3,11 +3,12 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { NewsCardComponent } from '../../components/newsCard/newsCard.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-news-detail',
   standalone: true,
-  imports: [CommonModule, NewsCardComponent],
+  imports: [CommonModule, NewsCardComponent, TranslateModule],
   templateUrl: './newsDetail.component.html',
   styleUrls: ['./newsDetail.component.scss'],
 })

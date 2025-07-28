@@ -1,10 +1,11 @@
 import { Component, Input, OnInit, OnDestroy } from '@angular/core';
 import { NgFor, NgStyle, NgIf } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-slider',
   standalone: true,
-  imports: [NgFor, NgStyle, NgIf],
+  imports: [NgFor, NgStyle, NgIf, TranslateModule],
   templateUrl: './slider.component.html',
   styleUrls: ['./slider.component.scss'],
 })

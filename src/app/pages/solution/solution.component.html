@@ -1,9 +1,8 @@
 <app-slider
   [slides]="[
     {
-      title: 'Giải pháp công nghệ toàn diện',
-      description:
-        'Chúng tôi cung cấp các giải pháp đo lường, giám sát và điều khiển thông minh như SCADA, IoT, cảm biến và quản lý năng lượng – đáp ứng nhu cầu đa ngành và hỗ trợ chuyển đổi số bền vững.',
+      title: 'solution.slider_title',
+      description: 'solution.slider_description',
       image: 'assets/images/giai-quyet-van-de-1.jpg',
       background: 'linear-gradient(to right, #1e3a8a, #0f766e)',
     }
@@ -13,12 +12,13 @@
 />
 
 <section class="container-default news-section py-6 mt-12">
-  <h2 class="section-title">GIẢI PHÁP CỦA CÔNG TY</h2>
+  <h2 class="section-title">{{ "solution.section_title" | translate }}</h2>
+
   <div class="news-grid">
     <app-solution-card
       *ngFor="let item of solutions"
-      [title]="item.title"
-      [description]="item.description"
+      [title]="'solution.solutions.' + item.key + '.title' | translate"
+      [description]="'solution.solutions.' + item.key + '.desc' | translate"
       [image]="item.image"
       [link]="item.link"
     ></app-solution-card>

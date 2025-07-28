@@ -3,11 +3,18 @@ import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { SliderComponent } from '../../components/slider/slider.component';
 import { LucideAngularModule } from 'lucide-angular';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [CommonModule, FormsModule, SliderComponent, LucideAngularModule],
+  imports: [
+    CommonModule,
+    FormsModule,
+    SliderComponent,
+    LucideAngularModule,
+    TranslateModule,
+  ],
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss'],
 })
@@ -18,12 +25,9 @@ export class ContactComponent {
   company = '';
   message = '';
   newsletterEmail = '';
+  constructor(private translate: TranslateService) {}
   submitForm() {
-    alert('Cảm ơn bạn đã liên hệ!');
+    alert(this.translate.instant('contact.success_alert'));
     this.name = this.email = this.phone = this.company = this.message = '';
-  }
-  subscribeNewsletter() {
-    alert('Cảm ơn bạn đã đăng ký nhận tin!');
-    this.newsletterEmail = '';
   }
 }

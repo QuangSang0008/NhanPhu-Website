@@ -13,12 +13,13 @@ import { LucideAngularModule } from 'lucide-angular';
 })
 export class HeaderComponent {
   private translate = inject(TranslateService);
-  currentLang = this.translate.currentLang || 'vi';
+  currentLang = localStorage.getItem('lang') || 'vi';
   dropdownOpen = false;
   mobileMenuOpen = false;
 
   setLang(lang: string) {
     this.translate.use(lang);
+    localStorage.setItem('lang', lang);
     this.currentLang = lang;
     this.dropdownOpen = false;
   }

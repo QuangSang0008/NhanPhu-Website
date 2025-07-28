@@ -4,11 +4,12 @@ import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { NewsCardComponent } from '../../components/newsCard/newsCard.component';
 import { SliderComponent } from '../../components/slider/slider.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-news-list',
   standalone: true,
-  imports: [CommonModule, NewsCardComponent, SliderComponent],
+  imports: [CommonModule, NewsCardComponent, SliderComponent, TranslateModule],
   templateUrl: './newsList.component.html',
   styleUrls: ['./newsList.component.scss'],
 })

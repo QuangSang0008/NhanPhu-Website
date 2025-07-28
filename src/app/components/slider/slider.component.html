@@ -11,10 +11,9 @@
     >
       <div class="left-text" [ngStyle]="{ background: slide.background }">
         <div class="text-content">
-          <h1>{{ slide.title }}</h1>
+          <h1>{{ slide.title | translate }}</h1>
           <div class="line-separator"></div>
-          <p>{{ slide.description }}</p>
-          <!-- <button class="discover-btn"><span>&gt;</span> Discover more!</button> -->
+          <p>{{ slide.description | translate }}</p>
         </div>
       </div>
 

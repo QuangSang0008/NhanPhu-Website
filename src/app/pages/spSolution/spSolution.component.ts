@@ -3,49 +3,51 @@ import { NgFor } from '@angular/common';
 import { SliderComponent } from '../../components/slider/slider.component';
 import { SolutionCardComponent } from '../../components/solutionCard/solutionCard.component';
 import { RouterModule } from '@angular/router';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-solution',
   standalone: true,
-  imports: [NgFor, SliderComponent, SolutionCardComponent, RouterModule],
+  imports: [
+    NgFor,
+    SliderComponent,
+    SolutionCardComponent,
+    RouterModule,
+    TranslateModule,
+  ],
   templateUrl: './spSolution.component.html',
   styleUrls: ['./spSolution.component.scss'],
 })
 export class SolutionComponent {
   features = [
     {
-      title: 'Hỗ trợ triển khai',
-      description:
-        'Tư vấn, cài đặt và hướng dẫn sử dụng hệ thống tận nơi hoặc từ xa.',
+      title: 'sp.features.0.title',
+      description: 'sp.features.0.description',
     },
     {
-      title: 'Bảo trì định kỳ',
-      description:
-        'Kiểm tra và bảo trì thiết bị định kỳ nhằm đảm bảo hoạt động ổn định.',
+      title: 'sp.features.1.title',
+      description: 'sp.features.1.description',
     },
     {
-      title: 'Xử lý sự cố 24/7',
-      description:
-        'Luôn sẵn sàng hỗ trợ khách hàng bất cứ khi nào phát sinh sự cố.',
+      title: 'sp.features.2.title',
+      description: 'sp.features.2.description',
     },
     {
-      title: 'Đào tạo & hướng dẫn',
-      description:
-        'Hỗ trợ đào tạo đội ngũ vận hành, nâng cao kỹ năng và nhận thức.',
+      title: 'sp.features.3.title',
+      description: 'sp.features.3.description',
     },
   ];
 
   relatedSolutions = [
     {
-      title: 'SCADA Tự động hoá',
-      description:
-        'Giám sát từ xa, điều khiển linh hoạt và tích hợp hệ thống dễ dàng.',
+      title: 'sp.related.0.title',
+      description: 'sp.related.0.description',
       image: 'assets/images/scada/scada1.png',
       link: '/solution/scada',
     },
     {
-      title: 'Thiết bị IoT',
-      description: 'Giải pháp đo lường thông minh, kết nối mọi lúc mọi nơi.',
+      title: 'sp.related.1.title',
+      description: 'sp.related.1.description',
       image: 'assets/images/iot/iot1.jpg',
       link: '/solution/iot',
     },
